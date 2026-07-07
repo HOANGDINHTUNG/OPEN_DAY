@@ -1,149 +1,158 @@
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { Button } from "@/components/ui/Button";
-
-// Assuming we want a TopNavBar component or we just inline it here for simplicity,
-// usually it would be in App.tsx or a layout wrapper, but let's put it here if it's specific to the home page or we can make a shared Nav.
-// The user provided the HTML snippet, we will implement it directly.
+import { getLeaderboardStats, LeaderboardStats } from "@/utils/storage";
 
 export function HomePage() {
   const navigate = useNavigate();
+  const [activeTab, setActiveTab] = useState<"intro" | "ranking">("intro");
+  const [stats, setStats] = useState<LeaderboardStats[]>([]);
+
+  useEffect(() => {
+    // Load stats once on mount
+    setStats(getLeaderboardStats());
+
+    // Rotate every 8 seconds
+    const interval = setInterval(() => {
+      setActiveTab((prev) => (prev === "intro" ? "ranking" : "intro"));
+    }, 8000);
+    return () => clearInterval(interval);
+  }, []);
 
   return (
-    <div className="w-full relative overflow-x-hidden flex flex-col">
-      {/* Main Content */}
-      <main className="pt-32 pb-16 px-4 md:px-10 max-w-7xl mx-auto">
-        {/* Hero Section */}
-        <section className="text-center mb-16 mt-8">
-          <h1 className="font-display text-4xl md:text-5xl lg:text-6xl text-deep-space mb-4 font-bold">
-            Minigame OpenDay <br />
-            <span className="text-brand-red">PTIT x Rikkei Edu</span>
-          </h1>
-          <p className="font-display text-xl md:text-2xl text-on-surface-variant font-semibold">
-            Where dreams come true
-          </p>
-          <div className="mt-12 flex flex-col items-center gap-6">
-            <Button
-              className="bg-brand-red text-white font-display font-bold text-2xl py-6 px-12 rounded-full hover:bg-red-700 hover:scale-105 transition-all shadow-[0_0_30px_rgba(197,0,5,0.6)] hover:shadow-[0_0_50px_rgba(197,0,5,0.9)] animate-pulse"
-              onClick={() => navigate("/level")}
+    <div className="min-h-screen tech-pattern text-on-background flex flex-col relative overflow-hidden">
+      {/* Top Navbar Simulation for Kiosk */}
+      <nav className="absolute top-0 left-0 w-full p-6 flex justify-between items-start z-50">
+        <div className="flex items-center gap-4 bg-surface/80 backdrop-blur pb-2 pr-6 rounded-br-3xl">
+          <img
+            src="https://res.cloudinary.com/dmzvum1lp/image/upload/v1783435103/ptit-logo_xv3e2d.png"
+            alt="PTIT"
+            className="h-12 object-contain"
+          />
+          <div className="h-8 w-[2px] bg-glass-stroke"></div>
+          <img
+            src="https://res.cloudinary.com/dmzvum1lp/image/upload/v1783435104/rikkei-logo_tvjfma.png"
+            alt="Rikkei"
+            className="h-12 object-contain"
+          />
+        </div>
+      </nav>
+
+      {/* Main Content Area */}
+      <main className="flex-1 flex flex-col justify-center items-center px-6 mt-12 z-10 w-full max-w-6xl mx-auto">
+        <div className="w-full flex-1 flex flex-col items-center justify-center min-h-[500px] relative">
+          {/* TAB 1: INTRO */}
+          <div
+            className={`absolute inset-0 flex flex-col justify-center items-center text-center transition-all duration-1000 ${
+              activeTab === "intro"
+                ? "opacity-100 translate-y-0 pointer-events-auto"
+                : "opacity-0 translate-y-8 pointer-events-none"
+            }`}
+          >
+            <h2 className="text-xl md:text-2xl font-display text-on-surface-variant font-bold tracking-widest uppercase mb-4">
+              PTIT Open Day 2026
+            </h2>
+            <h1 className="text-6xl md:text-8xl font-display font-bold text-primary-foreground leading-tight mb-2 uppercase drop-shadow-lg">
+              Nấc Thang
+              <br />
+              <span className="text-brand-red glow-red block mt-2">
+                Tri Thức
+              </span>
+            </h1>
+            <p className="font-body text-xl text-on-surface-variant max-w-2xl mt-8">
+              Vượt qua các nấc câu hỏi bất ngờ để đổi lấy phần quà giá trị tăng
+              dần.
+              <br />
+              Không giới hạn lượt chơi — ai cũng có thể thử.
+            </p>
+
+            <div className="flex gap-4 mt-8">
+              <span className="bg-surface border border-glass-stroke px-4 py-2 rounded-full font-body text-sm font-semibold text-primary-foreground shadow-lg">
+                Khám phá sức mạnh số
+              </span>
+              <span className="bg-surface border border-glass-stroke px-4 py-2 rounded-full font-body text-sm font-semibold text-primary-foreground shadow-lg">
+                Kỹ năng mềm
+              </span>
+              <span className="bg-surface border border-glass-stroke px-4 py-2 rounded-full font-body text-sm font-semibold text-primary-foreground shadow-lg">
+                Trend vui
+              </span>
+            </div>
+          </div>
+
+          {/* TAB 2: RANKING */}
+          <div
+            className={`absolute inset-0 flex flex-col justify-center items-center transition-all duration-1000 ${
+              activeTab === "ranking"
+                ? "opacity-100 translate-y-0 pointer-events-auto"
+                : "opacity-0 -translate-y-8 pointer-events-none"
+            }`}
+          >
+            <h2 className="text-5xl font-display font-bold text-golden glow-gold uppercase mb-10 drop-shadow-xl text-center">
+              Bảng Vàng Thành Tích
+            </h2>
+
+            <div className="w-full max-w-3xl glass-panel rounded-3xl p-8 flex flex-col gap-4">
+              {stats.map((stat, i) => (
+                <div
+                  key={stat.level}
+                  className="flex justify-between items-center border-b border-glass-stroke pb-4 last:border-0 last:pb-0"
+                >
+                  <div className="flex items-center gap-6">
+                    <div className="w-12 h-12 rounded-full bg-brand-red flex items-center justify-center font-display text-2xl font-bold text-white shadow-lg glow-red">
+                      {i + 1}
+                    </div>
+                    <span className="font-display text-3xl font-bold text-primary-foreground tracking-wide uppercase">
+                      Nấc {stat.level}
+                    </span>
+                  </div>
+                  <div className="font-body text-xl font-bold text-on-surface-variant flex items-center gap-2">
+                    Có{" "}
+                    <span className="text-3xl text-golden">{stat.count}</span>{" "}
+                    người đạt được
+                  </div>
+                </div>
+              ))}
+              {stats.length === 0 && (
+                <p className="text-center text-on-surface-variant font-body">
+                  Chưa có ai tham gia. Hãy là người đầu tiên!
+                </p>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {/* Fixed Bottom Controls */}
+        <div className="mt-12 mb-10 flex flex-col items-center gap-6 relative z-50">
+          <button
+            onClick={() => navigate("/rules")}
+            className="group relative px-12 py-5 bg-brand-red text-white font-display font-bold text-3xl uppercase tracking-wider rounded-xl overflow-hidden shadow-[0_0_40px_rgba(218,18,26,0.6)] hover-pop"
+          >
+            <span className="relative z-10">Bắt Đầu Chơi Ngay</span>
+            <div className="absolute inset-0 h-full w-full bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+          </button>
+
+          <div className="flex items-center gap-4 border border-glass-stroke bg-surface/50 rounded-full p-1 backdrop-blur overflow-hidden">
+            <button
+              onClick={() => setActiveTab("intro")}
+              className={`px-6 py-2 rounded-full font-body font-bold text-sm transition-all ${
+                activeTab === "intro"
+                  ? "bg-brand-red text-white shadow-md"
+                  : "text-on-surface-variant hover:text-white"
+              }`}
             >
-              🔥 CHƠI MINIGAME 🔥
-            </Button>
-            <div className="flex justify-center gap-4 mt-4">
-              <Button
-                variant="outline"
-                className="border-deep-space text-deep-space font-bold py-6 px-8 rounded-xl hover:bg-gray-100"
-              >
-                Tìm hiểu thêm
-              </Button>
-            </div>
+              Giới thiệu
+            </button>
+            <button
+              onClick={() => setActiveTab("ranking")}
+              className={`px-6 py-2 rounded-full font-body font-bold text-sm transition-all ${
+                activeTab === "ranking"
+                  ? "bg-brand-red text-white shadow-md"
+                  : "text-on-surface-variant hover:text-white"
+              }`}
+            >
+              Ranking
+            </button>
           </div>
-        </section>
-
-        {/* Topic Cards */}
-        <section className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20">
-          {/* Card 1 */}
-          <div
-            className="glass-panel-light rounded-2xl p-6 flex flex-col gap-4 relative overflow-hidden group cursor-pointer hover-pop"
-            onClick={() => navigate("/tech")}
-          >
-            <div className="absolute top-0 right-0 p-2 opacity-20 group-hover:opacity-40 transition-opacity">
-              <span className="material-symbols-outlined text-[60px] translate-x-4 -translate-y-4">
-                memory
-              </span>
-            </div>
-            <div className="h-14 w-14 rounded-full bg-deep-space flex items-center justify-center text-white mb-2 shadow-inner">
-              <span className="material-symbols-outlined text-3xl">memory</span>
-            </div>
-            <h3 className="font-display text-2xl font-bold text-deep-space">
-              Công nghệ
-            </h3>
-            <p className="font-body text-on-surface-variant flex-1">
-              Khám phá các thử thách lập trình, cấu trúc dữ liệu và giải thuật
-              cơ bản đến nâng cao.
-            </p>
-            <div className="mt-auto pt-4 flex justify-between items-center border-t border-gray-200">
-              <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-deep-space text-white text-xs font-bold font-body">
-                <span className="material-symbols-outlined text-[14px]">
-                  info
-                </span>{" "}
-                Xem chi tiết
-              </span>
-              <span className="material-symbols-outlined text-brand-red group-hover:translate-x-2 transition-transform duration-300">
-                arrow_forward
-              </span>
-            </div>
-          </div>
-
-          {/* Card 2 */}
-          <div
-            className="glass-panel-light rounded-2xl p-6 flex flex-col gap-4 relative overflow-hidden group cursor-pointer hover-pop"
-            onClick={() => navigate("/soft-skills")}
-          >
-            <div className="absolute top-0 right-0 p-2 opacity-20 group-hover:opacity-40 transition-opacity">
-              <span className="material-symbols-outlined text-[60px] translate-x-4 -translate-y-4">
-                psychology
-              </span>
-            </div>
-            <div className="h-14 w-14 rounded-full bg-deep-space flex items-center justify-center text-white mb-2 shadow-inner">
-              <span className="material-symbols-outlined text-3xl">
-                psychology
-              </span>
-            </div>
-            <h3 className="font-display text-2xl font-bold text-deep-space">
-              Kỹ năng mềm
-            </h3>
-            <p className="font-body text-on-surface-variant flex-1">
-              Xử lý các tình huống giao tiếp, làm việc nhóm và tư duy giải quyết
-              vấn đề.
-            </p>
-            <div className="mt-auto pt-4 flex justify-between items-center border-t border-gray-200">
-              <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-deep-space text-white text-xs font-bold font-body">
-                <span className="material-symbols-outlined text-[14px]">
-                  info
-                </span>{" "}
-                Xem chi tiết
-              </span>
-              <span className="material-symbols-outlined text-brand-red group-hover:translate-x-2 transition-transform duration-300">
-                arrow_forward
-              </span>
-            </div>
-          </div>
-
-          {/* Card 3 */}
-          <div
-            className="glass-panel-light rounded-2xl p-6 flex flex-col gap-4 relative overflow-hidden group cursor-pointer hover-pop"
-            onClick={() => navigate("/digital")}
-          >
-            <div className="absolute top-0 right-0 p-2 opacity-20 group-hover:opacity-40 transition-opacity">
-              <span className="material-symbols-outlined text-[60px] translate-x-4 -translate-y-4">
-                business_center
-              </span>
-            </div>
-            <div className="h-14 w-14 rounded-full bg-deep-space flex items-center justify-center text-white mb-2 shadow-inner">
-              <span className="material-symbols-outlined text-3xl">
-                business_center
-              </span>
-            </div>
-            <h3 className="font-display text-2xl font-bold text-deep-space">
-              Năng lực số & DN
-            </h3>
-            <p className="font-body text-on-surface-variant flex-1">
-              Kiến thức về chuyển đổi số, môi trường doanh nghiệp IT và văn hóa
-              công ty.
-            </p>
-            <div className="mt-auto pt-4 flex justify-between items-center border-t border-gray-200">
-              <span className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-deep-space text-white text-xs font-bold font-body">
-                <span className="material-symbols-outlined text-[14px]">
-                  info
-                </span>{" "}
-                Xem chi tiết
-              </span>
-              <span className="material-symbols-outlined text-brand-red group-hover:translate-x-2 transition-transform duration-300">
-                arrow_forward
-              </span>
-            </div>
-          </div>
-        </section>
+        </div>
       </main>
     </div>
   );

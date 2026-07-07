@@ -1,0 +1,104 @@
+{
+  "NL-D01": {
+    "A": "Mật khẩu phổ biến và được khuyến nghị sử dụng vì tính thân thiện với người dùng",
+    "B": "Chuỗi ký tự đủ độ dài tối thiểu nên được hệ thống bảo mật nội bộ chấp nhận an toàn",
+    "C": "Hacker có thể dễ dàng dò ra bằng các phần mềm tấn công rà soát mật khẩu (brute-force)",
+    "D": "Một dạng mật khẩu mã hóa cơ bản được sử dụng phổ biến trong các hệ thống doanh nghiệp"
+  },
+  "NL-D02": {
+    "A": "Sử dụng giải pháp chia nhỏ file qua kết nối ảo hóa VPN tốc độ cao",
+    "B": "Chép vào USB, ổ cứng di động chuyển trực tiếp thay vì chờ upload qua mạng yếu",
+    "C": "Nén file bằng thuật toán chuyên dụng để giảm dung lượng rồi gửi qua email",
+    "D": "Tạo một bản offline dự phòng và sử dụng trình chiếu qua mạng LAN song song"
+  },
+  "NL-D03": {
+    "A": "Chỉ số trọng yếu đánh giá mức độ hoàn thành và hiệu suất công việc của cá nhân/phòng ban",
+    "B": "Khái niệm biểu thị cấu trúc chi phí và phân bổ nguồn lực nội bộ trong công ty",
+    "C": "Biểu đồ thể hiện quy trình quản lý chất lượng phần mềm theo tiêu chuẩn ngành",
+    "D": "Chỉ số kỹ thuật đánh giá tần suất lỗi phát sinh của hệ thống trong quá trình vận hành"
+  },
+  "NL-D04": {
+    "A": "Tai nghe chống ồn giúp triệt tiêu tạp âm, tăng độ tập trung ở không gian chung",
+    "B": "Bàn phím cơ có tiếng gõ lớn để gia tăng tốc độ gõ phím khi làm việc nhóm",
+    "C": "Đèn bàn thông minh giúp điều tiết sinh học để giảm căng thẳng khi tập trung cao",
+    "D": "Giá đỡ màn hình đôi hỗ trợ xử lý đa nhiệm hiệu quả hơn trong thư viện"
+  },
+  "NL-D05": {
+    "A": "Khả năng kịp thời bổ sung nguồn lực, năng lượng khi cá nhân và đội nhóm sắp cạn sức",
+    "B": "Khả năng phân phối lại nhiệm vụ một cách linh hoạt dựa trên dung lượng dự án",
+    "C": "Kỹ năng lập kế hoạch tài chính dự phòng khi nguồn vốn đầu tư ban đầu bị hao hụt",
+    "D": "Sự linh hoạt trong việc kết nối các phòng ban độc lập thông qua một quy trình chuẩn"
+  },
+  "NL-D06": {
+    "A": "Điều chỉnh tầm nhìn và tư thế ngồi, giúp hạn chế vấn đề xương khớp và mỏi cổ",
+    "B": "Tăng diện tích tản nhiệt cho laptop, giúp cải thiện hiệu suất phần cứng lên tối đa",
+    "C": "Mở rộng số lượng cổng kết nối ngoại vi cho các thiết bị văn phòng chuyên nghiệp",
+    "D": "Tạo góc nghiêng giúp tăng khả năng bắt sóng Wi-Fi từ các router ở khoảng cách xa"
+  },
+  "NL-D07": {
+    "A": "HR (Human Resources - Quản lý, phát triển và tuyển dụng nhân sự)",
+    "B": "PR (Public Relations - Quản trị và duy trì hình ảnh thương hiệu doanh nghiệp)",
+    "C": "QA (Quality Assurance - Đảm bảo và quản lý chất lượng dịch vụ nội bộ)",
+    "D": "BA (Business Analyst - Phân tích, đánh giá và lập kế hoạch nhân sự định kỳ)"
+  },
+  "NL-D08": {
+    "A": "Một chiếc webcam rời để cung cấp luồng hình ảnh phụ trợ chất lượng và rõ nét hơn",
+    "B": "Cáp mạng LAN nhằm đảm bảo tốc độ băng thông ổn định khi truyền phát video",
+    "C": "Sử dụng phần mềm AI nâng cấp độ phân giải hình ảnh từ camera mặc định",
+    "D": "Màn hình mở rộng để có thể nhìn rõ hơn các dữ liệu được trình chiếu trong buổi họp"
+  },
+  "NL-D09": {
+    "A": "Khoản tiền đầu tư dự kiến thu về sau khi đã trừ đi chi phí vận hành thường xuyên",
+    "B": "Phần chênh lệch còn lại thu được sau khi lấy tổng doanh thu trừ đi toàn bộ chi phí",
+    "C": "Tổng giá trị tài sản ròng mà công ty đang sở hữu tính đến thời điểm báo cáo",
+    "D": "Số tiền mặt thực tế mà công ty đang có trong tài khoản thanh toán tại ngân hàng"
+  },
+  "NL-D10": {
+    "A": "Ổ cứng thể rắn (SSD) di động với tốc độ truy xuất nhanh và dung lượng lưu trữ lớn",
+    "B": "Hệ thống lưu trữ phân tán NAS chuyên dụng cần được kết nối qua mạng nội bộ",
+    "C": "Phân vùng mã hóa an toàn trên dịch vụ cloud được cung cấp dưới dạng thuê bao",
+    "D": "Thẻ nhớ chuẩn SDXC có tính năng đồng bộ tự động dữ liệu văn phòng liên tục"
+  },
+  "NL-D11": {
+    "A": "Lưu trữ tạm thời dữ liệu và các chỉ thị của phần mềm đang được CPU trực tiếp xử lý",
+    "B": "Lưu trữ hệ điều hành và các phần mềm, đảm bảo dữ liệu không mất đi khi tắt máy",
+    "C": "Phân tích và tính toán các luồng dữ liệu đồ họa, giảm tải cho bộ vi xử lý trung tâm",
+    "D": "Điều phối và phân giải các địa chỉ mạng cục bộ sang địa chỉ IP để truy cập internet"
+  },
+  "NL-D12": {
+    "A": "Công ty được thành lập vào năm 2008, mở đầu kỷ nguyên gia công phần mềm nội địa",
+    "B": "Ra đời vào năm 2010, sau khi các sáng lập viên hoàn thành khóa tu nghiệp tại Nhật Bản",
+    "C": "Được chính thức thành lập vào ngày 06/04/2012, với định hướng xuất khẩu phần mềm",
+    "D": "Được thành lập vào năm 2020, là một công ty tiên phong tập trung hoàn toàn vào AI"
+  },
+  "NL-TB01": {
+    "A": "Khái niệm giao tiếp bất đồng bộ, sử dụng chủ yếu trong phương pháp quản lý Agile",
+    "B": "Phương pháp Brainstorming mở, nơi các ý tưởng được đưa ra nhưng không bị phê phán",
+    "C": "Giao tiếp kém hiệu quả, cản trở việc tiếp nhận thông tin và làm chậm quá trình làm việc",
+    "D": "Tranh luận tự do nhằm khuyến khích đổi mới, xuất hiện nhiều trong các startup công nghệ"
+  },
+  "NL-TB02": {
+    "A": "So sánh thông tin của khách hàng với chính sách nội bộ để phản biện lại khi cần thiết",
+    "B": "Lắng nghe cẩn thận, làm rõ và đồng cảm với vấn đề để đưa ra phương án xử lý phù hợp",
+    "C": "Yêu cầu khách hàng gửi email chính thức để hệ thống tự động ghi nhận theo chuẩn ISO",
+    "D": "Chuyển ngay phản hồi trực tiếp cho bộ phận kỹ thuật mà không cần xác nhận lại"
+  },
+  "NL-TB03": {
+    "A": "QuyTacQuanLy_Ban_Moi_Nhat_Revisited.docx",
+    "B": "BaoCao_HoanChinh_TuanNay_ver09_Final.docx",
+    "C": "DuAnA_BaoCaoTongKet_Lan3_Chuan.docx",
+    "D": "BaoCao_DuAnA_v03_2026-09-15.docx"
+  },
+  "NL-TB04": {
+    "A": "Công ty vẫn đang tăng trưởng mạnh vì dòng tiền từ doanh thu luôn dồi dào, ổn định",
+    "B": "Doanh nghiệp có thể đang báo cáo trong tình trạng lỗ do chi phí vượt quá thu nhập",
+    "C": "Tổng tài sản của doanh nghiệp tăng lên đáng kể do lượng doanh thu chiếm tỷ trọng lớn",
+    "D": "Doanh thu cao sẽ cho phép công ty tự động chuyển nhượng và bù trừ mọi chi phí phát sinh"
+  },
+  "NL-TB05": {
+    "A": "Mình luôn phân chia, lên danh sách công việc theo mức độ quan trọng bằng ma trận Eisenhower",
+    "B": "Mình giới hạn thời gian chạy nước rút 25 phút để hoàn thành từng phân đoạn của dự án",
+    "C": "Mình hay đợi còn khoảng vài phút trước deadline, vì lúc đó mới có cảm hứng và động lực",
+    "D": "Mình luôn cố tính dư ra ít nhất 15% thời lượng dự phòng để bù đắp các rủi ro kỹ thuật"
+  }
+}

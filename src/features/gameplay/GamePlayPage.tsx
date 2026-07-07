@@ -1,394 +1,301 @@
-import { useState, useEffect, useMemo } from "react";
-import { GlassPanel } from "@/components/ui/GlassPanel";
-import { Button } from "@/components/ui/Button";
-import { Trophy, AlertTriangle } from "lucide-react";
-import { useNavigate, useParams } from "react-router-dom";
-import { savePlayerScore } from "@/utils/storage";
-import { questionsData } from "@/data/questions";
+import { useState, useEffect, useRef } from "react";
+import { useNavigate, useLocation } from "react-router-dom";
+import { getRandomizedGameSet } from "@/data/questions";
+import { recordPlay } from "@/utils/storage";
+import { useAudio } from "@/utils/useAudio";
 
-const REWARDS = [100, 300, 600, 1000, 2000, 4000, 8000, 15000, 30000, 50000];
-
-function shuffleArray(array: any[]) {
-  return [...array].sort(() => Math.random() - 0.5);
-}
-
-function generateGameSet(categoryId: string) {
-  let sourceQuestions = [];
-  if (
-    categoryId === "nangLucSo" ||
-    categoryId === "doVuiTrend" ||
-    categoryId === "traLoiNgan"
-  ) {
-    sourceQuestions = questionsData[categoryId as keyof typeof questionsData];
-  } else {
-    sourceQuestions = [
-      ...questionsData.nangLucSo,
-      ...questionsData.doVuiTrend,
-      ...questionsData.traLoiNgan,
-    ];
-  }
-
-  const easy = shuffleArray(
-    sourceQuestions.filter((q) => q.difficulty === 1),
-  ).slice(0, 3);
-  const medium = shuffleArray(
-    sourceQuestions.filter((q) => q.difficulty === 2),
-  ).slice(0, 4);
-  const hard = shuffleArray(
-    sourceQuestions.filter((q) => q.difficulty === 3),
-  ).slice(0, 3);
-
-  // In case there are not enough questions in a category, we pad with random ones
-  const result = [...easy, ...medium, ...hard];
-  return result;
-}
+const PRIZES = ["Kẹo", "Kẹo", "Snack", "Snack", "Snack", "Ly sứ", "Pad chuột"];
 
 export function GamePlayPage() {
   const navigate = useNavigate();
-  const { levelId } = useParams();
+  const location = useLocation();
+  const { playSelect, playCorrect, playWrong, playTick } = useAudio();
 
-  const [questions] = useState(generateGameSet(levelId || ""));
-  const [currentLevel, setCurrentLevel] = useState(0);
+  const { topicKey, playerName } = location.state || {};
 
-  const [timeLeft, setTimeLeft] = useState(20);
+  // Game State
+  const [questions, setQuestions] = useState<any[]>([]);
+  const [currentIdx, setCurrentIdx] = useState(0);
+  const [timeLeft, setTimeLeft] = useState(30);
 
-  const [selectedLetter, setSelectedLetter] = useState<string | null>(null);
-  const [isFinished, setIsFinished] = useState(false);
-  const [showNextPrompt, setShowNextPrompt] = useState(false);
+  // Modals & Flows
+  const [modalType, setModalType] = useState<
+    "none" | "mc_review" | "correct" | "wrong"
+  >("none");
   const [gameOver, setGameOver] = useState(false);
 
-  const currentQuestion = questions[currentLevel];
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
-    if (!currentQuestion) return;
-    if (timeLeft > 0 && !isFinished && !showNextPrompt && !gameOver) {
-      const timerId = setTimeout(() => setTimeLeft((t) => t - 1), 1000);
-      return () => clearTimeout(timerId);
-    } else if (timeLeft === 0 && !isFinished && !showNextPrompt && !gameOver) {
-      handleTimeOut();
+    if (!topicKey) {
+      navigate("/rules");
+      return;
     }
-  }, [timeLeft, isFinished, showNextPrompt, gameOver, currentQuestion]);
+    // Generate sequence of 7 questions on mount
+    const qSet = getRandomizedGameSet(7, topicKey);
+    setQuestions(qSet);
+  }, [topicKey, navigate]);
 
-  const handleTimeOut = () => {
-    setIsFinished(true);
-    setGameOver(true);
-  };
-
-  const isDanger = timeLeft <= 5;
-  const dashOffset = 283 - ((20 - timeLeft) / 20) * 283;
-
-  const options = useMemo(() => {
-    if (!currentQuestion) return [];
-    if (currentQuestion.options && currentQuestion.options.length > 0) {
-      return currentQuestion.options;
-    } else {
-      const fake = [
-        "Agile",
-        "KPI",
-        "Deepfake",
-        "Cyber Resilience",
-        "Ransomware",
-        "HR",
-        "Webhook",
-      ];
-      const validFakes = shuffleArray(
-        fake.filter((f) => f !== currentQuestion.answer),
-      ).slice(0, 3);
-      const rawOpts = shuffleArray([currentQuestion.answer, ...validFakes]);
-      return rawOpts.map((opt, i) => `${String.fromCharCode(65 + i)}. ${opt}`);
+  useEffect(() => {
+    // Timer logic
+    if (modalType !== "none" || gameOver || questions.length === 0) {
+      if (timerRef.current) clearInterval(timerRef.current);
+      return;
     }
-  }, [currentQuestion]);
 
-  const correctAnswerLetter = useMemo(() => {
-    if (!currentQuestion) return "A";
-    if (currentQuestion.options) return currentQuestion.answer;
-    const idx = options.findIndex((o: string) =>
-      o.includes(currentQuestion.answer),
-    );
-    return String.fromCharCode(65 + idx);
-  }, [currentQuestion, options]);
-
-  const handleSelect = (letter: string) => {
-    if (isFinished || showNextPrompt || gameOver) return;
-    setSelectedLetter(letter);
-    setIsFinished(true);
-
-    if (letter === correctAnswerLetter) {
-      setTimeout(() => {
-        setShowNextPrompt(true);
-        if (currentLevel === 9) {
-          // Won the game
-          setGameOver(true);
+    timerRef.current = setInterval(() => {
+      setTimeLeft((prev) => {
+        if (prev <= 6 && prev > 1) {
+          playTick();
         }
-      }, 2000);
+        if (prev <= 1) {
+          handleWrong();
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [modalType, gameOver, questions, currentIdx]);
+
+  if (questions.length === 0) return null;
+
+  const currentQ = questions[currentIdx];
+  const isMultipleChoice = !!currentQ.options;
+
+  const handleSelectOption = (opt: string) => {
+    playSelect();
+    const isCorrect = opt.charAt(0) === currentQ.answer.charAt(0);
+    if (isCorrect) handleCorrect();
+    else handleWrong();
+  };
+
+  const handleCorrect = () => {
+    playCorrect();
+    // If it's the final level (7th question), auto win!
+    if (currentIdx === 6) {
+      finishGame(7); // Won Nấc 7
     } else {
-      // Failed
-      setTimeout(() => {
-        setGameOver(true);
-      }, 2000);
+      setModalType("correct");
     }
   };
 
-  const handleContinue = () => {
-    setCurrentLevel((lvl) => lvl + 1);
-    setTimeLeft(20);
-    setSelectedLetter(null);
-    setIsFinished(false);
-    setShowNextPrompt(false);
+  const handleWrong = () => {
+    playWrong();
+    setModalType("wrong");
+    // Wait a brief moment, then end game with Nấc 1 fallback
+    setTimeout(() => {
+      finishGame(1);
+    }, 3000);
   };
 
-  const handleStopAndSave = () => {
-    const reward = REWARDS[currentLevel];
-    savePlayerScore(reward, 20);
-    navigate("/leaderboard");
+  const finishGame = (levelAchieved: number) => {
+    setGameOver(true);
+    recordPlay(levelAchieved, playerName);
+    // Move to result page
+    navigate("/result", {
+      state: { level: levelAchieved, prize: PRIZES[levelAchieved - 1] },
+    });
   };
 
-  const handleGameOverExit = () => {
-    const reward =
-      selectedLetter === correctAnswerLetter && currentLevel === 9
-        ? REWARDS[9]
-        : 0;
-    savePlayerScore(reward, 20);
-    navigate("/leaderboard");
+  const handleNextLevel = () => {
+    setCurrentIdx((prev) => prev + 1);
+    setTimeLeft(30);
+    setModalType("none");
   };
-
-  if (!currentQuestion)
-    return (
-      <div className="p-8 text-black text-center font-display">Loading...</div>
-    );
-
-  const securedPrize =
-    isFinished && selectedLetter === correctAnswerLetter
-      ? REWARDS[currentLevel]
-      : currentLevel > 0
-        ? REWARDS[currentLevel - 1]
-        : 0;
 
   return (
-    <div className="min-h-screen text-on-background font-body tech-pattern pt-20 pb-16">
-      {/* TopNavBar Minimized for game */}
-      <nav className="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-4 md:px-10 h-16 bg-white/95 backdrop-blur-xl shadow-sm border-b border-gray-200">
-        <div
-          className="flex items-center gap-4 cursor-pointer"
-          onClick={() => navigate("/")}
-        >
-          <div className="h-8 w-8 bg-brand-red rounded flex items-center justify-center font-bold text-white text-xs">
-            R
-          </div>
-          <span className="font-display text-lg font-bold tracking-tight text-deep-space border-l-2 border-gray-300 pl-4">
-            Thoát ra ngoài
-          </span>
-        </div>
-        <div className="font-display font-bold text-primary flex items-center gap-2">
-          <Trophy className="w-5 h-5" /> {securedPrize.toLocaleString()} đ
-        </div>
-      </nav>
+    <div className="min-h-screen tech-pattern flex px-8 py-10 relative overflow-hidden text-on-background">
+      {/* LEFT: LADDER */}
+      <div className="w-[300px] flex flex-col-reverse justify-between gap-3 shrink-0 relative z-10 glass-panel p-6 rounded-3xl">
+        <h3 className="font-display font-bold text-center text-golden uppercase tracking-widest mb-2 border-b border-glass-stroke pb-4 h-full flex flex-col justify-end opacity-50">
+          Thang Quà Tặng
+        </h3>
+        {PRIZES.map((prize, idx) => {
+          const nac = idx + 1;
+          const isActive = nac === currentIdx + 1;
+          const isPassed = nac < currentIdx + 1;
 
-      <div className="max-w-7xl mx-auto px-4 flex flex-col xl:flex-row gap-8">
-        {/* Main Arena */}
-        <div className="w-full xl:w-2/3 flex flex-col gap-6">
-          <GlassPanel className="p-8 flex flex-col items-center relative text-center rounded-2xl glow-sm shadow-xl mt-4">
-            <div className="flex w-full justify-between mb-4">
-              <span className="inline-flex items-center gap-1 px-4 py-1 rounded-full bg-deep-space border border-deep-space text-xs font-bold font-display uppercase tracking-widest text-white">
-                {currentQuestion.difficulty === 1
-                  ? "Dễ"
-                  : currentQuestion.difficulty === 2
-                    ? "Trung Bình"
-                    : "Khó"}
-              </span>
-              <span className="inline-flex items-center gap-1 px-4 py-1 rounded-full bg-brand-red text-white text-xs font-bold font-display shadow-sm uppercase tracking-widest">
-                Câu {currentLevel + 1} / 10
-              </span>
+          let stateStyle =
+            "bg-surface/30 text-on-surface-variant border-transparent";
+          if (isActive)
+            stateStyle =
+              "bg-brand-red text-white glow-red font-bold scale-[1.02] border-brand-red";
+          else if (isPassed)
+            stateStyle =
+              "bg-primary/20 text-white border-primary/50 opacity-70";
+
+          return (
+            <div
+              key={nac}
+              className={`flex justify-between items-center px-4 py-3 rounded-xl border transition-all duration-300 ${stateStyle}`}
+            >
+              <span className="font-display text-xl uppercase">{nac}</span>
+              <span className="font-body font-medium">{prize}</span>
             </div>
-
-            <div className="relative w-28 h-28 mb-8 flex justify-center items-center">
-              <svg className="w-full h-full -rotate-90" viewBox="0 0 100 100">
-                <circle
-                  cx="50"
-                  cy="50"
-                  r="45"
-                  fill="none"
-                  stroke="rgba(0,0,0,0.1)"
-                  strokeWidth="6"
-                />
-                <circle
-                  cx="50"
-                  cy="50"
-                  r="45"
-                  fill="none"
-                  stroke="currentColor"
-                  className={`transition-all duration-1000 ease-linear ${isDanger ? "text-brand-red" : "text-blue-500"}`}
-                  strokeWidth="6"
-                  strokeDasharray="283"
-                  strokeDashoffset={dashOffset}
-                  strokeLinecap="round"
-                />
-              </svg>
-              <div
-                className={`absolute font-display font-bold text-4xl ${isDanger ? "text-brand-red animate-ping" : "text-deep-space animate-pulse"}`}
-              >
-                {timeLeft}
-              </div>
-            </div>
-
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-display font-bold text-deep-space leading-snug break-words">
-              {currentQuestion.question}
-            </h2>
-          </GlassPanel>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            {options.map((opt: string, i: number) => {
-              const letter = String.fromCharCode(65 + i);
-              const isSelected = selectedLetter === letter;
-              const isCorrect = letter === correctAnswerLetter;
-
-              let stateClass = "";
-              if (isFinished) {
-                if (isSelected && isCorrect)
-                  stateClass =
-                    "border-green-400 bg-green-500/20 shadow-[0_0_15px_rgba(34,197,94,0.4)]";
-                if (isSelected && !isCorrect)
-                  stateClass = "border-red-500 bg-red-500/30";
-                if (!isSelected && isCorrect)
-                  stateClass =
-                    "border-green-400 bg-green-500/10 shadow-[0_0_15px_rgba(34,197,94,0.4)]";
-              } else if (isSelected) {
-                stateClass =
-                  "border-blue-400 bg-blue-500/20 shadow-[0_0_15px_rgba(96,165,250,0.4)]";
-              } else {
-                stateClass =
-                  "hover:bg-gray-50 hover:border-gray-300 cursor-pointer shadow-sm";
-              }
-
-              return (
-                <GlassPanel
-                  key={i}
-                  interactive={!isFinished}
-                  onClick={() => handleSelect(letter)}
-                  className={`p-6 flex items-start gap-4 transition-all duration-300 rounded-xl ${stateClass}`}
-                >
-                  <div
-                    className={`mt-0.5 flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center font-display font-bold text-sm shadow-inner transition-colors duration-300
-                                        ${stateClass.includes("bg-green") ? "bg-green-500 text-deep-space" : stateClass.includes("bg-red") ? "bg-brand-red text-white" : stateClass.includes("bg-blue") ? "bg-blue-400 text-deep-space" : "bg-gray-100 border border-gray-300 text-gray-500"}
-                                    `}
-                  >
-                    {letter}
-                  </div>
-                  <span className="text-lg font-body font-semibold text-deep-space text-opacity-90 text-left break-words pt-0.5 leading-tight">
-                    {opt.replace(/^[A-D]\.\s*/, "")}
-                  </span>
-                </GlassPanel>
-              );
-            })}
-          </div>
-        </div>
-
-        {/* Side Admin / Next Controls */}
-        <aside className="w-full xl:w-1/3 flex flex-col gap-6 mt-4">
-          {/* Prize Column */}
-          <GlassPanel className="p-6 rounded-2xl relative overflow-hidden">
-            <div className="absolute top-0 right-0 p-2 opacity-10">
-              <span className="material-symbols-outlined text-[100px] -translate-y-6 translate-x-4">
-                monetization_on
-              </span>
-            </div>
-            <div className="flex flex-col mb-6 items-center border-b border-gray-200 pb-4">
-              <div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mb-2">
-                <Trophy className="w-6 h-6 text-yellow-500" />
-              </div>
-              <h3 className="font-display font-bold text-deep-space text-xl">
-                Mốc phần thưởng
-              </h3>
-            </div>
-
-            <div className="flex flex-col-reverse gap-2 p-1">
-              {REWARDS.map((r, i) => {
-                const isCurrent = currentLevel === i;
-                const isPassed = currentLevel > i;
-                return (
-                  <div
-                    key={i}
-                    className={`flex justify-between items-center py-2 px-4 rounded-lg font-display text-sm md:text-base font-bold transition-all duration-300 ${isCurrent ? "bg-brand-red text-white border border-brand-red shadow-[0_4px_15px_rgba(197,0,5,0.4)] transform scale-105" : isPassed ? "text-gray-400" : "text-deep-space"}`}
-                  >
-                    <span className="flex items-center gap-2">
-                      <span className="material-symbols-outlined text-sm">
-                        {isPassed ? "check_circle" : "loyalty"}
-                      </span>
-                      Câu {i + 1}
-                    </span>
-                    <span>{r.toLocaleString()} đ</span>
-                  </div>
-                );
-              })}
-            </div>
-          </GlassPanel>
-        </aside>
+          );
+        })}
       </div>
 
-      {/* Popups (Modals) */}
-      {showNextPrompt && !gameOver && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-deep-space/60 backdrop-blur-sm animate-fade-in">
-          <div className="bg-white border border-blue-500 rounded-2xl relative overflow-hidden shadow-2xl flex flex-col gap-4 p-8 max-w-md w-full">
-            <div className="absolute top-0 right-0 p-2 opacity-5">
-              <span className="material-symbols-outlined text-[80px] text-blue-500">
-                campaign
-              </span>
-            </div>
-            <h3 className="text-3xl font-display font-bold text-deep-space text-center drop-shadow-sm mb-2">
-              Tiếp Tục?
-            </h3>
-            <p className="text-center text-base font-body text-gray-600 mb-6">
-              Bạn đang nắm trong tay{" "}
-              <span className="text-brand-red font-bold text-xl">
-                {securedPrize.toLocaleString()} đ
-              </span>
-              . Đi tiếp sai mất trắng!
-            </p>
-            <Button
-              className="w-full font-display font-bold text-lg bg-blue-600 text-white hover:bg-blue-700 py-4 shadow-md"
-              onClick={handleContinue}
-            >
-              Chơi Tiếp (Câu {currentLevel + 2})
-            </Button>
-            <Button
-              variant="outline"
-              className="w-full font-display font-bold text-lg border-gray-300 text-deep-space hover:bg-gray-50 py-4 mt-2"
-              onClick={handleStopAndSave}
-            >
-              Lấy Tiền Thưởng & Dừng Lại
-            </Button>
+      {/* RIGHT: GAME AREA */}
+      <div className="flex-1 flex flex-col items-center justify-center pl-12 relative z-10">
+        {/* TIMER */}
+        <div className="absolute top-0 right-0">
+          <div
+            className={`w-24 h-24 rounded-full flex items-center justify-center font-display font-bold text-4xl border-4 shadow-xl ${
+              timeLeft <= 5
+                ? "text-brand-red border-brand-red glow-red animate-pulse"
+                : "text-golden border-golden glow-gold"
+            }`}
+          >
+            {timeLeft}s
           </div>
         </div>
-      )}
 
-      {gameOver && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-deep-space/60 backdrop-blur-sm animate-fade-in">
-          <div className="bg-white border border-brand-red rounded-2xl relative shadow-2xl text-center p-8 max-w-md w-full">
-            <div className="absolute top-0 right-0 p-2 opacity-5">
-              <span className="material-symbols-outlined text-[80px] text-brand-red">
-                warning
-              </span>
-            </div>
-            <AlertTriangle className="w-20 h-20 text-brand-red mx-auto mb-6 drop-shadow-sm animate-pulse" />
-            <h3 className="text-4xl font-display font-bold text-deep-space mb-4">
-              {selectedLetter === correctAnswerLetter
-                ? "Tuyệt Đỉnh!"
-                : "Rất Tiếc!"}
-            </h3>
-            <p className="text-gray-600 font-body text-lg mb-8">
-              {selectedLetter === correctAnswerLetter
-                ? `Bạn đã chinh phục thành công 10 câu hỏi khó nhất!`
-                : `Sai mất rồi, bạn đã đánh mất số tiền thưởng đang có.`}
-            </p>
-            <Button
-              className="w-full py-4 text-lg bg-brand-red text-white font-display font-bold hover:bg-red-700 shadow-md"
-              onClick={handleGameOverExit}
-            >
-              {selectedLetter === correctAnswerLetter
-                ? "Lấy 50,000 đ & Nhận Quà"
-                : "Kết Thúc Cuộc Chơi"}
-            </Button>
+        {/* QUESTION BOX */}
+        <div className="glass-panel w-full max-w-4xl p-10 py-16 rounded-3xl relative mb-12 shadow-2xl">
+          <div className="absolute -top-6 left-8 bg-surface px-6 py-2 border border-glass-stroke rounded-full font-display font-bold text-golden uppercase tracking-wider text-sm shadow-md">
+            Câu hỏi nấc {currentIdx + 1}
           </div>
+          <h2 className="font-body text-3xl md:text-4xl text-primary-foreground leading-snug font-medium text-center">
+            {currentQ.question}
+          </h2>
+        </div>
+
+        {/* OPTIONS OR SHORT ANSWER */}
+        {isMultipleChoice ? (
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-full max-w-4xl">
+            {currentQ.options.map((opt: string, idx: number) => (
+              <button
+                key={idx}
+                onClick={() => handleSelectOption(opt)}
+                className="bg-surface hover:bg-surface-hover hover:scale-105 border border-glass-stroke text-on-surface p-6 rounded-2xl text-left font-body text-xl transition-all shadow-md focus:outline-none focus:ring-2 focus:ring-golden"
+              >
+                {opt}
+              </button>
+            ))}
+          </div>
+        ) : (
+          <div className="flex flex-col items-center gap-8 w-full max-w-4xl">
+            <p className="font-body text-xl text-on-surface-variant italic border-b border-glass-stroke pb-4 px-10 text-center">
+              *Hãy đọc thật to đáp án của bạn cho Quản trò (MC) cùng nghe nhé!*
+            </p>
+            <button
+              onClick={() => setModalType("mc_review")}
+              className="bg-golden text-golden-foreground px-10 py-4 rounded-full font-display font-bold text-2xl uppercase tracking-wider hover-pop shadow-lg glow-gold"
+            >
+              MC Xác Nhận Kết Quả
+            </button>
+          </div>
+        )}
+      </div>
+
+      {/* OVERLAYS FOR MODALS */}
+      {modalType !== "none" && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-[#020617]/90 backdrop-blur-md p-6">
+          {/* CORRECT BRANCHING */}
+          {modalType === "correct" && (
+            <div className="glass-panel p-12 rounded-3xl max-w-2xl w-full text-center border-golden glow-gold animate-in zoom-in duration-300">
+              <h2 className="font-display text-5xl text-golden uppercase font-bold mb-4 drop-shadow-md">
+                Chính Xác!
+              </h2>
+              <p className="font-body text-xl text-on-surface mb-10">
+                Bạn đang ở{" "}
+                <span className="font-bold text-white">
+                  Nấc {currentIdx + 1} — {PRIZES[currentIdx]}
+                </span>
+              </p>
+              <div className="grid grid-cols-2 gap-6">
+                <button
+                  onClick={() => finishGame(currentIdx + 1)}
+                  className="bg-surface/50 hover:bg-surface border border-glass-stroke text-on-surface py-5 rounded-2xl font-display font-bold text-2xl uppercase transition-all"
+                >
+                  Nhận Quà Ngay
+                  <span className="block text-sm font-body font-normal text-on-surface-variant mt-1 normal-case">
+                    Dừng lại với {PRIZES[currentIdx]}
+                  </span>
+                </button>
+                <button
+                  onClick={handleNextLevel}
+                  className="bg-brand-red text-white py-5 rounded-2xl font-display font-bold text-2xl uppercase hover:scale-105 transition-all shadow-[0_0_20px_rgba(218,18,26,0.5)]"
+                >
+                  Chơi Tiếp
+                  <span className="block text-sm font-body font-normal text-white/80 mt-1 normal-case">
+                    Tiến lên Nấc {currentIdx + 2}
+                  </span>
+                </button>
+              </div>
+            </div>
+          )}
+
+          {/* WRONG FALLBACK */}
+          {modalType === "wrong" && (
+            <div className="glass-panel p-12 rounded-3xl max-w-xl w-full text-center border-brand-red glow-red animate-in slide-in-from-top-10 duration-500">
+              <h2 className="font-display text-6xl text-brand-red uppercase font-bold mb-4">
+                Rất Tiếc!
+              </h2>
+              <p className="font-body text-xl text-on-surface mb-8">
+                Bạn đã trả lời sai hoặc hết giờ. Trò chơi kết thúc!
+              </p>
+              <div className="bg-surface p-4 rounded-xl border border-glass-stroke inline-block mb-6">
+                <p className="font-body text-on-surface-variant">Giải thích:</p>
+                <p className="font-body text-white font-medium mt-1">
+                  {currentQ.explanation || `Đáp án đúng là: ${currentQ.answer}`}
+                </p>
+              </div>
+              <p className="text-on-surface-variant animate-pulse font-body">
+                Đang tự động chuyển về nấc quà thấp nhất...
+              </p>
+            </div>
+          )}
+
+          {/* MC REVIEW MODAL */}
+          {modalType === "mc_review" && (
+            <div className="glass-panel p-10 rounded-3xl max-w-3xl w-full border-blue-500 shadow-[0_0_30px_rgba(59,130,246,0.3)] relative">
+              <div className="absolute -top-4 -right-4 bg-blue-600 text-white font-display px-4 py-1 rounded-full text-sm uppercase tracking-wide">
+                MC ONLY
+              </div>
+              <h3 className="font-display text-2xl text-blue-400 mb-6 uppercase tracking-wider">
+                Khu vực dành cho Quản Trò
+              </h3>
+
+              <div className="bg-surface/50 border border-glass-stroke p-6 rounded-2xl mb-8">
+                <p className="text-on-surface-variant font-body mb-2 text-sm">
+                  Đáp án lý tưởng:
+                </p>
+                <p className="text-3xl text-white font-display font-medium mb-4">
+                  {currentQ.answer}
+                </p>
+                {currentQ.explanation && (
+                  <p className="text-gray-400 font-body italic border-t border-glass-stroke pt-4">
+                    {currentQ.explanation}
+                  </p>
+                )}
+              </div>
+
+              <p className="text-center text-on-surface font-body mb-6">
+                Đánh giá câu trả lời thực tế của người chơi:
+              </p>
+
+              <div className="flex gap-6 justify-center">
+                <button
+                  onClick={handleWrong}
+                  className="flex-1 bg-surface hover:bg-[#da121a]/20 border border-[#da121a] text-[#da121a] py-6 rounded-xl font-display font-bold text-3xl uppercase transition-colors"
+                >
+                  Chưa Tới
+                </button>
+                <button
+                  onClick={handleCorrect}
+                  className="flex-1 bg-blue-600 hover:bg-blue-500 text-white py-6 rounded-xl font-display font-bold text-3xl uppercase shadow-lg glow-sm transition-transform hover:-translate-y-1"
+                >
+                  Tuyệt Vời
+                </button>
+              </div>
+            </div>
+          )}
         </div>
       )}
     </div>

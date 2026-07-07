@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fontsource/be-vietnam-pro": "^5.2.8",
+    "@fontsource/oswald": "^5.2.8",
     "clsx": "^2.1.1",
     "lucide-react": "^0.473.0",
     "react": "^19.0.0",

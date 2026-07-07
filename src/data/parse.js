@@ -72,7 +72,7 @@ for (let i = 0; i < lines.length; i++) {
   }
 
   if (currentQ) {
-    if (line.match(/^[A-E]\. /)) {
+    if (line.match(/^[A-D]\. /)) {
       if (currentQ.options) {
         currentQ.options.push(line);
       }
@@ -127,6 +127,12 @@ tsContent += `export function getRandomizedGameSet(
   shuffle(diff3);
   shuffle(diff4);
 
+  // Requirement: 7 nấc, bám sát mức độ.
+  // Gợi ý:
+  // Nấc 1, 2: Dễ (2 câu)
+  // Nấc 3, 4: Trung Bình (2 câu)
+  // Nấc 5, 6: Khá (2 câu)
+  // Nấc 7: Khó (1 câu)
   const selected = [
     ...diff1.slice(0, 2),
     ...diff2.slice(0, 2),
@@ -134,6 +140,7 @@ tsContent += `export function getRandomizedGameSet(
     ...diff4.slice(0, 1),
   ];
 
+  // Fallback map in case pools are drained
   let remaining = [
     ...diff1.slice(2),
     ...diff2.slice(2),

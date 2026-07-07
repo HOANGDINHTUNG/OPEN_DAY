@@ -1,0 +1,140 @@
+{
+  "NL-K07": {
+    "A": "Sự nhạy bén trong đàm phán, đảm bảo giành được quyền ưu tiên phân bổ tài nguyên cho cá nhân",
+    "B": "Khả năng thấu cảm và xây dựng quan điểm cá nhân để tăng cường năng lực giao tiếp độc lập",
+    "C": "Kỹ năng lập trình luồng chia sẻ thông tin, thiết lập sự minh bạch để tối ưu hóa tiến độ nhóm",
+    "D": "Toàn bộ các kỹ năng cốt lõi về tinh thần làm việc nhóm, chia sẻ dữ liệu và phương thức giao tiếp"
+  },
+  "NL-K08": {
+    "A": "Kiểm tra dung lượng file để xác định mức độ an toàn, và mở ngay để tránh quá hạn điểm thi",
+    "B": "Thay đổi định dạng tập tin thực thi (.exe) thành các đuôi nén tiêu chuẩn trước khi truy xuất",
+    "C": "Tuyệt đối không mở các định dạng file khả nghi; kiểm tra kỹ nguồn gốc và dùng phần mềm bảo mật",
+    "D": "Cô lập tệp tin trong không gian lưu trữ ảo và nhờ mạng lưới đồng nghiệp kiểm thử giúp hệ thống"
+  },
+  "NL-K09": {
+    "A": "Bất cứ yêu cầu, phản hồi từ khách hàng ở mọi thời điểm, mọi nguồn lực hệ thống đều phải đáp ứng ngay",
+    "B": "Là nền tảng của chiến lược kinh doanh nhằm thấu hiểu nhu cầu và kiến tạo giá trị, song hành cùng mục tiêu cốt lõi",
+    "C": "Cơ cấu lại cấu trúc văn phòng và không gian vận hành, nhằm đem đến trải nghiệm tương tác với khách hàng tốt nhất",
+    "D": "Trọng tâm của văn hóa doanh nghiệp được dịch chuyển để phục vụ những sở thích vi mô của khách hàng mục tiêu"
+  },
+  "NL-K10": {
+    "A": "Có thể tích hợp toàn bộ miễn là hệ thống tài nguyên đó không có cơ chế khóa mã hóa từ nền tảng máy chủ gốc",
+    "B": "Kiểm duyệt kỹ quyền sở hữu trí tuệ, tuân thủ giới hạn sử dụng và bổ sung trích dẫn nguồn khi tái xuất bản dữ liệu",
+    "C": "Biên tập lại mã nguồn, xóa bỏ những dấu vết nhận diện thương hiệu độc quyền để phù hợp tiêu chuẩn sản phẩm mới",
+    "D": "Tích hợp thêm bộ lọc tự động và thay đổi định dạng chuẩn hình ảnh để cấu thành sản phẩm sở hữu độc quyền khác"
+  },
+  "NL-K11": {
+    "A": "Yêu cầu bỏ qua mọi ngữ cảnh phân tích, chặn khả năng kiểm chứng dữ kiện và loại bỏ nền tảng để học tập từ quá trình",
+    "B": "Quy chuẩn của prompt vi phạm nguyên tắc ngôn ngữ mềm, điều làm mô hình máy học giảm khả năng sinh ngôn ngữ tự nhiên",
+    "C": "Hệ thống điện toán mây của AI thường tắt chế độ xử lý tác vụ phức hợp khi không ở trong các khung giờ bảo trì cố định",
+    "D": "Cấu trúc lệnh thiết sót các tiền tố tôn trọng căn bản, dẫn đến việc công cụ từ chối đưa ra những mô phỏng chính xác"
+  },
+  "NL-K12": {
+    "A": "Việc hạch toán có thể đang bị lỗi, vì không thể có sự chênh lệch lớn giữa biên lợi nhuận và tình trạng ví",
+    "B": "Lãi/lỗ theo chuẩn mực kế toán ghi nhận không đồng nghĩa với luồng tiền thực thu – chi đang nằm trong hệ thống",
+    "C": "Chiến lược bán hàng chưa tối ưu, chỉ cần tung ra các chính sách khuyến mãi bùng nổ là khả năng thanh khoản sẽ ổn",
+    "D": "Tất cả lợi nhuận ghi nhận trên sổ sách luôn phản ánh dòng tiền thuần đã được đối soát sẵn sàng ở mọi tài khoản"
+  },
+  "NL-K13": {
+    "A": "Ambition - Tiên phong khát vọng và ý chí vươn lên",
+    "B": "Progress - Nỗ lực học hỏi để nâng cấp tính hệ thống",
+    "C": "Creativity - Tập trung mọi sáng kiến sáng tạo công nghệ",
+    "D": "Perfection - Theo đuổi một sự hoàn thiện không tì vết"
+  },
+  "NL-KH01": {
+    "A": "Tự động hóa chuỗi kiểm thử triển khai, tái tạo hạ tầng từ tệp cấu hình có phiên bản hóa một cách đáng tin cậy",
+    "B": "Cắt giảm hoàn toàn rào cản nhân lực và mã lập trình thông qua việc quản lý lưu lượng CI/CD bằng file Excel",
+    "C": "Quản trị cơ sở dữ liệu trên cloud và tập trung xây dựng giao diện vận hành đẹp mà không cần tới bảo trì",
+    "D": "Kiểm soát mã nguồn chặt chẽ và khẳng định 100% không phát sinh bất cứ lỗi nào khi môi trường được deploy"
+  },
+  "NL-KH02": {
+    "A": "Áp dụng cấu trúc Project-Based, chia một dự án dài hạn ra thành nhiều khoanh nhỏ, cố định phạm vi để bàn giao",
+    "B": "Thiết lập mô hình Offshore Development Center, tạo ra một đội ngũ gia công linh hoạt có tính chuyên quyền cao",
+    "C": "Áp dụng mô hình Hybrid Cloud Freelancing, thuê chuyên gia trong ngắn hạn giải quyết linh hoạt từng scope nhất định",
+    "D": "Tinh gọn cấu trúc tổ chức, bỏ qua cấu trúc quản lý mô hình và chuyển thẳng qua các nền tảng chat trực tuyến chung"
+  },
+  "TR-D01": {
+    "A": "Thái Lan - Quốc gia sở hữu hệ sinh thái đảo nghỉ dưỡng phổ biến trong du lịch văn hóa",
+    "B": "Campuchia - Láng giềng Đông Nam Á từng bị thí sinh đặt nhầm châu lục trong bản đồ",
+    "C": "Lào - Nước có chung đường biên giới nhưng hay bị nhầm lẫn về vị trí địa lý phía Nam",
+    "D": "Singapore - Đảo quốc nổi tiếng được một số ít sĩ tử gắn mác là trung tâm kinh tế châu Mỹ"
+  },
+  "TR-D02": {
+    "A": "Châu Âu",
+    "B": "Châu Mỹ",
+    "C": "Châu Phi",
+    "D": "Server quốc tế ngoài Trái Đất"
+  },
+  "TR-D03": {
+    "A": "Hai nhân vật lỗi lạc thuộc chung một dòng họ với những đóng góp độc lập lớn trong Lịch sử",
+    "B": "Những đồng minh có xuất thân tướng lĩnh, cùng nhau chỉ huy các chiến dịch kháng chiến",
+    "C": "Chỉ là hai cách gọi khác nhau của cùng một vị Hưng Đạo Đại Vương oai hùng thời nhà Trần",
+    "D": "Hai chiến lược gia từng viết nên những trang sử chung nhưng do hai tác giả chép sử ghi lại"
+  },
+  "TR-D04": {
+    "A": "“Mang luôn hết cả đề thi đại học năm nay đến đây”",
+    "B": "“Mang ngay vị CEO quyền lực của hội đồng ra đây”",
+    "C": "“Cấp ngay chiếc xe điện của tỷ phú sang châu đây”",
+    "D": "“Hãy mang cả bộ biểu đồ đánh giá năng lực ra đây”"
+  },
+  "TR-D05": {
+    "A": "Elon Musk - Đóng góp những phát biểu truyền cảm hứng sau mỗi sự kiện không gian",
+    "B": "Donald Trump - Ứng cử viên với các cụm từ nổi tiếng khi hoàn thành buổi phát biểu",
+    "C": "Cristiano Ronaldo - Màn ăn mừng thành công đặc trưng và kinh điển bật nhất thế giới",
+    "D": "Steve Jobs - Cha đẻ Apple, một hình mẫu bùng nổ mà sinh viên dùng làm biểu tượng báo cáo"
+  },
+  "TR-D06": {
+    "A": "Đen Vâu - Nghệ sĩ Rap với những bài đăng được phân tích rầm rộ là vô tình báo mộng luôn trúng đề",
+    "B": "Ronaldo - Được đem làm dự đoán nhờ những con số thống kê ngẫu nhiên trong bài kiểm tra ngoại ngữ",
+    "C": "Elon Musk - Tác giả những dòng tweet có chứa ẩn ý sâu xa dẫn dụ tới chủ đề môn tự nhiên trên bài thi",
+    "D": "Donald Trump - Hình mẫu dùng thuật ngữ quản trị làm đề thi Lịch sử thế giới hay gây sốt cộng đồng"
+  },
+  "TR-D07": {
+    "A": "Các bộ sạc dự phòng chuyên dụng đảm bảo năng lượng cần thiết để kích hoạt thiết bị chạy deadline",
+    "B": "Chiếc bút phong thủy mang hy vọng sẽ tô đỏ bảng điểm khi công nghệ không còn có thể vận hành",
+    "C": "Quyển Atlat truyền thống - một cơ sở dữ liệu vật lý không cần cắm điện nhưng cứu sống sĩ tử mùa thi",
+    "D": "Công cụ giải trí vật lý để giải tỏa ức chế khi hệ thống ngưng trệ bất chợt trong thời gian làm khóa luận"
+  },
+  "TR-D08": {
+    "A": "Ritsumeikan và Keio - Sự kết hợp hoàn hảo từ hai đại học danh giá tại Nhật Bản",
+    "B": "Harvard và Oxford - Khái niệm chuẩn mực lấy cảm hứng từ các học viện toàn cầu",
+    "C": "Bách khoa và Kinh tế Quốc dân - Nhóm trường tinh hoa kỹ thuật ở Việt Nam",
+    "D": "Hogwarts và Xavier - Biểu tượng phép thuật mang đến những điều kỳ tích đột phá"
+  },
+  "TR-TB01": {
+    "A": "Cần ngay lập tức tra cứu số liệu đa chiều nhằm xác định và điều chỉnh lỗ hổng kiến thức căn bản",
+    "B": "Lên lịch tổ chức buổi thuyết trình phản biện để chứng minh luận điểm đó là sai lầm có chủ đích",
+    "C": "Đàm phán với hội đồng chuyên gia về địa lý để thiết lập ranh giới mới trên nền tảng chiến lược",
+    "D": "Mở ứng dụng đồ họa để nhanh chóng đổi màu các nước trên bản đồ sao cho lấp liếm được sự cố"
+  },
+  "TR-TB02": {
+    "A": "Sự cuồng nhiệt đối với những nhà công nghệ nổi bật nhưng hay để lại hậu quả xử lý quá cồng kềnh",
+    "B": "Trần Hưng Đạo – Trần Quốc Tuấn, hệ quả từ việc bị nhầm lẫn danh xưng dẫn đến giải toán chệch hướng",
+    "C": "Việc ấn tượng với sự dời đổi bản đồ dẫn đến những thay đổi bất thình lình về mặt vị trí trong quy trình",
+    "D": "Hành động hô to ăn mừng nhưng lại bị sụp đổ bất ngờ do hiểu nhầm quy cách ứng xử cấp trên giao phó"
+  },
+  "TR-TB03": {
+    "A": "“Đừng quên việc back-up toàn bộ tài liệu về server dự phòng tránh trường hợp đề thực sự khó”",
+    "B": "“Nhưng xin là không hề hấn gì, mong đề giảm tải hay ít nhất đừng lặp lại độ khốc liệt của năm 2018”",
+    "C": "“Team chúng tôi đã kiểm nghiệm tất cả các biến số và đồng thuận về giải pháp này từ ban sáng”",
+    "D": "“Với điều kiện các task kia hãy nới rộng biên độ thời gian hoàn thành bởi deadline chưa tới”"
+  },
+  "TR-TB04": {
+    "A": "Toán - Phân định bằng loạt bài tập xác suất tích phân vận dụng cao",
+    "B": "Hóa - Đi sâu vào phản ứng hữu cơ kết nối hàng chục chất phức tạp",
+    "C": "Tiếng Anh - Cấu trúc ngữ pháp đa tầng kết hợp khối từ vựng hẹp",
+    "D": "Tin học - Đòi hỏi tư duy lập trình C++ với thuật toán nâng cao"
+  },
+  "TR-TB05": {
+    "A": "Chỉ làm trọn vẹn 20 trên 40 câu sau thời gian chật vật đối mặt",
+    "B": "Hoàn thiện được mức độ an toàn khoảng 25 trên 40 câu",
+    "C": "Chạm mức khả thi với độ khó là 35 trên 40 câu trọn vẹn",
+    "D": "Vượt ngoài khả năng dự tính để phân giải 41 trên tổng 40"
+  },
+  "TR-TB06": {
+    "A": "“Kẻ xuất sắc không được khóc vì đây chỉ là đợt sóng đầu tiên”",
+    "B": "“Hãy phát đề đây cho một ứng cử viên đầy triển vọng”",
+    "C": "“Khoan để yên cho tôi tiêu hóa hết độ khó ba bài đọc hẵng”",
+    "D": "“Màn ăn mừng quá hoành tráng chuẩn bị cho điểm 10 sắp đến”"
+  }
+}
