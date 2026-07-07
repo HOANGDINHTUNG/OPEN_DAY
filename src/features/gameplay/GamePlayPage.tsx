@@ -64,11 +64,22 @@ export function GamePlayPage() {
   if (questions.length === 0) return null;
 
   const currentQ = questions[currentIdx];
-  const isMultipleChoice = !!currentQ.options;
+  const isMultipleChoice = !!currentQ.options && currentQ.options.length > 0;
 
   const handleSelectOption = (opt: string) => {
     playSelect();
-    const isCorrect = opt.charAt(0) === currentQ.answer.charAt(0);
+
+    const correctAnsStr = currentQ.answer.trim().toUpperCase();
+    const expectedIndex = correctAnsStr.charCodeAt(0) - 65;
+
+    const optIndex = currentQ.options.findIndex((o: string) => o === opt);
+
+    const isCorrect =
+      (optIndex === expectedIndex &&
+        expectedIndex >= 0 &&
+        expectedIndex <= 4) ||
+      opt.trim().charAt(0).toUpperCase() === correctAnsStr.charAt(0);
+
     if (isCorrect) handleCorrect();
     else handleWrong();
   };
