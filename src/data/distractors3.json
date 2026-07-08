@@ -1,140 +1,92 @@
 {
   "NL-K07": {
-    "A": "Sự nhạy bén trong đàm phán, đảm bảo giành được quyền ưu tiên phân bổ tài nguyên cho cá nhân",
-    "B": "Khả năng thấu cảm và xây dựng quan điểm cá nhân để tăng cường năng lực giao tiếp độc lập",
-    "C": "Kỹ năng lập trình luồng chia sẻ thông tin, thiết lập sự minh bạch để tối ưu hóa tiến độ nhóm",
-    "D": "Toàn bộ các kỹ năng cốt lõi về tinh thần làm việc nhóm, chia sẻ dữ liệu và phương thức giao tiếp"
+    "A": "Kỹ năng chuyên sâu về thao túng tâm lý và đàm phán bảo thủ ở cường độ uy lực lớn để chiếm trọn quyền ưu tiên phân bổ mọi khối tài nguyên khan hiếm về lại cá nhân mình.",
+    "B": "Năng lực phân hóa mâu thuẫn hệ thống tổ chức để tự tạo dựng bức tường ngăn cách vững chắc bảo hộ lợi ích bản ngã, qua đó bẻ nhánh quy trình để vận hành không phụ thuộc luân chuyển.",
+    "C": "Năng lực xây dựng cấu trúc luận điểm điều phối nguồn nhân lực để tạo rào chắn đóng băng tính hiệu quả của kênh trao đổi tự do nhóm giúp đẩy lùi áp lực trách nhiệm quản trị công.",
+    "D": "Toàn bộ chuỗi các kỹ năng đa nhiệm thiết yếu bao gồm sự đóng góp tinh thần làm việc nhóm, trách nhiệm sẵn sàng chia sẻ nguồn dữ liệu mở và phương thức xây dựng giao tiếp tôn trọng."
   },
   "NL-K08": {
-    "A": "Kiểm tra dung lượng file để xác định mức độ an toàn, và mở ngay để tránh quá hạn điểm thi",
-    "B": "Thay đổi định dạng tập tin thực thi (.exe) thành các đuôi nén tiêu chuẩn trước khi truy xuất",
-    "C": "Tuyệt đối không mở các định dạng file khả nghi; kiểm tra kỹ nguồn gốc và dùng phần mềm bảo mật",
-    "D": "Cô lập tệp tin trong không gian lưu trữ ảo và nhờ mạng lưới đồng nghiệp kiểm thử giúp hệ thống"
+    "A": "Chạy máy móc quét những mục điểm thông số metadata tổng hợp ngay từ tập file mã gốc tự tốn thời lượng tối thiểu để đo định mức độ an toàn rồi bấm đúp mở vội tránh giới hạn.",
+    "B": "Tiến hành chuyển định dạng tập tin khởi chạy nguy hại (như dạng .bat) về lớp cấu trúc văn bản an toàn tĩnh dưới nhánh nén tệp trước khi ra quyết định kích hoạt giải mã xác minh độc lập.",
+    "C": "Tuyệt đối không một lần lỡ tay bấm mở các nhánh định dạng file lạ lùng khả nghi; thực hiện kiểm tra kỹ lưỡng vùng nguồn gốc gốc và thiết lập một màng chắn từ phần mềm xử lý bảo mật.",
+    "D": "Trực tiếp tiến hành cô lập vùng dữ liệu nhiễm khuẩn tại một phân khu hệ thống đóng mảnh ảo, tiếp đó tải về và cấp phát rộng sang một kênh chuyên gia xử lý mã chéo trực thuộc nhánh."
   },
   "NL-K09": {
-    "A": "Bất cứ yêu cầu, phản hồi từ khách hàng ở mọi thời điểm, mọi nguồn lực hệ thống đều phải đáp ứng ngay",
-    "B": "Là nền tảng của chiến lược kinh doanh nhằm thấu hiểu nhu cầu và kiến tạo giá trị, song hành cùng mục tiêu cốt lõi",
-    "C": "Cơ cấu lại cấu trúc văn phòng và không gian vận hành, nhằm đem đến trải nghiệm tương tác với khách hàng tốt nhất",
-    "D": "Trọng tâm của văn hóa doanh nghiệp được dịch chuyển để phục vụ những sở thích vi mô của khách hàng mục tiêu"
+    "A": "Là quá trình mà mọi bộ máy nhân lực dịch vụ của tập đoàn buộc lòng phải cung cấp điều kiện xử lý mọi nhu cầu nhỏ nhặt của một khối khách hàng lớn dù cho vượt mức thông số.",
+    "B": "Là nền móng định hình lên kiến trúc chiến lược phát triển kinh doanh dài hạn nhằm thấu hiểu nhạy bén các nhu cầu cấp bách cũng như kiến tạo nên vùng giá trị song hành với mục tiêu cốt lõi.",
+    "C": "Xác định rõ vai trò cần đập bỏ đi các hạn mức định giới cũ mèm để trùng tu 100% lại không gian thiết bị chi nhánh mua sắm thỏa mãn sự yêu thích và những ao ước mua dư.",
+    "D": "Vận hành sự thay máu văn hóa doanh nghiệp thường trực không báo trước theo dòng xoáy thời sự, quyết liệt tự thu gập định hình tổ chức lại thành những dịch vụ chiều lòng đối tác ngoại lai phung phí."
   },
   "NL-K10": {
-    "A": "Có thể tích hợp toàn bộ miễn là hệ thống tài nguyên đó không có cơ chế khóa mã hóa từ nền tảng máy chủ gốc",
-    "B": "Kiểm duyệt kỹ quyền sở hữu trí tuệ, tuân thủ giới hạn sử dụng và bổ sung trích dẫn nguồn khi tái xuất bản dữ liệu",
-    "C": "Biên tập lại mã nguồn, xóa bỏ những dấu vết nhận diện thương hiệu độc quyền để phù hợp tiêu chuẩn sản phẩm mới",
-    "D": "Tích hợp thêm bộ lọc tự động và thay đổi định dạng chuẩn hình ảnh để cấu thành sản phẩm sở hữu độc quyền khác"
+    "A": "Toàn quyền được tiếp nối chu trình sử dụng và công bố thẳng vào dự án với lưu ý rằng chỉ cần hệ vật liệu đó không bị tích hợp mã chống giả mạo hay bẻ khóa DRM cấm truy xuất.",
+    "B": "Kiểm duyệt kỹ bản quyền sở hữu trí tuệ để tôn trọng chủ thể, đảm bảo tuân thủ số giới hạn tái sử dụng và bổ sung đầy đủ các nguồn trích dẫn tài liệu gốc khi tiến hành tái xuất bản.",
+    "C": "Cần can thiệp xóa toàn bộ mảnh ghép hệ thống bản quyền nhận dạng cùng việc chỉnh sửa lại mã lập trình sở hữu để lách qua hàng rào kiểm định sao chép thuật toán trí tuệ thông minh trung gian bảo vệ.",
+    "D": "Được áp dụng kèm thao tác đặt lưới lọc lớp ánh sáng đa sắc bổ trợ tự động với mục tiêu bóc tách tẩy trắng sạch độ trong thuần túy của ấn phẩm gốc để chối từ mọi trách nhiệm bản quyền."
   },
   "NL-K11": {
-    "A": "Yêu cầu bỏ qua mọi ngữ cảnh phân tích, chặn khả năng kiểm chứng dữ kiện và loại bỏ nền tảng để học tập từ quá trình",
-    "B": "Quy chuẩn của prompt vi phạm nguyên tắc ngôn ngữ mềm, điều làm mô hình máy học giảm khả năng sinh ngôn ngữ tự nhiên",
-    "C": "Hệ thống điện toán mây của AI thường tắt chế độ xử lý tác vụ phức hợp khi không ở trong các khung giờ bảo trì cố định",
-    "D": "Cấu trúc lệnh thiết sót các tiền tố tôn trọng căn bản, dẫn đến việc công cụ từ chối đưa ra những mô phỏng chính xác"
+    "A": "Yêu cầu câu lệnh mô phỏng hoàn toàn chưa tạo lập điều kiện không gian mở dành riêng cho việc phân luồng đối chứng độ chính xác và đúc rút kinh nghiệm đào tạo não bộ thông qua thực nghiệm quá trình.",
+    "B": "Định hướng mã lệnh cho dòng thông tin cấu trúc đi trái với nội dung của hệ ngôn ngữ phát triển mầm, điều kéo theo sự phân rã từ khóa dẫn hệ điện toán rớt đài không sinh lệnh trả lời.",
+    "C": "Nhóm kiến trúc hệ máy tính điện toán siêu dẫn AI mặc định sẽ tự vô hiệu chế độ giải quyết siêu nhiệm vụ có độ khó vô hạn một khi tài khoản của khách chưa vượt định danh mã vùng.",
+    "D": "Khẩu lệnh truy cập cắt xét không màng bổ sung các cụm từ thể hiện quyền uy tín công ty đính kèm một lượng kính ngữ tiêu chuẩn làm công cụ xác minh độ phân tử từ khóa thông minh không thông qua."
   },
   "NL-K12": {
-    "A": "Việc hạch toán có thể đang bị lỗi, vì không thể có sự chênh lệch lớn giữa biên lợi nhuận và tình trạng ví",
-    "B": "Lãi/lỗ theo chuẩn mực kế toán ghi nhận không đồng nghĩa với luồng tiền thực thu – chi đang nằm trong hệ thống",
-    "C": "Chiến lược bán hàng chưa tối ưu, chỉ cần tung ra các chính sách khuyến mãi bùng nổ là khả năng thanh khoản sẽ ổn",
-    "D": "Tất cả lợi nhuận ghi nhận trên sổ sách luôn phản ánh dòng tiền thuần đã được đối soát sẵn sàng ở mọi tài khoản"
+    "A": "Sự xung đột thiếu chuyên nghiệp này có xuất phát điểm 100% từ quy trình ghi sổ hạch toán bằng tay chứa lỗi sai nghiệp vụ thuộc đội ngũ kế toán mới tuyển dụng từ khối phòng hành chính nội sinh trung tâm.",
+    "B": "Các điều khoản báo cáo chênh lệch thuộc phạm trù lợi nhuận kế toán và những dòng tiền thực chảy luân phiên qua ngân sách là hai nhóm hệ khái niệm kinh tế hoàn toàn phân tách ranh giới và khác biệt nhau.",
+    "C": "Mảng kế hoạch thuộc phân ban vận hành chiến lược kinh doanh không sở hữu quyền điều tiết chuỗi chính sách khuyến mãi đa tầng, việc phải khẩn trương đưa ra gói giảm sốc để xử lý điểm đứt gãy luân chuyển dòng tiền.",
+    "D": "Chỉ số biên lợi nhuận cực lớn trình bày trên các hệ thống số liệu biểu đồ kế toán hiển nhiên khẳng định mức tiền mặt song phương đó cũng sẽ thường trực đợi chờ trên hệ cơ sở dữ liệu kho bạc nhà nước."
   },
   "NL-K13": {
-    "A": "Ambition - Tiên phong khát vọng và ý chí vươn lên",
-    "B": "Progress - Nỗ lực học hỏi để nâng cấp tính hệ thống",
-    "C": "Creativity - Tập trung mọi sáng kiến sáng tạo công nghệ",
-    "D": "Perfection - Theo đuổi một sự hoàn thiện không tì vết"
+    "A": "Tính chất Ambition - Vun đắp một ý chí quật cường và thắp sáng lên ngọn lửa khát vọng vượt ngàn sóng thử thách trên không gian trí tuệ để thiết lập di sản kỷ nguyên phát triển doanh nghiệp điện thông bằng số.",
+    "B": "Sứ mệnh Progress - Rạch rõ con đường phấn đấu giáo dục kỹ năng trau dồi tay nghề cốt để đột kích bẻ khóa quy trình tính toán cũ kỹ, mở ra một thế kỷ nâng cấp cho hiệu suất nhân tài tập đoàn công nghệ.",
+    "C": "Hình khối Creativity - Điểm bùng phát khai mở những khối óc sáng tạo cực điểm hình thành cấu trúc siêu năng chuyên ứng phó xây dựng chuỗi giải pháp phần mềm hiện thực đáp trả mọi đề báo lỗi ngặt nghèo của khách.",
+    "D": "Đỉnh cao Perfection - Bản lĩnh thiết lập lòng kiên nhẫn quyết liệt hướng tới một cuộc theo đuổi sự hoàn thiện tuyệt đối không tì vết chắp vá bên trong quá trình giải quyết tận gốc tất yếu mọi điểm cực rủi ro."
   },
   "NL-KH01": {
-    "A": "Tự động hóa chuỗi kiểm thử triển khai, tái tạo hạ tầng từ tệp cấu hình có phiên bản hóa một cách đáng tin cậy",
-    "B": "Cắt giảm hoàn toàn rào cản nhân lực và mã lập trình thông qua việc quản lý lưu lượng CI/CD bằng file Excel",
-    "C": "Quản trị cơ sở dữ liệu trên cloud và tập trung xây dựng giao diện vận hành đẹp mà không cần tới bảo trì",
-    "D": "Kiểm soát mã nguồn chặt chẽ và khẳng định 100% không phát sinh bất cứ lỗi nào khi môi trường được deploy"
+    "A": "Tự động hóa hoàn toàn tiến trình chuỗi build/test/deploy liên hoàn và quản lý triệt để hạ tầng khối bằng các tập cấu hình phiên bản hóa thông minh, đảm bảo duy trì độ tin cậy tái tạo đồng nhất 100%.",
+    "B": "Thay thế nhóm tác vụ vận hành mã khóa lập trình cực nhọc lằng nhằng bằng giải pháp tự vận hành hoàn toàn các khâu chuẩn bị giao thoa máy chủ CI/CD một cách thủ công thông qua thiết lập tệp nháp.",
+    "C": "Kiến thiết giải pháp sao lưu vô biên mọi luồng tài nguyên của hệ vật lý về khối trung tâm dự trữ bộ nhớ đám mây vô định để độc tôn thiết lập quy trình mã hóa sản phẩm chạy đè lỗi kỹ thuật.",
+    "D": "Dành 100% thời lượng cho khối quản trị và cô lập triệt đường cấu trúc mã nguồn nền đóng đinh để đảm nhận vai trò phủ đầu khử khuẩn vô hạn toàn luồng tính năng mỗi đợt có một môi trường xuất bản."
   },
   "NL-KH02": {
-    "A": "Áp dụng cấu trúc Project-Based, chia một dự án dài hạn ra thành nhiều khoanh nhỏ, cố định phạm vi để bàn giao",
-    "B": "Thiết lập mô hình Offshore Development Center, tạo ra một đội ngũ gia công linh hoạt có tính chuyên quyền cao",
-    "C": "Áp dụng mô hình Hybrid Cloud Freelancing, thuê chuyên gia trong ngắn hạn giải quyết linh hoạt từng scope nhất định",
-    "D": "Tinh gọn cấu trúc tổ chức, bỏ qua cấu trúc quản lý mô hình và chuyển thẳng qua các nền tảng chat trực tuyến chung"
+    "A": "Thực hiện áp bộ khung Project-Based, trực tiếp đập vụn một kế hoạch phát triển có kỳ hạn siêu viễn chinh thành những chuỗi vòng bao dự báo vi mô có cấm chỉnh sửa tham số để đánh giá dự toán liên tục hoàn thiện.",
+    "B": "Áp dụng kỹ năng thiết lập mô hình ODC xây dựng vững chắc với nòng cốt là một đội ngũ nhân sự chuyên trách, luôn trong tư thế linh hoạt để mở rộng biên độ quy mô cho siêu dự án cấu trúc vô cực dài.",
+    "C": "Triển khai một nghệ thuật ngoại giao chiêu mộ cấp tốc mã hợp đồng Hybrid Cloud cá nhân Freelance nhằm vá ngay điểm liệt năng lực ngắn hạn tạm thời từ đó thông luồng ngay chuỗi rào cản tắc nghẽn vô hình đang khóa dòng code.",
+    "D": "Phát lệnh tiêu hủy các ràng buộc thuộc cấu trúc khung phân quyền kiểm toán minh bạch quản lý trung gian, qua đó ban truyền đặc ủy thực thi quản trị phi tập trung thông qua việc thiết lập nền liên lạc chuỗi đa phân bộ phận."
   },
   "TR-D01": {
-    "A": "Thái Lan - Quốc gia sở hữu hệ sinh thái đảo nghỉ dưỡng phổ biến trong du lịch văn hóa",
-    "B": "Campuchia - Láng giềng Đông Nam Á từng bị thí sinh đặt nhầm châu lục trong bản đồ",
-    "C": "Lào - Nước có chung đường biên giới nhưng hay bị nhầm lẫn về vị trí địa lý phía Nam",
-    "D": "Singapore - Đảo quốc nổi tiếng được một số ít sĩ tử gắn mác là trung tâm kinh tế châu Mỹ"
+    "A": "Vương quốc Thái Lan - Địa khu quốc gia vàng ngọc độc quyền sở hữu hệ cảnh quan môi trường sinh thái nghỉ dưỡng hải đảo làm chao đảo thế giới trong tuyến điểm du lịch chuyên sâu khám phá các nền văn hóa truyền thống.",
+    "B": "Cộng hòa Campuchia - Quốc gia hữu hảo láng giềng nằm tại khu vực Đông Nam Á đã từng bị một số thí sinh vô tình nhầm lẫn định vị rồi đặt lạc sang thẳng một châu lục viễn xứ ở phía đối diện bán cầu.",
+    "C": "Cộng hòa Dân chủ Nhân dân Lào - Quốc gia bè bạn láng giềng thân thiết duy nhất sát sườn chung vách biên giới miền núi hoang dã nhưng thường xuyên bị những lứa học sinh đánh mất nền tảng định vị nhầm trệch xuống miền nam cực.",
+    "D": "Cộng hòa Singapore - Ốc đảo quốc gia xanh đô thị có kết cấu cực kỳ sạch đẹp, lại sở hữu diện tích nhỏ gọn song cũng vô tình bị một số ít học sinh đặt lầm tên vào một khu kinh tế thuộc bờ biển Mỹ xa xôi."
   },
   "TR-D02": {
-    "A": "Châu Âu",
-    "B": "Châu Mỹ",
-    "C": "Châu Phi",
-    "D": "Server quốc tế ngoài Trái Đất"
+    "A": "Một phân khu vực mang thông số tọa độ địa lý ngự ở biên giới của khối lãnh thổ Châu Âu khổng lồ, điểm hội tụ cho toàn bộ nhóm lâu đài kiêu hãnh với nền văn minh học thuật cổ đại tinh hoa suốt ngàn năm.",
+    "B": "Bản thể của không gian thực địa lục địa Châu Mỹ bao la trù phú quy tụ những trung tâm đô thị tài chính quyền lực của New York hay đại hệ sinh thái đổi mới công nghệ sáng tạo đẳng cấp hàng đầu thế giới Silicon Valley.",
+    "C": "Lục địa Châu Phi - Một khu vực có diện tích bao la rộng lớn tọa lạc thuộc về vùng phương trời hoàn toàn cách biệt bên kia thế giới, chệch hướng sai lệch nghiêm trọng đối với vùng xác định địa lý thực tại nguồn gốc trên bản đồ.",
+    "D": "Địa chỉ mô phỏng về một dạng trạm kết nối thông tin không gian siêu thực hoạt động nhờ tập lệnh phân tán trong mạng lưới lưới thế giới vũ trụ mà không hề được tương quan gán ghép chuẩn chỉ so bằng địa điểm hình thái Trái Đất."
   },
   "TR-D03": {
-    "A": "Hai nhân vật lỗi lạc thuộc chung một dòng họ với những đóng góp độc lập lớn trong Lịch sử",
-    "B": "Những đồng minh có xuất thân tướng lĩnh, cùng nhau chỉ huy các chiến dịch kháng chiến",
-    "C": "Chỉ là hai cách gọi khác nhau của cùng một vị Hưng Đạo Đại Vương oai hùng thời nhà Trần",
-    "D": "Hai chiến lược gia từng viết nên những trang sử chung nhưng do hai tác giả chép sử ghi lại"
+    "A": "Bản chất là hai pho lịch sử về những nhân vật có công hiển hách cực độc lập và sở hữu thành tựu vô giá nhằm mục đích bảo vệ đất đai ngàn năm hùng trấn dẫu hai người có cùng mang xuất thân bối cảnh gia đình học.",
+    "B": "Đội ngũ liên thủ hai vị tướng soái quân thần có máu mặt xuất đạo gốc rễ danh gia trí tuệ vô song, cả hai chính là minh chủ đồng thành lập bộ não dẫn dắt lực lượng bảo an đối phó quân bành trướng biên ải rợ Hung Nô.",
+    "C": "Thực chất đây chỉ là hai biến thể tên tuổi dùng độc lập của cùng chung một bậc đại trượng phu anh hùng cái thế trong hệ sinh thái dòng chảy lịch sử Việt Nam, người được vô cùng sùng kính vì nghiệp lớn quân quân trị quốc an dân.",
+    "D": "Đây thực ra lại là tên mô phỏng của bộ đôi vị học giả nhà binh vô cùng uyên bác tinh thâm thuở nhà giáo ngày xửa cổ, những nhân tố bí ẩn ghi chép đóng khung trang lịch sử và để lại bảo chứng bút tích dưới dạng độc sao."
   },
   "TR-D04": {
-    "A": "“Mang luôn hết cả đề thi đại học năm nay đến đây”",
-    "B": "“Mang ngay vị CEO quyền lực của hội đồng ra đây”",
-    "C": "“Cấp ngay chiếc xe điện của tỷ phú sang châu đây”",
-    "D": "“Hãy mang cả bộ biểu đồ đánh giá năng lực ra đây”"
+    "A": "Khẩu hiệu hô hào mãnh liệt cổ súy cảm hứng tinh thần bứt phá táo bạo với dòng lệnh ngắn gọn như câu thần chú: 'Mang ngay tất cả xấp đề thi đại học tới đây' nhằm tăng thêm máu lửa khích lệ chiến trường học đường vào 2024.",
+    "B": "Khẩu hiệu cực căng như một tuyên xưng chiến trực diện, đòi hỏi một sự diện kiến 100% nhân thân vị tổng giám đốc điều hành trực tiếp phải ra khu bàn công tố viên khẩn trương để chất vấn xử lý quy trình đánh sập phòng truyền thông ảo.",
+    "C": "Mang một vẻ đùa giỡn sâu cay tạo cú hit từ ngữ khổng lồ, qua đó đề nghị ban ân nhân phân phát viện trợ hẳn một chiếc xế hộp thông minh điện tử không người lái của tỷ phú đô la cốt để băng rừng chuyển hành trình lục địa biển.",
+    "D": "Dòng khẩu lệnh giải tỏa hệ thần kinh căng cựa hóm hỉnh do tập hợp hội nhóm sinh viên chế thành nhằm gây áp lực ban giám khảo phát ngay bảng đánh giá phân luồng kỹ năng siêu đỉnh để tiến hành kiểm chứng đo kết quả điểm ranh giới."
   },
   "TR-D05": {
-    "A": "Elon Musk - Đóng góp những phát biểu truyền cảm hứng sau mỗi sự kiện không gian",
-    "B": "Donald Trump - Ứng cử viên với các cụm từ nổi tiếng khi hoàn thành buổi phát biểu",
-    "C": "Cristiano Ronaldo - Màn ăn mừng thành công đặc trưng và kinh điển bật nhất thế giới",
-    "D": "Steve Jobs - Cha đẻ Apple, một hình mẫu bùng nổ mà sinh viên dùng làm biểu tượng báo cáo"
+    "A": "Nhà khoa học công nghệ, tỷ phú vũ trụ Elon Musk - Ông trùm tư bản duy nhất đạt công suất phát ngôn cực phẩm cổ xúy triết lý liên sinh cho bầy đàn tín đồ vào phút giây một module hỏa tiễn của ông ta băng phá rạch trời xanh xa thẳm.",
+    "B": "Ứng viên số một cựu tổng thống Donald Trump trị vì Hoa Kỳ quốc - Khẳng định danh xưng như một đấng hùng trứ danh với khối tàng nghệ thuật thuật ngữ ngôn từ sắc sảo tạo sóng toàn hệ sinh thái thông tấn xã ngay phiên bế mạc kết luận vấn đàm trực tuyến.",
+    "C": "Kỷ lục gia tiền đạo xuất chúng với cúp vô địch bóng đá nhiều nhất lịch sử nhân loại Cristiano Ronaldo, sở hữu một trào lưu biểu tượng hành động màn hò reo ăn mừng bàn thắng vang dội mãnh liệt và đầy kiêu hãnh của biểu tượng người truyền nguồn lửa phấn khích.",
+    "D": "Người vĩ nhân thiên tài phát triển phần mềm Steve Jobs - Sáng tạo viên khai phá lý luận triết học sản phẩm hoàn não của đại đế Apple quyền lực, một dấu ấn thiết kế tinh xảo thường được các bạn tân sinh viên trường đồ họa bắt nguồn khơi cảm ứng dạt dào."
   },
   "TR-D06": {
-    "A": "Đen Vâu - Nghệ sĩ Rap với những bài đăng được phân tích rầm rộ là vô tình báo mộng luôn trúng đề",
-    "B": "Ronaldo - Được đem làm dự đoán nhờ những con số thống kê ngẫu nhiên trong bài kiểm tra ngoại ngữ",
-    "C": "Elon Musk - Tác giả những dòng tweet có chứa ẩn ý sâu xa dẫn dụ tới chủ đề môn tự nhiên trên bài thi",
-    "D": "Donald Trump - Hình mẫu dùng thuật ngữ quản trị làm đề thi Lịch sử thế giới hay gây sốt cộng đồng"
-  },
-  "TR-D07": {
-    "A": "Các bộ sạc dự phòng chuyên dụng đảm bảo năng lượng cần thiết để kích hoạt thiết bị chạy deadline",
-    "B": "Chiếc bút phong thủy mang hy vọng sẽ tô đỏ bảng điểm khi công nghệ không còn có thể vận hành",
-    "C": "Quyển Atlat truyền thống - một cơ sở dữ liệu vật lý không cần cắm điện nhưng cứu sống sĩ tử mùa thi",
-    "D": "Công cụ giải trí vật lý để giải tỏa ức chế khi hệ thống ngưng trệ bất chợt trong thời gian làm khóa luận"
-  },
-  "TR-D08": {
-    "A": "Ritsumeikan và Keio - Sự kết hợp hoàn hảo từ hai đại học danh giá tại Nhật Bản",
-    "B": "Harvard và Oxford - Khái niệm chuẩn mực lấy cảm hứng từ các học viện toàn cầu",
-    "C": "Bách khoa và Kinh tế Quốc dân - Nhóm trường tinh hoa kỹ thuật ở Việt Nam",
-    "D": "Hogwarts và Xavier - Biểu tượng phép thuật mang đến những điều kỳ tích đột phá"
-  },
-  "TR-TB01": {
-    "A": "Cần ngay lập tức tra cứu số liệu đa chiều nhằm xác định và điều chỉnh lỗ hổng kiến thức căn bản",
-    "B": "Lên lịch tổ chức buổi thuyết trình phản biện để chứng minh luận điểm đó là sai lầm có chủ đích",
-    "C": "Đàm phán với hội đồng chuyên gia về địa lý để thiết lập ranh giới mới trên nền tảng chiến lược",
-    "D": "Mở ứng dụng đồ họa để nhanh chóng đổi màu các nước trên bản đồ sao cho lấp liếm được sự cố"
-  },
-  "TR-TB02": {
-    "A": "Sự cuồng nhiệt đối với những nhà công nghệ nổi bật nhưng hay để lại hậu quả xử lý quá cồng kềnh",
-    "B": "Trần Hưng Đạo – Trần Quốc Tuấn, hệ quả từ việc bị nhầm lẫn danh xưng dẫn đến giải toán chệch hướng",
-    "C": "Việc ấn tượng với sự dời đổi bản đồ dẫn đến những thay đổi bất thình lình về mặt vị trí trong quy trình",
-    "D": "Hành động hô to ăn mừng nhưng lại bị sụp đổ bất ngờ do hiểu nhầm quy cách ứng xử cấp trên giao phó"
-  },
-  "TR-TB03": {
-    "A": "“Đừng quên việc back-up toàn bộ tài liệu về server dự phòng tránh trường hợp đề thực sự khó”",
-    "B": "“Nhưng xin là không hề hấn gì, mong đề giảm tải hay ít nhất đừng lặp lại độ khốc liệt của năm 2018”",
-    "C": "“Team chúng tôi đã kiểm nghiệm tất cả các biến số và đồng thuận về giải pháp này từ ban sáng”",
-    "D": "“Với điều kiện các task kia hãy nới rộng biên độ thời gian hoàn thành bởi deadline chưa tới”"
-  },
-  "TR-TB04": {
-    "A": "Toán - Phân định bằng loạt bài tập xác suất tích phân vận dụng cao",
-    "B": "Hóa - Đi sâu vào phản ứng hữu cơ kết nối hàng chục chất phức tạp",
-    "C": "Tiếng Anh - Cấu trúc ngữ pháp đa tầng kết hợp khối từ vựng hẹp",
-    "D": "Tin học - Đòi hỏi tư duy lập trình C++ với thuật toán nâng cao"
-  },
-  "TR-TB05": {
-    "A": "Chỉ làm trọn vẹn 20 trên 40 câu sau thời gian chật vật đối mặt",
-    "B": "Hoàn thiện được mức độ an toàn khoảng 25 trên 40 câu",
-    "C": "Chạm mức khả thi với độ khó là 35 trên 40 câu trọn vẹn",
-    "D": "Vượt ngoài khả năng dự tính để phân giải 41 trên tổng 40"
-  },
-  "TR-TB06": {
-    "A": "“Kẻ xuất sắc không được khóc vì đây chỉ là đợt sóng đầu tiên”",
-    "B": "“Hãy phát đề đây cho một ứng cử viên đầy triển vọng”",
-    "C": "“Khoan để yên cho tôi tiêu hóa hết độ khó ba bài đọc hẵng”",
-    "D": "“Màn ăn mừng quá hoành tráng chuẩn bị cho điểm 10 sắp đến”"
+    "A": "Thi sĩ dòng nhạc Rap đình đám Đen Vâu - Biểu tượng nghệ sĩ đương đại sở hữu mạng lưới những bài viết sáng tác bị cộng đồng soi chiếu bóc tách sâu phân tích siêu phàm rồi kết luận hùng hồn là có tiên tri luôn trúng phóc cái đề phân loại thí sinh quốc gia.",
+    "B": "Biểu tượng thể thao vĩ đại huyền thoại sân cỏ Cristiano Ronaldo vô hình bị cuốn vào vòng lốc xoáy với vô ngàn bình luận phân tách thần học đếm từng cử động tay để mong mỏi định dạng kết quả trắc nghiệm ngoại ngữ anh văn bằng cách soi từng tần suất ngẫu nhiên biểu lộ chiến thắng trận định phận.",
+    "C": "Cựu CEO mạng chim xanh Elon Musk lại nằm trong tầm ngắm bị giới phân tích cho lên chảo bới bèo ra bọ với một tệp dữ liệu ngàn mẩu trạng thái viết tắt lố lăng nhưng ngập ngàn mảng triết lý hệ quy chiếu vật lý liên hệ thực tế cho khối tự nhiên phức hợp công nguyên.",
+    "D": "Chính khách vĩ đại với vô số biệt danh truyền thuyết ngài Donald Trump hay được ngòi bút châm biếm móc ra làm nền tảng hệ quy chiếu ví dụ luận cho một rổ hệ thuật ngữ ngữ pháp học kinh tế để chứng minh tính chuẩn xác trong thay thế diễn đàn truyền thông sử mệnh lịch sử đánh giá."
   }
 }

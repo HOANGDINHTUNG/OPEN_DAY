@@ -1,98 +1,98 @@
 {
   "NL-TB06": {
-    "A": "Ngừng bài thuyết trình để lập tức liên hệ với đội ngũ IT (bộ phận hỗ trợ kỹ thuật)",
-    "B": "Quay lưng về phía hội đồng và cố gắng cài đặt lại cấu hình kết nối mạng của máy tính",
-    "C": "Bình tĩnh tiếp tục bài diễn thuyết bằng nội dung đã chuẩn bị sẵn và tự xử lý sự cố",
-    "D": "Kết thúc sớm bài thuyết trình và chuyển sang một tài liệu giải trình bổ sung nộp sau"
+    "A": "Tạm ngưng hoàn toàn sự kiện trình diễn để thiết lập phiên liên lạc khẩn cấp yêu cầu đội hỗ trợ trực tiếp can thiệp.",
+    "B": "Lập tức tạm dừng nhanh mạch logic luận điểm để tự tra soát toàn bộ sơ đồ cổng truyền thông cáp trên thiết bị nguồn.",
+    "C": "Giữ vững bình tĩnh, tiếp tục thực hiện bài diễn thuyết trơn tru bằng nội dung đã chuẩn bị và cố gắng tự xử lý.",
+    "D": "Chủ động đưa ra quyết định kết thúc sớm bài báo cáo và thay thế mô đun trực tiếp bằng một tài liệu giải trình."
   },
   "NL-TB07": {
-    "A": "Sự hiệp đồng chỉ diễn ra khi mọi bên đều liên kết tốt và giao tiếp trên cùng tần số",
-    "B": "Tín hiệu hoạt động hiệu quả nhất khi được gửi đi mà không cần xác nhận nhận lại",
-    "C": "Sự đồng bộ hóa diễn ra hoàn toàn tự động, độc lập mà không tiêu hao bất kỳ tài nguyên nào",
-    "D": "Luồng dữ liệu được truyền tải trực tiếp một chiều, bỏ qua các bước đồng thuận trung gian"
+    "A": "Sự hiệp đồng chỉ diễn ra chuẩn xác khi mọi phía đều tạo lập liên kết tốt và thực thi giao tiếp trên cùng tần số.",
+    "B": "Luồng tín hiệu từ hệ thống máy phát có xu hướng hoạt động vô trùng bất chấp việc đầu nhận không có bất kỳ phản hồi.",
+    "C": "Sự phân tách định vị truyền tin kỹ thuật số giúp các cá nhân trong nhánh vận hành tốt luồng báo cáo song song tách biệt.",
+    "D": "Khối thông tin giao tiếp luôn được cấu trúc truyền dẫn đóng kín theo một chiều từ cấp lãnh đạo mà hủy bỏ mọi sự thẩm định."
   },
   "NL-TB08": {
-    "A": "Hệ thống các giá trị, định mức xử sự và lăng kính quản trị được chia sẻ bên trong mục tiêu chung",
-    "B": "Các giao thức truyền thông xã hội và cách tổ chức sự kiện phong trào trong nội bộ doanh nghiệp",
-    "C": "Quy chế chi tiêu tài chính, chế độ đãi ngộ và hệ thống quyền lợi phúc lợi khen thưởng",
-    "D": "Danh sách các nguyên tắc mặc định được cài đặt sẵn vào mọi thiết bị thuộc mạng lưới công ty"
+    "A": "Hệ thống bao quát các giá trị đạo đức, định mức hành vi chuẩn và góc nhìn xử thế được chia sẻ cho chung mọi người.",
+    "B": "Tập hợp những quyết sách của tổ chức công đoàn bộ phận kèm theo hệ lịch trình chia lẻ nghỉ ngơi nhằm giữ vững phúc lợi.",
+    "C": "Một nguồn vốn chi tiêu luân chuyển được xây dựng bởi phòng ban quản lý để phân phát duy trì chuỗi vinh danh ghi nhận thành tích.",
+    "D": "Danh mục bao hàm bộ quy chế kỷ luật nội tiêu khắt khe nhất, dùng để áp chế trật tự cấu trúc làm việc kiểm soát việc đi trễ."
   },
   "NL-TB09": {
-    "A": "Hoàn thành công việc khẩn cấp theo yêu cầu chuyên môn, có deadline trong vòng 30 phút",
-    "B": "Cập nhật kiến thức phát triển bản thân qua kênh video để nâng tầm tư duy chiến lược",
-    "C": "Xem xét thay đổi định vị hình ảnh cá nhân trên nền tảng mạng nghề nghiệp trực tuyến",
-    "D": "Ưu tiên việc kết nối, duy trì các mối quan hệ xã hội quan trọng vào khoảng thời gian rảnh"
+    "A": "Hoàn thành toàn diện công việc trọng tâm mang tính khẩn cấp theo yêu cầu bộ môn chức năng, đòi hỏi phải giao ca trong 30 phút.",
+    "B": "Thực hiện chu trình rà soát kho tri thức học tập nhằm phát triển chiều rộng tư duy linh hoạt liên hệ phục vụ giới quản lý chuyên môn.",
+    "C": "Nhanh chóng đo đếm tái định dạng cấu trúc hệ thống mô tả hình ảnh thương hiệu bản thân tại hồ sơ trực tuyến quốc tế thu hút quan tâm.",
+    "D": "Bổ sung lượng ngân sách thời gian mở rộng cho việc gặp mặt cà phê ngoại giao với tệp thị trường thân thuộc nhằm giữ lấy ưu tiên độc quyền."
   },
   "NL-TB10": {
-    "A": "Ứng dụng ngôn ngữ hình thể một cách linh hoạt, tạo nhịp điệu để kích thích sự chú ý",
-    "B": "Biết điều hướng luồng thông tin, đặt câu hỏi gợi mở để người tham gia tương tác trực tiếp",
-    "C": "Bám sát toàn bộ văn bản hiển thị trên slide, đọc chi tiết bằng giọng điệu cung cấp tin tức",
-    "D": "Biết cách cấu trúc độ trễ và khoảng lặng hợp lý, giúp thính giả kịp tiêu hóa thông tin"
+    "A": "Ngôn ngữ hình thể được nắn nót đo đếm cường độ, kết nối thành những đợt dao động trên khu vực báo cáo thu trọn điểm nhìn đối tác.",
+    "B": "Nghệ thuật điều phối phân luồng dữ kiện song hành bộ câu hỏi phản cung ngẫu nhiên, kéo khán giả kẹt vào cuộc lặn ngụp phân tích các tín hiệu ảo.",
+    "C": "Chỉ tập trung chằm chằm theo dõi bám sát mọi dòng văn bản in trên nền slide hiển thị, thao diễn bằng một tông giọng ngang đều nhàm chán.",
+    "D": "Năng lực cài cắm khéo léo chuỗi độ lùi im lặng vừa mức ngay khoảng nối kết các khái niệm sâu, nhường ra dư địa cho não bộ người nghe phân tích."
   },
   "NL-TB11": {
-    "A": "Luôn cần thiết lập cơ chế sao lưu dữ liệu phân tán (backup) để phòng tránh rủi ro hệ thống",
-    "B": "Cần cấu hình định kỳ việc khôi phục gốc toàn bộ ứng dụng trên máy để đảm bảo độ mượt",
-    "C": "Lưu trữ tập tin ở phân vùng ổ cứng ngoài nhưng không ngắt kết nối an toàn sau khi sử dụng",
-    "D": "Biện pháp tối ưu nhất là thay thế phần cứng lưu trữ ngay khi thấy dấu hiệu đầy dung lượng"
+    "A": "Luôn luôn cần phải thiết lập chiến lược định kỳ sao lưu dữ liệu cục bộ lẫn phân tán nhằm chống lại nguy cơ rủi ro sập hệ thống.",
+    "B": "Phải liên tục tiến hành tái lập trạng thái thiết bị nguyên bản (factory reset) đồng bộ nhằm xả sạch hết lượng lưu trữ nhớ đệm trước khoảnh khắc lưu tệp.",
+    "C": "Dồn hết dung lượng bộ hồ sơ hệ thống sao chép sang định dạng tệp thư mục gốc vật lý cầm tay đồng thời giật tháo dây đột ngột khóa điện năng.",
+    "D": "Chính sách duy nhất để vãn hồi tính nguyên vẹn cho ổ lưu trữ dạng rắn là tiến hành thu gom nâng đời các thanh phần cứng định kỳ lúc sụt pin."
   },
   "NL-TB12": {
-    "A": "Thu thập dữ liệu, phân tích khuyết điểm trong lập luận để có thể phản biện lại ngay lập tức",
-    "B": "Đồng bộ hóa đa nhiệm bằng việc vừa tham dự vừa xử lý các tác vụ số hoặc email khác",
-    "C": "Tập trung giải mã thông điệp, đặt câu hỏi làm rõ và phản hồi khách quan trên cơ sở đã tiếp nhận",
-    "D": "Tạo ra các tín hiệu phi ngôn ngữ liên tục như gật đầu, đồng tình dù nội dung chưa rõ ràng"
+    "A": "Lượm lặt nhặt nhạnh thật kỹ mọi thông số thể hiện sự bất đối xứng trong bộ luận điểm trình diễn để nhanh tay kích hoạt lá bài tấn công chất vấn.",
+    "B": "Kỹ thuật phản xạ hoạt động phân mảnh chia để trị ép hệ thần kinh đa nhiệm vừa giả vờ đang tương tác vừa hoàn tất ồ ạt mớ email tắc nghẽn.",
+    "C": "Dành sự tập trung chuyên môn để giải mã cốt lõi vấn đề thông điệp, kết vần mở câu hỏi làm rõ rồi phản hồi vô tư thông qua dữ liệu thật.",
+    "D": "Khởi động kịch bản ánh xạ thụ động bằng chuỗi phát tín hiệu gật đầu không lý do hay cười mỉm đáp trả dẫu tư duy không ghi chép lấy mảnh nội dung."
   },
   "NL-TB13": {
-    "A": "Đây là nhận định chính xác vì logo đóng vai trò kích thích nhận dạng thị giác duy nhất",
-    "B": "Sai, thương hiệu bao hàm sự kết hợp của giá trị, cảm nhận, uy tín, chứ không chỉ là logo",
-    "C": "Đây là nền tảng cốt lõi, nhưng phải phụ thuộc vào quy chuẩn kích thước logo khi xuất bản",
-    "D": "Tính pháp lý của thương hiệu chủ yếu được đo lường bằng bản quyền kiểu chữ hiển thị"
+    "A": "Định lý chuẩn xác tuyệt hảo và không thể tranh cãi, do chỉ số độ phân giải in ấn quy chuẩn của biểu trưng đó ảnh hưởng mạnh đến sinh kế kinh doanh.",
+    "B": "Khẳng định sai lầm, bởi giá trị một thương hiệu chuyên nghiệp bao phủ mạng lưới uy tín chất lượng dịch vụ phức tạp chứ đâu chịu bó ngắn qua khung hiển thị.",
+    "C": "Đây chính là bộ định luật tiên quyết vĩ mô, song tính ứng dụng còn nhảy số biến thiên bấp bênh lệ thuộc vào file ảnh định dạng khối dẹt lưới màu sắc.",
+    "D": "Uy tín của hệ tư tưởng một dòng thương mại hàng hóa trên bản đồ tiêu dùng chặng cuối chốt chặn tại khả năng phòng ngự bảo hộ phông chữ kỹ nghệ sở hữu."
   },
   "NL-TB14": {
-    "A": "Xác thực danh tính và đảm bảo tính duy nhất, không trùng lặp cho mỗi bản ghi trong bảng",
-    "B": "Mật khẩu quản trị cấp cao dùng để mã hóa toàn bộ dữ liệu máy chủ trong trường hợp sự cố",
-    "C": "Là công cụ tối ưu hóa cấu trúc đường truyền, gia tăng tốc độ kết nối Wi-Fi trong mạng LAN",
-    "D": "Quyền truy cập ưu tiên được gán cho các tài khoản dùng để backup toàn bộ cơ sở dữ liệu"
+    "A": "Yếu tố xác thực danh tính cá biệt nhằm duy trì ràng buộc tính duy nhất tuyệt đối, triệt tiêu mọi sự trùng lắp định danh cho các ô bản ghi dữ liệu.",
+    "B": "Hệ giá trị chuỗi kỹ tự siêu bảo mật được trưởng nhóm quản trị trao phó đặc quyền mã hóa hệ thống tệp đính kèm điện toán khi đụng độ truy cập độc.",
+    "C": "Một tệp giao thức chuẩn mực thiết lập phục vụ khép tín hiệu mở luồng cho cụm thao tác truy vết gia tăng tối chuẩn lượng thông tin định tuyến nội hạt công sở.",
+    "D": "Bản công hàm mệnh lệnh đặc ân cao cấp nhất từ cấp lãnh đạo tối cao có phép phân rã cấu trúc hệ vật lý cho hành trình tự động hóa cuối cuối ngày."
   },
   "NL-TB15": {
-    "A": "Tổng doanh thu bù đắp vừa đủ tổng chi phí hoạt động, khiến lợi nhuận chạm ở mức số 0",
-    "B": "Chỉ số doanh thu không tăng trưởng, giữ vững ngang bằng ở chỉ số 0 suốt chu kỳ báo cáo",
-    "C": "Tổng giá trị tài sản thu được của công ty bằng chính xác tỷ lệ tổng chi phí vay vốn",
-    "D": "Chỉ tiêu đánh giá (KPI) của tất cả mọi phòng ban đạt định mức tối đa 100% trong tháng"
+    "A": "Ngưỡng đo lường nơi cột mốc tổng thu nhập kiếm về phản hồi cân bằng ngang một với tổng kinh phí bỏ ra duy trì, kéo con số dư lãi rơi sát vạch mo không.",
+    "B": "Chỉ báo hạch toán doanh thu bán chạy lao dốc không phanh về mốc dưới ngưỡng cảnh báo trừ âm, kéo theo làn sóng cạn kiện đông kết khô héo dòng luân chuyển ngân quỹ.",
+    "C": "Tổng tỷ lệ hiện vật cố định sau thuế đang được thu gom lại bởi hệ phái tổ chức có chỉ số bám sát hằng số dao động đo đếm khối ngân phiếu đi vay.",
+    "D": "Ma trận KPI điểm số theo dòng hoàn tất của một trăm phần trăm phòng chuyên gia chuỗi cung ứng báo đạt giới hạn hệ số năng lực thi công vô khuyết khổng lồ vĩ mô."
   },
   "NL-K01": {
-    "A": "Click ngay lập tức vào file báo cáo vì email có gắn mác thư điện tử khẩn cấp từ ban giám đốc",
-    "B": "Chuyển tiếp thư cho các phòng ban liên quan để xác nhận chéo, sau đó thử thao tác theo hướng dẫn",
-    "C": "Kiểm tra kỹ tên miền người gửi, không nhấp vào liên kết ngoài, và xác minh bằng kênh chính thống",
-    "D": "Nhập thông tin theo yêu cầu của liên kết để mở khóa, sau đó thực hiện thao tác đổi lại mật khẩu"
+    "A": "Truy cập nhấp chuột tốc biến phi thường vào nội dung gói tập dữ liệu tải về mang theo bộ cảnh báo đứt cáp đỏ khẩn vì rủi ho cấm cửa khóa số kết nối.",
+    "B": "Tiến hành truyền tiếp khẩn khoản đoạn mã lá thư dọa dẫm đến hệ phòng thủ đường truyền viễn thông với mục tiêu chạy thủ tục mở luồng đánh giá khôi phục mạng phản chéo.",
+    "C": "Chậm rãi cẩn trọng thực hiện thủ tục rò tìm định vị xuất phát điểm người gửi, hoàn toàn cách ly với nút liên kết bên ngoài để chốt xác thực bằng luồng thông tin cứng.",
+    "D": "Nhân nhựa đầu hàng tiến trình khai bào định danh cá nhân nhạy bén cơ bản của nhân tài nhằm phá thế khóa tài khoản giam tự động trước lúc nhảy vọt thực hiện qua trung gian."
   },
   "NL-K02": {
-    "A": "Sử dụng làm dữ liệu chính vì thuật toán ngôn ngữ lớn thường ít khi tự tạo ra các con số sai lệnh",
-    "B": "Copy toàn bộ nội dung, chỉnh sửa một số từ vựng địa phương để nộp ngay trước hạn deadline",
-    "C": "Trích xuất, đối chiếu, và xác thực tất cả những số liệu trên với các nguồn tài liệu đáng tin cậy",
-    "D": "Thêm ghi chú 'Dữ liệu được nghiên cứu phân tích tự động' là đủ để đảm bảo được độ xác thực"
+    "A": "Chọn luôn tín ngưỡng một tuyệt và đưa ma trận thông số xuất ra làm định chuẩn nền vì AI thì dĩ nhiên chẳng bao giờ gặp trúng trường hợp xao nhãng kết suất lỗi cả.",
+    "B": "Quét chọn thao tác lấy luôn trọn vẹn tệp thô kỹ thuật số, bồi thêm vài bước tinh chỉnh từ vựng phổ cập đơn điệu để chêm nhanh chóng vào kho tư liệu vắt sữa sát nút hạn chót.",
+    "C": "Trích lọc số liệu từ cỗ máy ra ngoài quy chiếu chéo thực chứng, và phải thẩm tra mức độ xác thực đồng nhất toàn diện lượng tài liệu ấy cùng kho lưu trữ hệ giáo trình bảo chứng.",
+    "D": "Đính thêm một mảnh thông báo nhỏ lẻ quy chụp trách nhiệm truy vết cho một tổng đài thuật toán máy trạm phân tích ảo là nghiễm nhiên che kín mọi dấu chỉ truy vấn quy chiếu trắc nghiệp báo."
   },
   "NL-K03": {
-    "A": "Phủ định trực diện phương án của đối tác vì nó sử dụng một luồng tư duy và công nghệ đã lỗi thời",
-    "B": "Sử dụng lối đáp trả cá nhân thay vì tập trung vào những lỗ hổng trong giải pháp đang được đề xuất",
-    "C": "Ghi nhận lập luận đối phương, phân tích nguyên nhân chưa phù hợp và đề ra giải pháp thay thế hợp lý",
-    "D": "Tách một nhóm trao đổi nhỏ lẻ với khách hàng để cô lập giải pháp của đồng đội và tìm giải pháp khác"
+    "A": "Vận lực khởi động lá chắn phản đối vô tư với luồng thái độ phủ lấp căng kịch tuyến bởi phương án đối đầu quá sức rập khuôn dựa hệ lý luận lập trình thâm căn đã hoang phế.",
+    "B": "Vận dụng trọn kho ngữ vựng ngụy xưng ngạo ngược xoắn đuôi truy xuất tư cách đối tác hơn là phung phí sinh lực khai quật hệ sai sót nghiêm trọng nấp tại lòng bản nháp phơi bày sai sót.",
+    "C": "Dành sự mở cửa tôn trọng thu nạp lập luận của bạn, thấu hiểu tách lớp nhận định khúc mắc điểm gãy và chủ đích vạch một cung đường tiến thay thế vẹn toàn cân bằng khả thi tối ưu nhất.",
+    "D": "Thúc đẩy một sự kiện ly giáo môi trường đồng điệu để tự bọc lấy lá chắn khu trú tự quản, đứt mạch nối truyền với tư duy người khác mà mặc sức bành trướng giải pháp kế vị bất khả bàn cãi."
   },
   "NL-K04": {
-    "A": "Tham khảo tài liệu nghiên cứu mã nguồn mở trên các cổng thông tin công cộng",
-    "B": "Sử dụng băng thông cao để tải xuống các bản trình chiếu đa phương tiện nhẹ",
-    "C": "Truy cập hệ thống quản trị, xác thực ngân hàng, hoặc nhập liệu báo cáo chứa dữ liệu nhạy cảm",
-    "D": "Kiểm tra các hình ảnh truyền thông trên các nền tảng kênh mạng xã hội giải trí"
+    "A": "Thâm nhập vào hệ sinh thái quản lý bài giảng mở khai sinh ra từ quy chuẩn tình nguyện sinh viện cộng đồng quốc tế với cơ sở khoanh vùng chia khối kiến thức không mang nhãn mác cấp bậc nhạy cảm.",
+    "B": "Bật nút kích phát chu trình tải file băng thông độ đậm đặc cao cấp với tệp tư liệu phương tiện tương tác phổ thông mà lướt rào không dính líu chi trình ký bảo chứng mã đi kèm dấu sinh trắc học hạt.",
+    "C": "Xác nhận truy cập thâm nhập lớp máy chủ quyền lực tối cao, phê duyệt hồ sơ ngân khoản hoặc điều xuất tập báo cáo hồ sơ mang thông tin tối mật kinh tế thuộc quyền đặc ủy chuyên án nội bộ tổ chức.",
+    "D": "Tiến trình xem lướt bảng tin hệ văn hóa đọc qua loạt mạng xã hội chia sẻ vô danh không gánh theo quy ước điểm danh bằng giấy ủy quyền online qua nền mạng ẩn phục vụ đánh giá mức tương tác cổng LAN."
   },
   "NL-K05": {
-    "A": "Khả năng xác thực mức độ chuyên môn, tính khách quan của nguồn tin dựa trên các thông số gốc",
-    "B": "Kỹ năng tối ưu hóa công cụ đo lường hình ảnh, nhằm tìm ra nội dung bắt mắt và hợp thị hiếu",
-    "C": "Sự linh hoạt trong xử lý dữ liệu để tính toán, chọn lựa con số đem lại kết quả phù hợp dự báo",
-    "D": "Áp dụng phương pháp phân tích số đông thông qua các cuộc khảo sát ý kiến đồng nghiệp tham chiếu"
+    "A": "Có tư duy màng lọc sắc bén định mức chuyên độ, cân đo xác lập khả năng phản ánh độc lập đa chiều của nguồn tham chiếu với thang kiểm duyệt rà soát kỹ lưỡng truy ra bản gốc cấu tạo căn nguyên.",
+    "B": "Đỉnh cao tuyệt phẩm thủ pháp chuyên đi băm nát cấu trúc đo chuỗi đánh dấu quan tâm ảo thông số mồi nhử nhằm quây rào vùng định mức tiếp thị châm ngòi chia sẻ mả phủ mờ lớp xác chứng nguyên vẹn số kỹ nghệ.",
+    "C": "Tố chất xiếc đồ thị nhảy múa các trị số định dạng khối tích cực hòng chủ kiến tháo gỡ lắp ráp có mục tiêu mọi bộ phản luận mâu thuẫn hòng nhào nặn ra kết luân bẻ ngoặt lên chóp theo tính kế chỉ định.",
+    "D": "Kết quy theo mẫu mô-típ phân loại đứt khúc nhắm tới hội chứng thao túng tâm lý đám đông nhờ vô tư đu bám một mảng chuyên khảo bài viết phiến diện thu từ luồng phiếu bình bầu dân sự vắng mặt bảo chứng giáo dục."
   },
   "NL-K06": {
-    "A": "Việc thất bại trong phân đoạn quy trình này là do giới hạn kỹ năng của phòng PR phải không?",
-    "B": "Cơ sở vật chất của chúng ta không đáp ứng tiêu chuẩn nên nguyên nhân tất yếu là thiếu hụt ngân sách?",
-    "C": "Chúng ta cần bóc tách các luồng nguyên nhân cốt lõi và định giá khả năng giải quyết thực tiễn của giải pháp?",
-    "D": "Có thể lập báo cáo chuyển hướng sự cố sang các yếu tố khách quan không lường trước được không?"
+    "A": "Khoanh vùng tìm cho ra cá nhân bộ phận nào trực tiếp ra lệnh phát động nổ tung chốt nhạy cảm ngầm bế tắc, hòng phản hồi quyết định kỷ luật giáng chức mạnh nhắm trả phòng dịch vụ trốn chạy phán xử tổng hành dinh trừng phạt?",
+    "B": "Cấu trúc thiết bị vật tư đang thưa thớt phần màng bọc chống nghẽn cho băng tải mã mạng, vậy khả dĩ nguồn cơn chết chóc tóm lại phần nhiều rơi vào rắc rối đứt mạch nguồn rót đầu tư mỏng kém cỏi xập xệ?",
+    "C": "Chúng ta phải đồng tâm nỗ lực bóc tách những mảng rễ nguồn cơn vấn đề gốc và đánh giá quy chuẩn minh bạch mức tương thích giải quyết khả năng thành công có thể mang đến nhờ vận dụng giải pháp khắc phục thực tế dự thảo?",
+    "D": "Phải chăng cần lập tức phát hành cấp tốc chuỗi tài liệu thư báo xảo quyệt định hướng hoãn binh, đá trệch mảng sự cố đứt khối luồng trễ phớt ném trách nhiệm vào vô số diễn tiến thay đổi thị trường bão tố khách quan bên ngoài?"
   }
 }

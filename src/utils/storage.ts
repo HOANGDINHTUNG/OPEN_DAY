@@ -63,3 +63,66 @@ export function getLeaderboardStats(): LeaderboardStats[] {
 
   return stats;
 }
+
+export function getTopPlayers(limit: number = 3): AnonymousPlay[] {
+  const plays = getPlays();
+  const namedPlays = plays.filter(
+    (p) => p.playerName && p.playerName.trim() !== "",
+  );
+
+  namedPlays.sort((a, b) => {
+    if (b.highestLevel !== a.highestLevel)
+      return b.highestLevel - a.highestLevel;
+    return a.timestamp - b.timestamp;
+  });
+
+  const uniquePlays: AnonymousPlay[] = [];
+  const seenNames = new Set<string>();
+
+  for (const play of namedPlays) {
+    const name = play.playerName!.trim().toLowerCase();
+    if (!seenNames.has(name)) {
+      seenNames.add(name);
+      uniquePlays.push(play);
+    }
+  }
+
+  if (uniquePlays.length < limit) {
+    const mocks: AnonymousPlay[] = [
+      {
+        id: "m1",
+        playerName: "Tân Sinh Viên",
+        highestLevel: 7,
+        timestamp: Date.now() - 100000,
+      },
+      {
+        id: "m2",
+        playerName: "Khách Mời PTIT",
+        highestLevel: 6,
+        timestamp: Date.now() - 50000,
+      },
+      {
+        id: "m3",
+        playerName: "Người Bí Ẩn",
+        highestLevel: 5,
+        timestamp: Date.now() - 20000,
+      },
+    ];
+    for (const m of mocks) {
+      if (
+        uniquePlays.length < limit &&
+        !seenNames.has(m.playerName!.toLowerCase())
+      ) {
+        uniquePlays.push(m);
+      }
+    }
+  }
+
+  uniquePlays.sort((a, b) => {
+    if (b.highestLevel !== a.highestLevel)
+      return b.highestLevel - a.highestLevel;
+    return a.timestamp - b.timestamp;
+  });
+
+  return uniquePlays.slice(0, limit);
+}

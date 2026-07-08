@@ -18,87 +18,87 @@
     "D": "Chỉ số kỹ thuật đánh giá tần suất lỗi phát sinh của hệ thống trong quá trình vận hành"
   },
   "NL-D04": {
-    "A": "Tai nghe chống ồn giúp triệt tiêu tạp âm, tăng độ tập trung ở không gian chung",
-    "B": "Bàn phím cơ có tiếng gõ lớn để gia tăng tốc độ gõ phím khi làm việc nhóm",
-    "C": "Đèn bàn thông minh giúp điều tiết sinh học để giảm căng thẳng khi tập trung cao",
-    "D": "Giá đỡ màn hình đôi hỗ trợ xử lý đa nhiệm hiệu quả hơn trong thư viện"
+    "A": "Tai nghe chống ồn giúp triệt tiêu tạp âm, hỗ trợ tăng mức độ tập trung lúc làm bài.",
+    "B": "Bàn phím cơ quang học với âm thanh rõ nét hỗ trợ gõ phím nhanh khi nhập số liệu.",
+    "C": "Mẫu đèn bàn thông minh có chế độ cân bằng sáng, giúp bảo vệ mắt tránh bị nhức mỏi.",
+    "D": "Bộ giá đỡ màn hình phụ trợ giúp mở rộng không gian hiển thị thông tin học tập chung."
   },
   "NL-D05": {
-    "A": "Khả năng kịp thời bổ sung nguồn lực, năng lượng khi cá nhân và đội nhóm sắp cạn sức",
-    "B": "Khả năng phân phối lại nhiệm vụ một cách linh hoạt dựa trên dung lượng dự án",
-    "C": "Kỹ năng lập kế hoạch tài chính dự phòng khi nguồn vốn đầu tư ban đầu bị hao hụt",
-    "D": "Sự linh hoạt trong việc kết nối các phòng ban độc lập thông qua một quy trình chuẩn"
+    "A": "Khả năng kịp thời cung cấp thêm nguồn năng lượng thiết yếu dự trữ khi đội nhóm sắp cạn kiệt thể lực.",
+    "B": "Kỹ năng linh hoạt chia lại cấu trúc nhiệm vụ làm việc mỗi khi hệ thống dự án vượt tiến độ quá tải.",
+    "C": "Xây dựng cơ chế nền tảng tài chính dự phòng ưu việt nhằm đối phó với rủi ro đứt đoạn dòng tiền.",
+    "D": "Năng lực duy trì hệ kết nối giao tiếp hiệu quả giữa các cá nhân tách biệt trong một nhóm làm việc chung."
   },
   "NL-D06": {
-    "A": "Điều chỉnh tầm nhìn và tư thế ngồi, giúp hạn chế vấn đề xương khớp và mỏi cổ",
-    "B": "Tăng diện tích tản nhiệt cho laptop, giúp cải thiện hiệu suất phần cứng lên tối đa",
-    "C": "Mở rộng số lượng cổng kết nối ngoại vi cho các thiết bị văn phòng chuyên nghiệp",
-    "D": "Tạo góc nghiêng giúp tăng khả năng bắt sóng Wi-Fi từ các router ở khoảng cách xa"
+    "A": "Giúp điều chỉnh tư thế ngồi và tầm nhìn màn hình, hỗ trợ phòng tránh nhức mỏi xương cổ.",
+    "B": "Cung cấp hệ thống quạt tản nhiệt làm mát phần cứng, giúp giữ vững hiệu suất hoạt động máy vi tính.",
+    "C": "Mở rộng khả năng kết nối bằng cổng chuyển đổi đa năng phục vụ thiết bị văn phòng chuyên nghiệp.",
+    "D": "Tăng cường thêm diện tích phủ sóng cho bộ phát nguồn mạng, cải thiện hiệu quả tải liệu bắt sóng Wi-Fi."
   },
   "NL-D07": {
-    "A": "HR (Human Resources - Quản lý, phát triển và tuyển dụng nhân sự)",
-    "B": "PR (Public Relations - Quản trị và duy trì hình ảnh thương hiệu doanh nghiệp)",
-    "C": "QA (Quality Assurance - Đảm bảo và quản lý chất lượng dịch vụ nội bộ)",
-    "D": "BA (Business Analyst - Phân tích, đánh giá và lập kế hoạch nhân sự định kỳ)"
+    "A": "Bộ phận Nhân sự chịu tránh nhiệm chuyên xử lý quy trình quản lý, phát triển môi trường và quy hoạch tuyển dụng.",
+    "B": "Ban Quan hệ Công chúng thường đảm trách tốt nhất việc bảo vệ uy tín và xây dựng hình ảnh thương hiệu ngoài.",
+    "C": "Khối Đảm bảo Chất lượng chuyên theo dõi giám sát chuỗi quy trình và nhận định tiêu chuẩn xác lập mức độ lỗi.",
+    "D": "Đội Phân tích Nghiệp vụ nắm giữ toàn quyền vai trò thống kê số liệu chiến lược định hướng quy hoạch phân bổ tiền."
   },
   "NL-D08": {
-    "A": "Một chiếc webcam rời để cung cấp luồng hình ảnh phụ trợ chất lượng và rõ nét hơn",
-    "B": "Cáp mạng LAN nhằm đảm bảo tốc độ băng thông ổn định khi truyền phát video",
-    "C": "Sử dụng phần mềm AI nâng cấp độ phân giải hình ảnh từ camera mặc định",
-    "D": "Màn hình mở rộng để có thể nhìn rõ hơn các dữ liệu được trình chiếu trong buổi họp"
+    "A": "Một chiếc webcam rời sẽ cung cấp hiệu quả luồng hình ảnh phụ trợ với chất lượng vô cùng rõ nét khi hội thảo.",
+    "B": "Dây cáp cắm mạng dây giúp giữ vững chắc độ ổn định thông lượng đường truyền tín hiệu diễn ra liên tục không bị rớt.",
+    "C": "Hệ thống tự động sử dụng máy học để kích hoạt và tối ưu hóa độ nhạy sáng mà hoàn toàn không cần cam.",
+    "D": "Màn hình được treo phụ trên tường sẽ cung cấp một khoảng không gian hình ảnh độc lập để tiếp nhận nhiều tệp thông tin."
   },
   "NL-D09": {
-    "A": "Khoản tiền đầu tư dự kiến thu về sau khi đã trừ đi chi phí vận hành thường xuyên",
-    "B": "Phần chênh lệch còn lại thu được sau khi lấy tổng doanh thu trừ đi toàn bộ chi phí",
-    "C": "Tổng giá trị tài sản ròng mà công ty đang sở hữu tính đến thời điểm báo cáo",
-    "D": "Số tiền mặt thực tế mà công ty đang có trong tài khoản thanh toán tại ngân hàng"
+    "A": "Dòng vốn tiền đầu tư được kỳ vọng ước tính sẽ hoàn nhập thu lại về tài khoản trong khoảng thời gian chờ đợi.",
+    "B": "Phần tiền chênh lệch còn giữ lại được sau khi thực hiện việc lấy tổng số doanh thu trừ đi toàn bộ chi phí.",
+    "C": "Chỉ số hệ thống quản lý tổng giá trị ròng mà tổ chức doanh nghiệp đang có tư cách được đứng tên sở hữu hợp pháp.",
+    "D": "Khối lượng tiền mặt thực tế đã được công ty đối soát chặt chẽ hợp lệ ở tài khoản tín dụng tại ngân hàng chính."
   },
   "NL-D10": {
-    "A": "Ổ cứng thể rắn (SSD) di động với tốc độ truy xuất nhanh và dung lượng lưu trữ lớn",
-    "B": "Hệ thống lưu trữ phân tán NAS chuyên dụng cần được kết nối qua mạng nội bộ",
-    "C": "Phân vùng mã hóa an toàn trên dịch vụ cloud được cung cấp dưới dạng thuê bao",
-    "D": "Thẻ nhớ chuẩn SDXC có tính năng đồng bộ tự động dữ liệu văn phòng liên tục"
+    "A": "Chiếc ổ cứng trang bị công nghệ lưu trữ di động có khả năng ghi nhớ siêu nhanh và sở hữu dung lượng cực lớn.",
+    "B": "Một bộ quản lý trung tâm dữ liệu mạng nội bộ chuyên biệt đòi hỏi yêu cầu cáp đồng trục để đáp ứng tốc độ LAN.",
+    "C": "Không gian phân vùng trên điện toán đám mây mã hóa bảo mật hiện đại được duy trì hệ thống thông qua mô hình tài khoản thuê.",
+    "D": "Cấu trúc vi mạch thẻ nhớ đặc chế nhằm hỗ trợ tối ưu việc quản trị tự động phục hồi các tệp hình ảnh đa phương tiện."
   },
   "NL-D11": {
-    "A": "Lưu trữ tạm thời dữ liệu và các chỉ thị của phần mềm đang được CPU trực tiếp xử lý",
-    "B": "Lưu trữ hệ điều hành và các phần mềm, đảm bảo dữ liệu không mất đi khi tắt máy",
-    "C": "Phân tích và tính toán các luồng dữ liệu đồ họa, giảm tải cho bộ vi xử lý trung tâm",
-    "D": "Điều phối và phân giải các địa chỉ mạng cục bộ sang địa chỉ IP để truy cập internet"
+    "A": "Cụm nhớ nhanh lưu tạm lưu lượng dữ liệu và lệnh thuật toán của hệ phần mềm đang trực tiếp đợi bộ xử lý trung tâm làm việc.",
+    "B": "Khu vực sao chép bền vững chương trình cài đặt, có công dụng giữ an toàn các luồng tệp tin gốc nếu hệ thống sập nguồn do rớt điện.",
+    "C": "Khối mạch chuyên tinh chỉnh tham số môi trường hiển thị cho phép điều độ tác vụ xuất tín hiệu nhằm cứu nguy tình trạng nghẽn trung tâm dữ liệu.",
+    "D": "Trạm dẫn đường mã hóa và điều phối giao thức gửi tiếp nhận để phân vùng cổng định danh mạng đảm trách việc máy tính kết nối hệ thống mây."
   },
   "NL-D12": {
-    "A": "Công ty được thành lập vào năm 2008, mở đầu kỷ nguyên gia công phần mềm nội địa",
-    "B": "Ra đời vào năm 2010, sau khi các sáng lập viên hoàn thành khóa tu nghiệp tại Nhật Bản",
-    "C": "Được chính thức thành lập vào ngày 06/04/2012, với định hướng xuất khẩu phần mềm",
-    "D": "Được thành lập vào năm 2020, là một công ty tiên phong tập trung hoàn toàn vào AI"
+    "A": "Tổ chức chiến lược này chính thức ra mắt đi vào vận hành từ năm 2008, trở thành tiên phong dẫn đầu lập trình viên kỹ nghệ ra ngoài quốc tế.",
+    "B": "Được khai sinh ươm mầm vào giai đoạn sau mùa xuân 2010, liền khi ban quản trị sáng lập cốt cán đăng ký tốt nghiệp xong chứng chỉ đào tạo từ ngoại bang.",
+    "C": "Công ty chính thức được thiết lập hoàn thiện hành chính ngày 06/04/2012, với định hướng mũi nhọn vươn mình tiến lên mảng xuất khẩu chất lượng công nghệ thị trường toàn cầu.",
+    "D": "Bắt đầu cắt băng tổ chức khánh thành vào tâm điểm khủng hoảng bùng phát 2020, hùng hồn tuyên bố định vị độc tôn một hệ thống chuyên kiểm soát trí tuệ máy học nhân tạo."
   },
   "NL-TB01": {
-    "A": "Khái niệm giao tiếp bất đồng bộ, sử dụng chủ yếu trong phương pháp quản lý Agile",
-    "B": "Phương pháp Brainstorming mở, nơi các ý tưởng được đưa ra nhưng không bị phê phán",
-    "C": "Giao tiếp kém hiệu quả, cản trở việc tiếp nhận thông tin và làm chậm quá trình làm việc",
-    "D": "Tranh luận tự do nhằm khuyến khích đổi mới, xuất hiện nhiều trong các startup công nghệ"
+    "A": "Khái niệm hoạt động kết nối bất đồng bộ chéo chuyên biệt, được triển khai thiết lập chủ yếu trong cấu trúc quản lý linh hoạt Agile.",
+    "B": "Kịch bản triển khai không quy tắc nhằm khơi gợi tư duy, khi những góc nhìn được tự do đưa ra mà không bao giờ bị soi xét.",
+    "C": "Giao tiếp kém hiệu quả, có vấn đề truyền tải khiến người nghe bị kẹt thông tin và dần làm đình trệ quá trình hợp tác giải quyết công việc.",
+    "D": "Môi trường tranh biện thẳng thắn bộc phát, hỗ trợ tích cực sự nổi dậy của các trào lưu tạo mới luôn hiện diện tại trung tâm khởi nghiệp startup."
   },
   "NL-TB02": {
-    "A": "So sánh thông tin của khách hàng với chính sách nội bộ để phản biện lại khi cần thiết",
-    "B": "Lắng nghe cẩn thận, làm rõ và đồng cảm với vấn đề để đưa ra phương án xử lý phù hợp",
-    "C": "Yêu cầu khách hàng gửi email chính thức để hệ thống tự động ghi nhận theo chuẩn ISO",
-    "D": "Chuyển ngay phản hồi trực tiếp cho bộ phận kỹ thuật mà không cần xác nhận lại"
+    "A": "Truy xuất tức thời định danh khiếu nại báo cáo bằng cách mang đem so chiếu kịch kim với tiêu chuẩn dữ kiện công ty để đưa ra lập luận phản biện tức khắc.",
+    "B": "Dành tâm trí lắng nghe đa chiều, chủ đích tìm hiểu làm rõ và đặt sự chia sẻ cảm thông với lỗi gặp nhằm cấp tốc khởi xướng phương án thực thi xử lý ổn thỏa.",
+    "C": "Nghiêm nghị ban ra đề xuất buộc bộ phận đối tác phải tạo lập yêu cầu xác nhận khiếu nại thủ tục văn bản thư để quy trình hệ thống tự động lưu vết đúng chuẩn ISO.",
+    "D": "Không cần cân xét vòng vo, thực hiện hành vi chuyển thẳng toàn bộ thông điệp nhận được về hòm thư xử lý bộ phận khối kỹ thuật bỏ phớt đi công tác rà soát chéo."
   },
   "NL-TB03": {
-    "A": "QuyTacQuanLy_Ban_Moi_Nhat_Revisited.docx",
-    "B": "BaoCao_HoanChinh_TuanNay_ver09_Final.docx",
-    "C": "DuAnA_BaoCaoTongKet_Lan3_Chuan.docx",
-    "D": "BaoCao_DuAnA_v03_2026-09-15.docx"
+    "A": "QuyTacQuanLy_BanOnetChot_Moi_Nhat_QuyHoachLai_TiepTheo_SuaDoi2_Revisited.docx",
+    "B": "BaoCaoMoPhobg_ChuanDinhDang_HoanChinh_ThangNamThemThayDoi_ver09_Final.docx",
+    "C": "DuAnACauTruc_KetQua_TongKetQuaTrinhThemBaoCaoSo_Lan3_ChuanHoan.docx",
+    "D": "BaoCao_DuAnA_v03_TaiTap_BoSungGiaiThichChiTiet_Ngay_2026-09-15.docx"
   },
   "NL-TB04": {
-    "A": "Công ty vẫn đang tăng trưởng mạnh vì dòng tiền từ doanh thu luôn dồi dào, ổn định",
-    "B": "Doanh nghiệp có thể đang báo cáo trong tình trạng lỗ do chi phí vượt quá thu nhập",
-    "C": "Tổng tài sản của doanh nghiệp tăng lên đáng kể do lượng doanh thu chiếm tỷ trọng lớn",
-    "D": "Doanh thu cao sẽ cho phép công ty tự động chuyển nhượng và bù trừ mọi chi phí phát sinh"
+    "A": "Doanh nghiệp vẫn hoàn toàn trụ vững mức bức phá lợi nhuận xuất sắc bởi nguồn thanh khoản xoay trục có xuất xứ từ thu nhập thương mại siêu khổng lồ cực ổn định.",
+    "B": "Tổ chức vẫn có nguy cơ cao đang phải hạch toán trong trạng thái báo cáo biểu đồ thiệt hại vì tổng luồng tài nguyên hao tổn cao quá mức tỷ lệ thu nhập đem lại.",
+    "C": "Cấp số biên lợi nhuận ròng của thể chế tài chính được đo đạc tăng trưởng vượt bậc kéo theo phần trăm mở rộng vĩ mô khối tài sản cố định trong suốt bối cảnh thanh khoản lớn.",
+    "D": "Mức định mức tăng trưởng thu nhập liên hoàn cực đoan sẽ dư sức tạo quỹ dư dả vận hành cỗ máy luân chuyển tự động lặp lại và xóa nhòa bù lấp hoàn hảo mọi khoản phí tiêu trừ."
   },
   "NL-TB05": {
-    "A": "Mình luôn phân chia, lên danh sách công việc theo mức độ quan trọng bằng ma trận Eisenhower",
-    "B": "Mình giới hạn thời gian chạy nước rút 25 phút để hoàn thành từng phân đoạn của dự án",
-    "C": "Mình hay đợi còn khoảng vài phút trước deadline, vì lúc đó mới có cảm hứng và động lực",
-    "D": "Mình luôn cố tính dư ra ít nhất 15% thời lượng dự phòng để bù đắp các rủi ro kỹ thuật"
+    "A": "Mình luôn duy trì lập trường phân bổ luồng giải quyết đầu vào, phân hạng công việc hằng ngày dựa trên nền tảng đánh giá phân loại cực độ khắt khe sử dụng cấu trúc Eisenhower.",
+    "B": "Mình giới hạn độ nén khuôn khổ sản xuất với khoảng làm việc bứt tốc ngắn hạn 25 phút để thanh lý ngay từng đoạn công nghệ thuộc kết cấu hệ dự án.",
+    "C": "Mình hay chờ đến sát nút thời điểm đánh kẻng còn khoảng vài phút trước giờ cạn thời gian, bởi thời khắc áp lực vỡ đê ấy mới bung tỏa khả năng khai sinh ra khối tiềm năng lớn.",
+    "D": "Mình luôn lập trình một thói quen lưu trú mức cận biên với dư vị tối thiểu bù trừ vào 15% quãng lượng phòng ngự dự toán để đủ để triệt trừ khả năng nguy hại sinh ra từ mạng báo lỗi kỹ thuật hệ điều hành."
   }
 }

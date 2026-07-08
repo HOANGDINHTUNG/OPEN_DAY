@@ -1,15 +1,15 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { getLeaderboardStats, LeaderboardStats } from "@/utils/storage";
+import { getTopPlayers, AnonymousPlay } from "@/utils/storage";
 
 export function HomePage() {
   const navigate = useNavigate();
   const [activeTab, setActiveTab] = useState<"intro" | "ranking">("intro");
-  const [stats, setStats] = useState<LeaderboardStats[]>([]);
+  const [topPlayers, setTopPlayers] = useState<AnonymousPlay[]>([]);
 
   useEffect(() => {
     // Load stats once on mount
-    setStats(getLeaderboardStats());
+    setTopPlayers(getTopPlayers(3));
 
     // Rotate every 8 seconds
     const interval = setInterval(() => {
@@ -87,32 +87,43 @@ export function HomePage() {
             }`}
           >
             <h2 className="text-5xl font-display font-bold text-golden glow-gold uppercase mb-10 drop-shadow-xl text-center">
-              Bảng Vàng Thành Tích
+              Top 3 Xuất Sắc Nhất
             </h2>
 
             <div className="w-full max-w-3xl glass-panel rounded-3xl p-8 flex flex-col gap-4">
-              {stats.map((stat, i) => (
-                <div
-                  key={stat.level}
-                  className="flex justify-between items-center border-b border-glass-stroke pb-4 last:border-0 last:pb-0"
-                >
-                  <div className="flex items-center gap-6">
-                    <div className="w-12 h-12 rounded-full bg-brand-red flex items-center justify-center font-display text-2xl font-bold text-white shadow-lg glow-red">
-                      {i + 1}
+              {topPlayers.map((player, i) => {
+                const medalColors = [
+                  "bg-gradient-to-br from-yellow-300 to-yellow-600 shadow-[0_0_15px_rgba(253,224,71,0.6)] text-black", // Vàng
+                  "bg-gradient-to-br from-gray-300 to-gray-500 shadow-[0_0_15px_rgba(209,213,219,0.5)] text-black", // Bạc
+                  "bg-gradient-to-br from-orange-400 to-orange-700 shadow-[0_0_15px_rgba(249,115,22,0.6)] text-white", // Đồng
+                ];
+
+                return (
+                  <div
+                    key={player.id}
+                    className="flex justify-between items-center bg-surface/50 p-4 rounded-2xl border border-glass-stroke"
+                  >
+                    <div className="flex items-center gap-6">
+                      <div
+                        className={`w-14 h-14 rounded-full flex items-center justify-center font-display text-2xl font-bold ${medalColors[i] || "bg-brand-red text-white"}`}
+                      >
+                        {i + 1}
+                      </div>
+                      <span className="font-display text-3xl font-bold text-primary-foreground tracking-wide uppercase">
+                        {player.playerName}
+                      </span>
                     </div>
-                    <span className="font-display text-3xl font-bold text-primary-foreground tracking-wide uppercase">
-                      Nấc {stat.level}
-                    </span>
+                    <div className="font-body text-xl font-bold text-on-surface-variant flex items-center gap-2 bg-background/50 px-6 py-2 rounded-xl">
+                      Nấc{" "}
+                      <span className="text-3xl text-golden">
+                        {player.highestLevel}
+                      </span>
+                    </div>
                   </div>
-                  <div className="font-body text-xl font-bold text-on-surface-variant flex items-center gap-2">
-                    Có{" "}
-                    <span className="text-3xl text-golden">{stat.count}</span>{" "}
-                    người đạt được
-                  </div>
-                </div>
-              ))}
-              {stats.length === 0 && (
-                <p className="text-center text-on-surface-variant font-body">
+                );
+              })}
+              {topPlayers.length === 0 && (
+                <p className="text-center text-on-surface-variant font-body py-4">
                   Chưa có ai tham gia. Hãy là người đầu tiên!
                 </p>
               )}
