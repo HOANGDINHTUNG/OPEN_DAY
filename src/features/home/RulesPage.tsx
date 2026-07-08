@@ -8,18 +8,18 @@ export function RulesPage() {
     "rules",
   );
   const [selectedTopic, setSelectedTopic] = useState<
-    "nangLucSo" | "doVuiTrend" | "traLoiNgan" | null
+    "nangLucSo" | "doVuiTrend" | "tracNghiemNhanh" | "tanSinhVien" | null
   >(null);
   const [playerName, setPlayerName] = useState("");
 
   const rules = [
     {
       title: "CÁCH CHƠI",
-      desc: "Chọn 1 trong 3 chủ đề trước khi chơi, trả lời 7 nấc câu hỏi.",
+      desc: "Chọn 1 trong 4 chủ đề trước khi chơi, trả lời 7 nấc câu hỏi.",
     },
     {
       title: "SAI THÌ SAO",
-      desc: "Tụt về mốc quà nhỏ nhất — không mất trắng.",
+      desc: "Vẫn nhận được phần thưởng tương ứng với nấc đạt được cao nhất trước đó.",
     },
     {
       title: "ĐÚNG THÌ SAO",
@@ -89,11 +89,12 @@ export function RulesPage() {
               Chọn <span className="text-golden glow-gold">Chủ Đề</span>
             </h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
-                { id: "nangLucSo", title: "Khám Phá Sức Mạnh Số" },
+                { id: "nangLucSo", title: "Năng Lực Số" },
                 { id: "doVuiTrend", title: "Trend Vui" },
-                { id: "traLoiNgan", title: "Kỹ Năng Mềm" },
+                { id: "tracNghiemNhanh", title: "Kỹ Năng Mềm" },
+                { id: "tanSinhVien", title: "Tân Sinh Viên" },
               ].map((topic) => (
                 <div
                   key={topic.id}

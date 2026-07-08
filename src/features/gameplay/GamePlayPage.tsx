@@ -97,9 +97,11 @@ export function GamePlayPage() {
   const handleWrong = () => {
     playWrong();
     setModalType("wrong");
-    // Wait a brief moment, then end game with Nấc 1 fallback
+    // Fall back to the level corresponding to the highest successfully answered question (currentIdx)
+    // Minimum 1 so they always receive the tier 1 gift.
+    const fallbackLevel = Math.max(1, currentIdx);
     setTimeout(() => {
-      finishGame(1);
+      finishGame(fallbackLevel);
     }, 3000);
   };
 

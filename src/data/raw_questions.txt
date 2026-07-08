@@ -1,0 +1,1052 @@
+BỘ CÂU HỎI ĐỐ VUI
+PHÂN CẤP ĐỘ & BỔ SUNG CNTT – QTKD – RIKKEISOFT – TÂN SINH VIÊN
+Bản chỉnh sửa theo yêu cầu: tất cả câu hỏi đều có đáp án A/B/C/D; không còn câu hỏi mở; đã cân bằng độ dài lựa chọn và độ nhiễu ở cấp Khá/Khó.
+Giữ nội dung chính của ngân hàng đề gốc, chuyển Topic 3 sang trắc nghiệm và bổ sung thêm câu hỏi mới.
+BẢNG TỔNG HỢP SAU CẬP NHẬT
+CHỦ ĐỀ	DỄ	TRUNG BÌNH	KHÁ	KHÓ	TỔNG
+Topic 1 • NĂNG LỰC SỐ	15	19	17	3	54
+Topic 2 • ĐỐ VUI TREND	10	15	10	3	38
+Topic 3 • TRẮC NGHIỆM NHANH	10	9	4	3	26
+Topic 4 • TÂN SINH VIÊN ĐẠI HỌC	8	8	5	1	22
+TỔNG	43	51	36	10	140
+Nguyên tắc phân cấp
+• DỄ: Nhận biết thuật ngữ, thiết bị, khái niệm rất cơ bản; có thể trả lời nhanh.
+• TRUNG BÌNH: Áp dụng một khái niệm vào tình huống quen thuộc; cần đọc kỹ ngữ cảnh.
+• KHÁ: So sánh, đánh giá nguồn tin, xử lý tình huống hoặc phân biệt các khái niệm dễ nhầm.
+• KHÓ: Câu chuyên sâu hơn về CNTT, vận hành/doanh nghiệp, học vụ đại học hoặc thông tin Rikkeisoft từ tài liệu chính thức.
+• Quy ước mã câu: NL = Năng lực số; TR = Đố vui Trend; TN = Trắc nghiệm nhanh; TSV = Tân sinh viên. D/TB/K/KH lần lượt là Dễ/Trung bình/Khá/Khó. Nhãn “MỚI” đánh dấu câu được bổ sung trong bản này.
+ 
+TOPIC 1 • NĂNG LỰC SỐ
+Năng lực số, kỹ năng mềm, vật phẩm công nghệ, kiến thức CNTT – QTKD và hiểu biết doanh nghiệp.
+CẤP ĐỘ: DỄ • 15 CÂU
+Câu NL-D01 [Gốc: Câu 3]
+Cho mật khẩu: 12345678
+Nhận định nào phù hợp nhất?
+A. Dễ nhớ
+B. Có 8 ký tự, chắc chắn an toàn
+C. Hacker nhìn thấy và nói “cảm ơn bạn”
+D. Mật khẩu cấp độ Avengers
+Đáp án: C
+Câu NL-D02 [Gốc: Câu 4]
+Thiết bị nào phù hợp nhất để giải quyết tình huống: “File thuyết trình 8GB, mạng yếu, deadline còn 5 phút”?
+A. Chuột không dây
+B. USB hoặc ổ lưu trữ di động
+C. Webcam
+D. Quạt mini
+Đáp án: B
+Câu NL-D03 [Gốc: Câu 7]
+Trong ngôn ngữ doanh nghiệp, KPI thường liên quan đến:
+A. Chỉ số đánh giá kết quả/hiệu suất
+B. Kế hoạch đi ăn
+C. Không Phải Tôi
+D. Kỹ năng “phút cuối”
+Đáp án: A
+Câu NL-D04 [Gốc: Câu 8]
+Trang bị nào giúp sinh viên “combat thư viện” tốt hơn khi cần tập trung nghe bài?
+A. Tai nghe
+B. Máy xay sinh tố
+C. Remote TV
+D. Đèn giao thông
+Đáp án: A
+Câu NL-D05 [Gốc: Câu 11]
+Một chiếc power bank có vai trò gần giống kỹ năng nào nhất?
+A. Bổ sung năng lượng khi nguồn lực sắp cạn
+B. Thuyết trình
+C. Đàm phán
+D. Đọc suy nghĩ đồng đội
+Đáp án: A
+Câu NL-D06 [Gốc: Câu 15]
+Laptop stand – giá đỡ laptop – thường giúp ích trực tiếp nhất cho:
+A. Điều chỉnh vị trí thiết bị thuận tiện hơn khi sử dụng
+B. Tăng điểm GPA tự động
+C. Làm deadline tự hoàn thành
+D. Kết nối Wi-Fi nhà hàng xóm
+Đáp án: A
+Câu NL-D07 [Gốc: Câu 20]
+Trong doanh nghiệp, bộ phận nhân sự thường được gọi tắt là:
+A. HR
+B. HDMI
+C. CPU
+D. PDF
+Đáp án: A
+Câu NL-D08 [Gốc: Câu 28]
+Món đồ công nghệ nào là “cứu tinh” khi cần tham gia họp online nhưng laptop không có hình ảnh rõ?
+A. Webcam
+B. Bàn phím cơ
+C. USB
+D. Máy tính cầm tay
+Đáp án: A
+Câu NL-D09 [Gốc: Câu 31]
+Trong kinh doanh, lợi nhuận có thể hiểu đơn giản là:
+A. Tiền khách hàng nhìn thấy
+B. Phần chênh lệch còn lại sau khi xem xét doanh thu và chi phí
+C. Tổng số follower
+D. Số lượt nhân viên nói “dạ em xử lý ngay”
+Đáp án: B
+Câu NL-D10 [Gốc: Câu 36]
+Thiết bị nào phù hợp để mở rộng không gian lưu trữ và mang dữ liệu dung lượng lớn?
+A. SSD di động
+B. Micro
+C. Webcam
+D. Bút cảm ứng
+Đáp án: A
+Câu NL-D11 [MỚI • CNTT]
+Trong máy tính, RAM có vai trò gần nhất với điều nào sau đây?
+A. Lưu tạm dữ liệu và chương trình đang được xử lý
+B. Lưu dữ liệu vĩnh viễn kể cả khi mất điện
+C. Cấp địa chỉ IP cho toàn bộ Internet
+D. Tự động cứu deadline lúc 23:59
+Đáp án: A
+Câu NL-D12 [MỚI • RIKKEISOFT]
+Rikkeisoft được thành lập vào năm nào?
+A. 2008
+B. 2010
+C. 2012
+D. 2020
+Đáp án: C
+Nguồn biên soạn câu mới: Rikkeisoft Milestone History: thành lập ngày 06/04/2012.
+Câu NL-D13 [MỚI • CNTT]
+Tổ hợp phím Ctrl + C thường dùng để làm gì?
+A. Sao chép nội dung đang chọn
+B. Xóa vĩnh viễn ổ cứng
+C. Tăng tốc Internet
+D. Mở camera máy tính
+Đáp án: A
+Câu NL-D14 [MỚI • QTKD]
+CV trong tuyển dụng thường là tài liệu dùng để:
+A. Tóm tắt thông tin, kỹ năng và kinh nghiệm của ứng viên
+B. Đặt đồ ăn trưa
+C. Tính thuế doanh nghiệp
+D. Kết nối máy chiếu
+Đáp án: A
+Câu NL-D15 [MỚI • NĂNG LỰC SỐ]
+Lưu trữ dữ liệu trên Google Drive, OneDrive hoặc iCloud thường được gọi là:
+A. Lưu trữ đám mây
+B. Lưu trữ trên bàn phím
+C. Lưu trữ trong RAM
+D. Lưu trữ bằng meme
+Đáp án: A
+CẤP ĐỘ: TRUNG BÌNH • 19 CÂU
+Câu NL-TB01 [Gốc: Câu 5]
+Trong một buổi teamwork, 5 người cùng nói và không ai nghe. Đây là:
+A. Brainstorming
+B. Podcast 5 host
+C. Giao tiếp chưa hiệu quả
+D. Họp theo hệ điều hành hỗn loạn
+Đáp án: C
+Câu NL-TB02 [Gốc: Câu 12]
+Trong doanh nghiệp, khách hàng phàn nàn về dịch vụ. Hành động đầu tiên nên là:
+A. Chứng minh khách hàng sai
+B. Lắng nghe và làm rõ vấn đề
+C. Giả vờ mất mạng
+D. Tag phòng khác rồi logout
+Đáp án: B
+Câu NL-TB03 [Gốc: Câu 13]
+File nào có tên thể hiện khả năng quản lý dữ liệu tốt nhất?
+A. final.docx
+B. final_final2.docx
+C. ban_nay_chac_final_that.docx
+D. BaoCao_DuAnA_v03_2026-09-15.docx
+Đáp án: D
+Câu NL-TB04 [Gốc: Câu 16]
+Một doanh nghiệp có doanh thu rất lớn nhưng chi phí còn lớn hơn doanh thu. Tình huống nào có khả năng xảy ra?
+A. Doanh nghiệp chắc chắn đang có lợi nhuận
+B. Doanh nghiệp có thể đang lỗ
+C. Doanh thu và lợi nhuận luôn giống nhau
+D. Kế toán sẽ dùng filter Instagram
+Đáp án: B
+Câu NL-TB05 [Gốc: Câu 17]
+Câu nói nào là “red flag” trong quản lý thời gian?
+A. “Mình chia task theo mức độ ưu tiên.”
+B. “Mình đặt deadline nhỏ cho từng phần.”
+C. “Còn 10 phút, giờ mới đúng lúc tài năng thức tỉnh.”
+D. “Mình dự phòng thời gian cho rủi ro.”
+Đáp án: C
+Câu NL-TB06 [Gốc: Câu 21]
+Đang thuyết trình, slide bỗng không chạy. Người có khả năng thích ứng tốt sẽ:
+A. Đứng yên nhìn màn hình
+B. Nói “vũ trụ không muốn em thuyết trình”
+C. Bình tĩnh tiếp tục bằng nội dung đã chuẩn bị và xử lý sự cố
+D. Kết thúc chương trình
+Đáp án: C
+Câu NL-TB07 [Gốc: Câu 22]
+Một chiếc chuột không dây sử dụng Bluetooth giống teamwork ở điểm nào nhất?
+A. Muốn phối hợp phải tạo được kết nối
+B. Càng xa càng hiểu nhau
+C. Không cần năng lượng
+D. Có thể click vào suy nghĩ người khác
+Đáp án: A
+Câu NL-TB08 [Gốc: Câu 24]
+Trong môi trường doanh nghiệp, “văn hóa doanh nghiệp” có thể hiểu gần nhất là:
+A. Các giá trị, cách ứng xử và cách tổ chức vận hành được hình thành trong tổ chức
+B. Danh sách nhân viên thích uống trà sữa
+C. Đồng phục công ty
+D. Nhạc mở trong thang máy
+Đáp án: A
+Câu NL-TB09 [Gốc: Câu 25]
+Hùng có 4 nhiệm vụ:
+1. Việc quan trọng, deadline sau 30 phút
+2. Xem video “5 dấu hiệu bạn là thiên tài”
+3. Chọn ảnh đại diện mới
+4. Đọc lại tin nhắn crush từ năm 2023
+Hùng nên ưu tiên:
+A. Việc 1
+B. Việc 2
+C. Việc 3
+D. “Healing” với việc 4
+Đáp án: A
+Câu NL-TB10 [Gốc: Câu 32]
+Thuyết trình tốt KHÔNG đồng nghĩa với:
+A. Nội dung rõ ràng
+B. Biết tương tác với người nghe
+C. Đọc 100% chữ trên slide bằng giọng phát thanh
+D. Điều chỉnh tốc độ và cách diễn đạt
+Đáp án: C
+Câu NL-TB11 [Gốc: Câu 33]
+Một sinh viên lưu toàn bộ bài tập duy nhất trên laptop. Laptop “ra đi không lời từ biệt”. Bài học năng lực số là:
+A. Cần có phương án sao lưu dữ liệu
+B. Laptop phản bội
+C. Deadline có năng lượng tâm linh
+D. Đổi cung hoàng đạo
+Đáp án: A
+Câu NL-TB12 [Gốc: Câu 38]
+Trong một cuộc họp, người có kỹ năng lắng nghe chủ động thường:
+A. Chuẩn bị câu phản bác trong khi người khác đang nói
+B. Vừa nghe vừa lướt TikTok
+C. Tập trung, làm rõ và phản hồi dựa trên điều đã nghe
+D. Gật đầu theo nhịp dù chưa hiểu gì
+Đáp án: C
+Câu NL-TB13 [Gốc: Câu 39]
+“Thương hiệu” của doanh nghiệp chỉ là logo. Nhận định này:
+A. Đúng tuyệt đối
+B. Sai, thương hiệu rộng hơn một yếu tố nhận diện như logo
+C. Đúng nếu logo to
+D. Phụ thuộc font chữ
+Đáp án: B
+Câu NL-TB14 [MỚI • CNTT]
+Trong cơ sở dữ liệu quan hệ, khóa chính (Primary Key) dùng để làm gì?
+A. Định danh duy nhất mỗi bản ghi trong bảng
+B. Mã hóa toàn bộ ổ cứng
+C. Tăng tốc Wi-Fi
+D. Đổi tên file final thành final_final
+Đáp án: A
+Câu NL-TB15 [MỚI • QTKD]
+Trong cách hiểu cơ bản, doanh nghiệp đạt điểm hòa vốn khi:
+A. Tổng doanh thu bằng tổng chi phí
+B. Doanh thu bằng 0
+C. Lợi nhuận bằng doanh thu
+D. KPI của mọi phòng ban đều đạt 100%
+Đáp án: A
+Câu NL-TB16 [MỚI • CNTT]
+Xác thực hai yếu tố (2FA) giúp tài khoản an toàn hơn vì:
+A. Yêu cầu thêm một bước xác minh ngoài mật khẩu
+B. Làm mật khẩu ngắn hơn
+C. Tự động đăng nhập mọi nơi
+D. Tắt toàn bộ thông báo
+Đáp án: A
+Câu NL-TB17 [MỚI • QTKD]
+Khi nhận feedback tiêu cực từ khách hàng, cách xử lý phù hợp nhất là:
+A. Ghi nhận, làm rõ vấn đề và tìm hướng cải thiện
+B. Xóa bình luận ngay lập tức
+C. Tranh luận thắng thua với khách
+D. Đổi tên thương hiệu
+Đáp án: A
+Câu NL-TB18 [MỚI • CNTT]
+Trong phần mềm, “bug” thường được hiểu là:
+A. Lỗi hoặc hành vi không đúng mong muốn
+B. Một loại dây sạc
+C. Tên của ổ cứng
+D. Cách tăng doanh thu
+Đáp án: A
+Câu NL-TB19 [MỚI • KỸ NĂNG]
+Một nhóm có deadline chung. Cách làm việc nào hợp lý nhất?
+A. Chia nhiệm vụ rõ ràng, thống nhất thời hạn nhỏ và theo dõi tiến độ
+B. Đợi sát deadline rồi hỏi ai rảnh
+C. Chỉ chọn người nói hay nhất làm hết
+D. Tạo 5 group chat cho vui
+Đáp án: A
+CẤP ĐỘ: KHÁ • 17 CÂU
+Câu NL-K01 [Gốc: Câu 6]
+Bạn nhận email: “URGENT!!! Tài khoản sắp bị khóa. Bấm link và nhập mật khẩu NGAY.”
+Hành động hợp lý nhất là:
+A. Nhấp link ngay vì email báo trạng thái khẩn cấp
+B. Chuyển email cho bạn bè để nhờ xác nhận cảm tính
+C. Kiểm tra người gửi, đường dẫn và xác minh qua kênh chính thức
+D. Nhập thử mật khẩu để xem hệ thống có cảnh báo không
+Đáp án: C
+Câu NL-K02 [Gốc: Câu 9]
+Bạn dùng AI tạo một thông tin cho bài thuyết trình. AI trả lời rất tự tin. Bạn nên:
+A. Dùng nguyên vì câu trả lời có vẻ rõ ràng và tự tin
+B. Chỉ sửa cách trình bày rồi đưa thẳng vào slide
+C. Kiểm tra lại bằng nguồn đáng tin cậy trước khi sử dụng
+D. Thêm cụm “theo nghiên cứu” để tăng độ tin cậy
+Đáp án: C
+Câu NL-K03 [Gốc: Câu 14]
+Trong nhóm, bạn không đồng ý với ý kiến của đồng đội. Cách phản biện phù hợp là:
+A. Phủ nhận nhanh để tránh mất thời gian thảo luận nhóm
+B. Im lặng bỏ qua dù vẫn thấy phương án chưa phù hợp
+C. Nêu quan điểm, lý do và đề xuất phương án thay thế
+D. Tách nhóm làm riêng để không cần trao đổi thêm
+Đáp án: C
+Câu NL-K04 [Gốc: Câu 18]
+Khi sử dụng Wi-Fi công cộng, hành động nào cần thận trọng nhất?
+A. Đọc tin tức cá nhân trên các trang thông tin phổ biến
+B. Xem thời tiết hoặc tra cứu thông tin không nhạy cảm
+C. Đăng nhập hoặc thực hiện tác vụ nhạy cảm trên kết nối không đáng tin cậy
+D. Mở các nội dung giải trí không yêu cầu tài khoản quan trọng
+Đáp án: C
+Câu NL-K05 [Gốc: Câu 23]
+Bạn tìm trên mạng thấy 2 bài viết đưa ra số liệu trái ngược nhau. Năng lực số cần dùng là:
+A. Đánh giá độ tin cậy của thông tin và nguồn
+B. Ưu tiên bài viết có nhiều lượt chia sẻ và bình luận
+C. Chọn số liệu phù hợp nhất với ý tưởng ban đầu
+D. Hỏi nhanh bạn bè rồi lấy kết quả được chọn nhiều
+Đáp án: A
+Câu NL-K06 [Gốc: Câu 27]
+Trong một dự án, câu hỏi nào thể hiện tư duy giải quyết vấn đề tốt nhất?
+A. “Ai là người chịu trách nhiệm chính cho lỗi này?”
+B. “Có nên tạm dừng dự án đến khi hết rủi ro?”
+C. “Nguyên nhân gốc là gì và phương án nào khả thi?”
+D. “Có cách nào bỏ qua vấn đề để kịp tiến độ không?”
+Đáp án: C
+Câu NL-K07 [Gốc: Câu 29]
+Nhân viên A đạt mục tiêu cá nhân nhưng thường xuyên giấu thông tin khiến cả nhóm chậm tiến độ. Kỹ năng A cần cải thiện nhất là:
+A. Hợp tác để phối hợp mục tiêu cá nhân với tiến độ chung
+B. Giao tiếp để cập nhật thông tin kịp thời cho cả nhóm
+C. Chia sẻ thông tin để tránh làm nghẽn tiến độ công việc
+D. Cả ba kỹ năng trên đều cần được cải thiện
+Đáp án: D
+Câu NL-K08 [Gốc: Câu 30]
+Bạn được gửi một file không rõ nguồn gốc tên: DIEM_THI_CUA_BAN.exe
+Bạn nên:
+A. Mở file ngay vì tên file liên quan đến điểm thi
+B. Đổi đuôi .exe sang .pdf rồi thử mở lại
+C. Không chạy file tùy tiện; kiểm tra nguồn và mức độ an toàn
+D. Gửi sang thiết bị phụ để thử trước khi dùng máy chính
+Đáp án: C
+Câu NL-K09 [Gốc: Câu 34]
+Khi một doanh nghiệp nói “lấy khách hàng làm trung tâm”, cách hiểu phù hợp nhất là:
+A. Đồng ý mọi yêu cầu của khách để giữ trải nghiệm tốt
+B. Hiểu nhu cầu và tạo giá trị cho khách hàng trong khả năng, định hướng của doanh nghiệp
+C. Ưu tiên khách hàng mới hơn khách hàng đang sử dụng
+D. Tập trung vào hình ảnh phục vụ thay vì chất lượng giải pháp
+Đáp án: B
+Câu NL-K10 [Gốc: Câu 37]
+Khi dùng nội dung, hình ảnh của người khác để làm sản phẩm số, hành vi phù hợp là:
+A. Dùng lại khi nội dung đã xuất hiện công khai trên Internet
+B. Kiểm tra quyền sử dụng và trích dẫn nguồn khi cần
+C. Chỉnh sửa nhẹ để nội dung khác bản gốc ban đầu
+D. Đăng kèm lời cảm ơn chung mà không cần kiểm tra quyền
+Đáp án: B
+Câu NL-K11 [Gốc: Câu 40]
+Bạn nhập câu hỏi vào AI:
+“Làm hết bài tập cho tôi, đáp án đúng 100%, không cần giải thích.”
+Điểm chưa ổn nhất là:
+A. Yêu cầu chưa tạo điều kiện cho việc kiểm chứng và học từ quá trình
+B. Prompt quá ngắn nên cần thêm nhiều từ khóa trang trí hơn
+C. Chưa yêu cầu AI trình bày bằng giọng văn chuyên nghiệp hơn
+D. Thiếu yêu cầu AI chọn đáp án nhanh để tiết kiệm thời gian
+Đáp án: A
+Câu NL-K12 [MỚI • QTKD]
+Một doanh nghiệp báo cáo có lợi nhuận nhưng vẫn thiếu tiền mặt để trả các khoản đến hạn. Nhận định hợp lý nhất là:
+A. Điều này không thể xảy ra nếu báo cáo lợi nhuận dương
+B. Lợi nhuận kế toán và dòng tiền là hai khái niệm khác nhau
+C. Chỉ cần tăng doanh thu là doanh nghiệp luôn đủ tiền mặt
+D. Có lợi nhuận nghĩa là tiền luôn sẵn trong tài khoản ngân hàng
+Đáp án: B
+Câu NL-K13 [MỚI • RIKKEISOFT]
+Theo Bộ Quy tắc ứng xử Rikkeisoft 2026, giá trị nào KHÔNG thuộc nhóm 5 giá trị cốt lõi?
+A. Ambition - Khát vọng dài hạn trong phát triển
+B. Progress - Tiến bộ liên tục qua từng giai đoạn
+C. Creativity - Sáng tạo trong cách giải quyết vấn đề
+D. Perfection - Hoàn hảo tuyệt đối trong mọi kết quả
+Đáp án: D
+Ghi chú: 5 giá trị cốt lõi được nêu gồm Ambition, Progress, Creativity, Dedication, Sharing. Nguồn biên soạn câu mới: Rikkeisoft Code of Conduct 2026.
+Câu NL-K14 [MỚI • CNTT]
+Khi chia sẻ file học tập/làm việc trên Google Drive, lựa chọn an toàn nhất là:
+A. Chia sẻ đúng người cần nhận và cấp quyền phù hợp
+B. Cho phép bất kỳ ai có link đều được chỉnh sửa tài liệu
+C. Đặt tên file có chữ “mật” rồi chia sẻ link rộng rãi
+D. Gửi link qua nhiều nhóm chat để mọi người tự lọc quyền
+Đáp án: A
+Câu NL-K15 [MỚI • CNTT]
+Dùng cùng một mật khẩu cho nhiều tài khoản có rủi ro lớn nhất là:
+A. Một tài khoản bị lộ có thể kéo theo nhiều tài khoản khác
+B. Mật khẩu giống nhau giúp hệ thống đồng bộ bảo mật tốt hơn
+C. Trình duyệt sẽ tự động phát hiện và khóa mọi truy cập lạ
+D. Người dùng không cần nhớ nhiều mật khẩu nên ít quên hơn
+Đáp án: A
+Câu NL-K16 [MỚI • QTKD]
+Muốn giữ khách hàng lâu dài, doanh nghiệp nên ưu tiên điều nào nhất?
+A. Tạo giá trị ổn định và trải nghiệm tốt cho khách hàng
+B. Giảm giá thường xuyên để khách hàng chỉ quan tâm giá thấp
+C. Thay đổi hình ảnh thương hiệu liên tục để tạo cảm giác mới
+D. Gửi nhiều thông báo quảng cáo để khách nhớ đến sản phẩm
+Đáp án: A
+Câu NL-K17 [MỚI • CNTT]
+Trong vận hành hệ thống, log lỗi có vai trò quan trọng vì:
+A. Giúp truy vết sự cố và phân tích nguyên nhân
+B. Giúp giao diện hệ thống hiển thị chuyên nghiệp hơn
+C. Cho phép hệ thống tự sửa lỗi mà không cần kiểm tra
+D. Thay thế toàn bộ hoạt động kiểm thử của đội phát triển
+Đáp án: A
+CẤP ĐỘ: KHÓ • 3 CÂU
+Câu NL-KH01 [MỚI • CNTT]
+Một team áp dụng CI/CD và Infrastructure as Code (IaC). Lợi ích kết hợp phù hợp nhất là:
+A. Tự động hóa build/test/deploy và quản lý hạ tầng bằng cấu hình có thể version hóa, tái tạo
+B. Tăng số lượng tài liệu thủ công để triển khai hệ thống ổn định hơn
+C. Tập trung làm giao diện đẹp hơn thay vì kiểm soát quy trình phát hành
+D. Đảm bảo hệ thống không bao giờ phát sinh lỗi trong mọi môi trường
+Đáp án: A
+Ghi chú: Câu chuyên sâu CNTT: kiểm tra hiểu bản chất DevOps thay vì chỉ nhớ tên công cụ.
+Câu NL-KH02 [MỚI • RIKKEISOFT / QTKD]
+Một khách hàng có chương trình phát triển phần mềm dài hạn, phạm vi có thể thay đổi và cần đội ngũ chuyên trách có khả năng mở rộng linh hoạt.
+Theo mô hình làm việc được mô tả trong Company Profile 2026 của Rikkeisoft, lựa chọn phù hợp hơn là:
+A. Project-Based với phạm vi cố định, thời gian ngắn và thay đổi ít
+B. ODC với đội ngũ chuyên trách, mở rộng linh hoạt cho dự án dài hạn
+C. Freelancer ngắn hạn xử lý từng việc nhỏ khi có yêu cầu phát sinh
+D. Nhóm chat tạm thời không cần mô hình quản lý và phân vai rõ
+Đáp án: B
+Ghi chú: ODC được mô tả phù hợp với dự án dài hạn/lớn, nhấn mạnh khả năng mở rộng và linh hoạt. Nguồn biên soạn câu mới: Rikkeisoft Company Profile 2026, Working Model.
+Câu NL-KH03 [MỚI • CNTT / QTKD]
+Trong hợp đồng dịch vụ công nghệ, SLA thường được hiểu đúng nhất là:
+A. Bộ nhận diện hình ảnh dùng trong truyền thông dịch vụ
+B. Cam kết mức dịch vụ như phản hồi, xử lý hoặc độ sẵn sàng
+C. Chuẩn kết nối thiết bị dùng trong hạ tầng văn phòng
+D. Bảng thống kê nội bộ về hiệu suất truyền thông hằng tháng
+Đáp án: B
+ 
+TOPIC 2 • ĐỐ VUI TREND
+Câu hỏi vui, bắt trend mùa thi và tình huống meme hóa; bổ sung chất liệu CNTT – doanh nghiệp – Rikkeisoft.
+CẤP ĐỘ: DỄ • 10 CÂU
+Câu TR-D01 [Gốc: Câu 1]
+Sau kỳ thi tốt nghiệp THPT 2026, quốc gia nào bất ngờ được một số sĩ tử “chuyển hộ khẩu” từ Đông Nam Á sang châu Mỹ?
+A. Thái Lan
+B. Campuchia
+C. Lào
+D. Singapore
+Đáp án: B
+Câu TR-D02 [Gốc: Câu 2]
+Theo “hệ thống bản đồ phiên bản sĩ tử mùa thi”, năm 2021 Ấn Độ từng được chuyển nhầm sang:
+A. Châu Âu
+B. Châu Mỹ
+C. Châu Phi
+D. Server khác
+Đáp án: C
+Câu TR-D03 [Gốc: Câu 4]
+Trước môn Sử 2026, dân mạng từng phải nhắc sĩ tử rằng Trần Hưng Đạo và Trần Quốc Tuấn là:
+A. Hai anh em
+B. Hai đồng nghiệp
+C. Cùng một người
+D. Hai admin chung fanpage
+Đáp án: C
+Câu TR-D04 [Gốc: Câu 6]
+Trend nào từng khiến sĩ tử 2K6 hô hào cực sung trước kỳ thi 2024?
+A. “Mang ngay đề thi đến đây”
+B. “Mang ngay CEO đến đây”
+C. “Mang ngay Tesla đến đây”
+D. “Mang ngay KPI đến đây”
+Đáp án: A
+Câu TR-D05 [Gốc: Câu 20]
+Một thí sinh bước khỏi cổng trường và ăn mừng “SIUUU”. Nhân vật được réo tên là:
+A. Elon Musk
+B. Donald Trump
+C. Cristiano Ronaldo
+D. Steve Jobs
+Đáp án: C
+Câu TR-D06 [Gốc: Câu 22]
+Mùa thi 2021, nghệ sĩ nào được cộng đồng mạng gọi vui là “nhà tiên tri” sau khi nhắc đến “Sóng”?
+A. Đen Vâu
+B. Ronaldo
+C. Elon Musk
+D. Donald Trump
+Đáp án: A
+Câu TR-D07 [Gốc: Câu 25]
+Nếu Đen Vâu là “nhà tiên tri đề Văn”, Ronaldo là “idol cổng trường”, Steve Jobs là “người hot sau đề 2026”, thì vật phẩm hot nhất với sinh viên laptop 5% pin là:
+A. Power bank/sạc phù hợp
+B. Bút đỏ
+C. Atlat
+D. Quả bóng
+Đáp án: A
+Câu TR-D08 [MỚI • RIKKEISOFT]
+Nếu tên 'Rikkei' là một màn 'ghép tên có nguồn gốc học thuật', hai trường đại học nào được ghép lại?
+A. Ritsumeikan và Keio
+B. Harvard và Oxford
+C. Bách khoa và Kinh tế Quốc dân
+D. Hogwarts và Xavier
+Đáp án: A
+Nguồn biên soạn câu mới: Rikkeisoft Milestone History.
+Câu TR-D09 [MỚI • TREND]
+Trong “vũ trụ deadline”, câu nói nào thường báo hiệu nguy cơ cao nhất?
+A. “Em làm xong bản nháp rồi.”
+B. “Em còn đúng 5 phút nhưng chắc kịp.”
+C. “Em đã gửi file cho nhóm check.”
+D. “Em chia việc theo timeline.”
+Đáp án: B
+Câu TR-D10 [MỚI • TREND]
+Một bạn nói “easy game” trước khi đọc đề dài 5 trang. Bài học vui hợp lý nhất là:
+A. Không nên chủ quan trước khi đọc kỹ đề
+B. Không cần học nữa
+C. Cứ chọn đáp án C
+D. Đổi bút là qua môn
+Đáp án: A
+CẤP ĐỘ: TRUNG BÌNH • 15 CÂU
+Câu TR-TB01 [Gốc: Câu 3]
+Nếu một nhân viên gửi báo cáo thị trường và đặt Campuchia ở châu Mỹ, kỹ năng cần kích hoạt NGAY là:
+A. Kiểm chứng thông tin
+B. Thuyết trình
+C. Đàm phán lương
+D. Đổi ảnh đại diện
+Đáp án: A
+Câu TR-TB02 [Gốc: Câu 5]
+Một team có hai thành viên tên “Nguyễn Văn A” và nickname “Kevin A”. Trưởng nhóm giao hai task vì tưởng là hai người.
+Tình huống này gần với meme nào của mùa thi?
+A. Steve Jobs Việt Nam
+B. Trần Hưng Đạo – Trần Quốc Tuấn
+C. Ấn Độ sang châu Phi
+D. SIUU Ronaldo
+Đáp án: B
+Câu TR-TB03 [Gốc: Câu 7]
+Câu “Mang ngay những câu khó nhất đến đây” sẽ trở thành một quyết định quản trị rủi ro chưa tối ưu khi phần sau là:
+A. “Nhưng cho tôi backup dữ liệu trước”
+B. “Nhưng đừng khó như đề 2018”
+C. “Team đã thống nhất phương án”
+D. “Deadline còn ba ngày”
+Đáp án: B
+Câu TR-TB04 [Gốc: Câu 8]
+Một giáo viên có 25 năm kinh nghiệm dạy chuyên từng nói “toát mồ hôi” khi giải đề tốt nghiệp THPT 2025 ở môn nào?
+A. Toán
+B. Hóa
+C. Tiếng Anh
+D. Tin học
+Đáp án: C
+Câu TR-TB05 [Gốc: Câu 9]
+Một người du học bốn năm từng chia sẻ chỉ làm đúng bao nhiêu trên 40 câu đề Tiếng Anh tốt nghiệp THPT 2025?
+A. 20/40
+B. 25/40
+C. 35/40
+D. 41/40
+Đáp án: C
+Câu TR-TB06 [Gốc: Câu 10]
+Một sinh viên IELTS 7.0 bước vào bài test tiếng Anh với tâm thế “easy game”. Năm 2026, mạng xã hội có thể dành cho bạn ấy câu nào?
+A. “Queen never cry”
+B. “Mang ngay đề thi đến đây”
+C. “Khoan, đọc hết ba bài đọc đã”
+D. “SIUUU”
+Đáp án: C
+Câu TR-TB07 [Gốc: Câu 11]
+Đề Tiếng Anh dài, deadline còn ngắn. Kỹ năng mềm nào có khả năng cứu bạn tốt hơn việc ngồi hỏi “Why me?”?
+A. Quản lý thời gian
+B. Đổi font chữ
+C. Tăng âm lượng tai nghe
+D. Manifest đáp án C
+Đáp án: A
+Câu TR-TB08 [Gốc: Câu 12]
+Môn nào năm 2026 bị tranh luận vì có một số câu mang tiếng “thực tế” nhưng bị nhận xét là “ghép tình huống”?
+A. Ngữ văn
+B. Toán
+C. Lịch sử
+D. Tiếng Anh
+Đáp án: B
+Câu TR-TB09 [Gốc: Câu 14]
+Nhiều thí sinh nhận xét đề Toán 2026 “dễ thở” hơn năm trước. Nhưng hai câu cuối vẫn khiến một số bạn rén vì chủ đề:
+A. Xác suất
+B. Chính tả
+C. OTP
+D. EBITDA
+Đáp án: A
+Câu TR-TB10 [Gốc: Câu 16]
+Năm 2026 có trường hợp thí sinh bị phát hiện nhờ thứ gì hỗ trợ làm bài thi?
+A. Ronaldo
+B. AI
+C. Steve Jobs
+D. Phòng Marketing
+Đáp án: B
+Câu TR-TB11 [Gốc: Câu 18]
+Trong 74 thí sinh vi phạm quy chế thi năm 2026, thiết bị khiến nhiều trường hợp “tới công chuyện” nhất là:
+A. Power bank
+B. Chuột Bluetooth
+C. Điện thoại
+D. Laptop stand
+Đáp án: C
+Câu TR-TB12 [MỚI • RIKKEISOFT]
+Theo Company Profile 2026, năm 2024 Rikkeisoft đã 'unlock achievement' mốc bao nhiêu nhân sự?
+A. 200
+B. 500
+C. 1.000
+D. 2.000
+Đáp án: D
+Nguồn biên soạn câu mới: Rikkeisoft Company Profile 2026, History.
+Câu TR-TB13 [MỚI • TREND / NĂNG LỰC SỐ]
+Một bài đăng Threads ghi “đề này chắc chắn ra, trust me bro” nhưng không có nguồn. Cách phản ứng hợp lý là:
+A. Kiểm chứng và không coi đó là thông tin chính thức
+B. Học đúng một câu đó
+C. Share ngay cho cả lớp
+D. Bỏ hết tài liệu chính thống
+Đáp án: A
+Câu TR-TB14 [MỚI • TREND / AI]
+Một bạn dùng AI tạo caption rất hay để đại diện câu lạc bộ đăng bài. Trước khi đăng, bạn ấy nên:
+A. Kiểm tra nội dung, giọng điệu, tính chính xác và quy định của CLB
+B. Đăng luôn vì AI viết hay
+C. Thêm thật nhiều emoji là đủ
+D. Xóa tên CLB để an toàn
+Đáp án: A
+Câu TR-TB15 [MỚI • TREND / TEAMWORK]
+Cả nhóm đặt tên file là final_final_chot_that_v8.pptx. Vấn đề nổi bật nhất là:
+A. Quản lý phiên bản chưa tốt
+B. Slide quá đẹp
+C. Máy chiếu quá sáng
+D. Không đủ meme
+Đáp án: A
+CẤP ĐỘ: KHÁ • 10 CÂU
+Câu TR-K01 [Gốc: Câu 13]
+Một khách hàng nói: “Sản phẩm này thực tế quá.”
+Nhưng nhân viên chỉ gắn câu chuyện Elon Musk vào một chiếc USB bình thường.
+Theo ngôn ngữ mùa thi 2026, đây có thể gọi là:
+A. Chuyển đổi số khi sản phẩm được gắn thêm câu chuyện công nghệ
+B. Ghép tình huống khi ví dụ thực tế bị đưa vào chưa tự nhiên
+C. Quản trị tinh gọn khi thông điệp được rút ngắn quá mức
+D. Định vị thương hiệu khi meme được dùng để tăng nhận diện
+Đáp án: B
+Câu TR-K02 [Gốc: Câu 15]
+Nếu xác suất hoàn thành deadline đúng hạn của Nam là 10%, giải pháp phù hợp nhất là:
+A. Nam cần đổi công cụ làm việc để tăng cảm giác tập trung
+B. Nam cần quản lý thời gian tốt hơn và chia nhỏ tiến độ
+C. Nam cần tìm thêm cảm hứng để bắt đầu khi gần đến hạn
+D. Nam cần chọn môi trường vui hơn để giảm áp lực công việc
+Đáp án: B
+Câu TR-K03 [Gốc: Câu 17]
+“AI ơi làm hộ bài thi, tôi ngồi chờ.”
+Đây là ví dụ của:
+A. Ứng dụng AI hỗ trợ học tập khi người học vẫn tự kiểm tra
+B. Tự động hóa hợp lý khi nhiệm vụ được ủy quyền đúng cách
+C. Lạm dụng công nghệ và vi phạm quy định học tập/thi cử
+D. Kỹ năng sử dụng công cụ số để tăng tốc độ hoàn thành
+Đáp án: C
+Câu TR-K04 [Gốc: Câu 19]
+69 trường hợp mang điện thoại vào phòng thi là lời nhắc mạnh nhất về điều gì?
+A. Có công nghệ thì nên tận dụng tối đa trong mọi bối cảnh
+B. Hiểu quy định và sử dụng thiết bị đúng bối cảnh
+C. Thiết bị cá nhân cần được sạc đầy trước khi vào phòng thi
+D. Nên thay điện thoại bằng thiết bị nhỏ hơn để tiện quản lý
+Đáp án: B
+Câu TR-K05 [Gốc: Câu 21]
+Giả sử một nhân viên hoàn thành KPI và chạy quanh văn phòng hét “SIUUU”. Điều nào đúng nhất?
+A. KPI đã hoàn thành nhưng kỹ năng đọc bối cảnh vẫn cần nâng cấp
+B. KPI đã hoàn thành nên mọi hành động ăn mừng đều phù hợp
+C. Hoạt động ăn mừng cá nhân luôn thay thế được giao tiếp chuyên nghiệp
+D. Văn hóa công sở không cần quan tâm khi kết quả đã đạt yêu cầu
+Đáp án: A
+Câu TR-K06 [Gốc: Câu 23]
+Theo tư duy năng lực số, dùng bài đăng của Đen Vâu để dự đoán đề thi là:
+A. Nguồn dữ liệu chính thức có thể dùng để ôn tập trọng tâm
+B. Một trend giải trí, không nên coi là nguồn xác thực
+C. Mẫu dữ liệu lớn đủ tin cậy để dự đoán đề thi
+D. Kênh tham khảo có thể thay thế thông báo chính thức
+Đáp án: B
+Câu TR-K07 [Gốc: Câu 24]
+Bạn thấy Threads đăng: “100% mai thi câu này, trust me bro.”
+Bạn nên:
+A. Học đúng nội dung được đăng vì bài viết có độ lan truyền cao
+B. Chia sẻ cho cả lớp để mọi người cùng ôn một trọng tâm
+C. Kiểm chứng và không coi dự đoán mạng xã hội là thông tin chính thức
+D. Lưu bài viết lại rồi chờ xem cộng đồng phản ứng thế nào
+Đáp án: C
+Câu TR-K08 [MỚI • AI]
+Dùng AI trong học tập theo cách có trách nhiệm là:
+A. Dùng để gợi ý, giải thích, kiểm tra lại và tự hiểu bài
+B. Dùng để viết thay toàn bộ bài rồi nộp nguyên văn kết quả
+C. Dùng để vượt qua bài kiểm tra mà không cần nắm kiến thức
+D. Dùng như nguồn duy nhất thay cho tài liệu và giảng viên
+Đáp án: A
+Câu TR-K09 [MỚI • TREND / GIAO TIẾP]
+Khi dùng meme trong một bài thuyết trình doanh nghiệp, điều quan trọng nhất là:
+A. Phù hợp bối cảnh, người nghe và mục tiêu truyền đạt
+B. Ưu tiên meme đang viral để bài nói tạo cảm giác mới
+C. Dùng meme thay cho số liệu khi nội dung chuyên môn khó
+D. Chèn nhiều meme để giữ sự chú ý trong toàn bộ bài nói
+Đáp án: A
+Câu TR-K10 [MỚI • QTKD / TREND]
+Một thương hiệu chạy theo mọi trend viral mà không xét khách hàng mục tiêu. Rủi ro lớn nhất là:
+A. Thông điệp lệch định vị và làm khách hàng khó hiểu
+B. Hình ảnh thương hiệu thay đổi nhanh nên dễ được chú ý hơn
+C. Chi phí truyền thông giảm vì chỉ cần dùng lại nội dung viral
+D. Khách hàng tự hiểu thương hiệu theo trend đang phổ biến
+Đáp án: A
+CẤP ĐỘ: KHÓ • 3 CÂU
+Câu TR-KH01 [MỚI • RIKKEISOFT / AI]
+Một thành viên team định copy dữ liệu khách hàng vào công cụ AI miễn phí, chưa được phê duyệt, rồi nói: 'Em dùng có 5 phút thôi mà'.
+Theo chính sách tích hợp AI của Rikkeisoft, điểm 'toang' rõ nhất là gì?
+A. Chưa mô tả đủ mục tiêu xử lý dữ liệu trong prompt AI
+B. Dùng dữ liệu khách hàng trên công cụ AI chưa được phê duyệt
+C. Chưa kiểm tra chất lượng câu trả lời sau khi AI phản hồi
+D. Chưa thống nhất cách đặt tên file kết quả với thành viên team
+Đáp án: B
+Nguồn biên soạn câu mới: Rikkeisoft AI Integration Statement: responsible data usage; licensed enterprise-grade AI tools; free/unsecured tools are not permitted.
+Câu TR-KH02 [MỚI • RIKKEISOFT / QTKD]
+Khách hàng nói: 'Dự án 3 năm, yêu cầu còn biến động, team phải scale linh hoạt'. PM trả lời: 'Chốt fixed scope ngắn hạn luôn anh nhé'. Theo Company Profile 2026, PM đang chọn mô hình lệch vibe ở điểm nào?
+A. Nhu cầu dài hạn, thay đổi nhiều phù hợp ODC hơn fixed scope ngắn hạn
+B. Phạm vi biến động nên chỉ cần chia nhỏ thành nhiều task độc lập
+C. Team có thể scale linh hoạt bằng cách tăng số cuộc họp hằng tuần
+D. Dự án ba năm nên ưu tiên mô hình ngắn hạn để chốt nhanh hơn
+Đáp án: A
+Nguồn biên soạn câu mới: Rikkeisoft Company Profile 2026, Project-Based vs Offshore Development Center.
+Câu TR-KH03 [MỚI • TREND / PHÂN TÍCH]
+Khi dùng dữ liệu xu hướng mạng xã hội để ra quyết định kinh doanh, cách làm chắc chắn hơn là:
+A. Dựa vào một bài viral nhưng kiểm tra thêm số lượt tương tác
+B. Kiểm chứng dữ liệu, phân tích độ đại diện và đối chiếu mục tiêu kinh doanh
+C. Ưu tiên trend có nhiều bình luận vì thường phản ánh toàn thị trường
+D. Bỏ qua dữ liệu khách hàng thật nếu nội dung mạng xã hội đang hot
+Đáp án: B
+ 
+TOPIC 3 • TRẮC NGHIỆM NHANH
+Chuyển đổi toàn bộ phần “Trả lời ngắn” sang trắc nghiệm A/B/C/D; không còn câu hỏi mở.
+CẤP ĐỘ: DỄ • 10 CÂU
+Câu TN-D01 [Chuyển đổi từ TL-D01]
+Theo “bản đồ phiên bản sĩ tử mùa thi”, quốc gia Đông Nam Á nào từng được một số thí sinh “chuyển hộ khẩu” sang châu Mỹ?
+A. Thái Lan
+B. Campuchia
+C. Lào
+D. Singapore
+Đáp án: B
+Câu TN-D02 [Chuyển đổi từ TL-D02]
+Năm 2021, quốc gia nào từng bị sĩ tử “dịch chuyển” nhầm sang châu Phi trong một câu hỏi môn Lịch sử?
+A. Ấn Độ
+B. Nhật Bản
+C. Hàn Quốc
+D. Singapore
+Đáp án: A
+Câu TN-D03 [Chuyển đổi từ TL-D03]
+Điền vào chỗ trống theo trend tranh luận đề Toán 2026: “Bài toán thực tế hay bài toán ______ tình huống?”
+A. ghép
+B. cắt
+C. lưu
+D. nén
+Đáp án: A
+Câu TN-D04 [Chuyển đổi từ TL-D04]
+Môn thi nào năm 2026 từng bị đem ra so sánh về độ khó với IELTS 7.0?
+A. Toán
+B. Tiếng Anh
+C. Vật lý
+D. Lịch sử
+Đáp án: B
+Câu TN-D05 [Chuyển đổi từ TL-D05]
+Một thí sinh mang điện thoại vào phòng thi rồi nghi nhờ công cụ trí tuệ nhân tạo hỗ trợ giải bài. Hai chữ cái nào đang bị “réo tên”?
+A. AI
+B. HR
+C. CV
+D. USB
+Đáp án: A
+Câu TN-D06 [Chuyển đổi từ TL-D06]
+Trong môi trường doanh nghiệp, ba chữ cái thường được dùng để chỉ chỉ số đánh giá hiệu quả/kết quả thực hiện mục tiêu là gì?
+A. KPI
+B. CPU
+C. PDF
+D. OTP
+Đáp án: A
+Câu TN-D07 [Chuyển đổi từ TL-D07]
+Thi xong bài, bước ra cổng trường, muốn ăn mừng bằng tiếng “SIUUU”, bạn đang cosplay ai?
+A. Ronaldo
+B. Steve Jobs
+C. Elon Musk
+D. Đen Vâu
+Đáp án: A
+Câu TN-D08 [Chuyển đổi từ TL-D08]
+Rikkeisoft được thành lập vào ngày, tháng, năm nào?
+A. 06/04/2012
+B. 06/04/2020
+C. 01/01/2010
+D. 15/09/2026
+Đáp án: A
+Nguồn biên soạn câu chuyển đổi: Rikkeisoft Milestone History.
+Câu TN-D09 [MỚI • TRẮC NGHIỆM NHANH]
+Laptop còn 5% pin trước giờ thuyết trình. Vật phẩm nào có khả năng cứu nguy nhất?
+A. Sạc hoặc power bank phù hợp
+B. Bút highlight
+C. Dây ruy băng
+D. Sticker trang trí
+Đáp án: A
+Câu TN-D10 [MỚI • TRẮC NGHIỆM NHANH]
+HR là viết tắt thường dùng để chỉ bộ phận nào trong doanh nghiệp?
+A. Nhân sự
+B. Kế toán
+C. Thiết kế
+D. Kho vận
+Đáp án: A
+CẤP ĐỘ: TRUNG BÌNH • 9 CÂU
+Câu TN-TB01 [Chuyển đổi từ TL-TB01]
+Một người có laptop 50 triệu, chuột 5 triệu, tai nghe 10 triệu nhưng 23h59 mới nhớ deadline 0h. Thiết bị/kỹ năng nào cần “nâng cấp” nhất?
+A. Kỹ năng quản lý thời gian
+B. Chuột đắt hơn
+C. Màn hình lớn hơn
+D. Ốp laptop
+Đáp án: A
+Câu TN-TB02 [Chuyển đổi từ TL-TB02]
+Bạn nhận được email: “Xin chào, tôi là Elon Musk. Gửi tôi mã OTP để nhận Tesla.” Việc nên làm đầu tiên là:
+A. Xác minh/kiểm tra nguồn và tuyệt đối không gửi OTP
+B. Gửi OTP thật nhanh
+C. Chuyển tiếp cho cả lớp
+D. Đổi avatar Tesla
+Đáp án: A
+Câu TN-TB03 [Chuyển đổi từ TL-TB03]
+Trong 74 trường hợp vi phạm quy chế thi tốt nghiệp THPT 2026 được thông tin sau kỳ thi, có bao nhiêu trường hợp mang điện thoại vào phòng thi?
+A. 69
+B. 10
+C. 35
+D. 74.000
+Đáp án: A
+Câu TN-TB04 [Chuyển đổi từ TL-TB04]
+Một doanh nghiệp có 100 triệu đồng doanh thu nhưng chi hết 120 triệu đồng. Theo phép tính đơn giản, doanh nghiệp đang:
+A. Lỗ 20 triệu đồng
+B. Lãi 20 triệu đồng
+C. Hòa vốn
+D. Không thể tính
+Đáp án: A
+Câu TN-TB05 [Chuyển đổi từ TL-TB05]
+Một thành viên nói “Task dễ mà, tối nay xong.” Ba ngày sau lại nói “Em đang làm ạ.” Kỹ năng cần bổ trợ gấp là:
+A. Quản lý thời gian và cam kết tiến độ
+B. Kỹ năng đổi hình nền
+C. Kỹ năng chọn sticker
+D. Kỹ năng đặt biệt danh
+Đáp án: A
+Câu TN-TB06 [Chuyển đổi từ TL-TB06]
+Laptop có thể nâng RAM, điện thoại có thể cập nhật hệ điều hành. Trong học tập và doanh nghiệp, thứ gì ở con người cũng cần “update liên tục”?
+A. Kỹ năng
+B. Màu áo
+C. Tên Wi-Fi
+D. Ảnh bìa
+Đáp án: A
+Câu TN-TB07 [Chuyển đổi từ TL-TB07]
+Trong cơ sở dữ liệu quan hệ, trường hoặc tập trường dùng để định danh duy nhất mỗi bản ghi được gọi là gì?
+A. Khóa chính (Primary Key)
+B. Ảnh đại diện
+C. Mật khẩu Wi-Fi
+D. Footer của tài liệu
+Đáp án: A
+Câu TN-TB08 [MỚI • TRẮC NGHIỆM NHANH]
+Để tránh mất bài tập khi laptop hỏng, phương án phù hợp nhất là:
+A. Sao lưu lên ổ cứng ngoài hoặc dịch vụ đám mây
+B. Chỉ lưu ở Desktop
+C. Đặt tên file thật dài
+D. In ảnh màn hình rồi cất
+Đáp án: A
+Câu TN-TB09 [MỚI • TRẮC NGHIỆM NHANH]
+Vừa học bài vừa bật 5 ứng dụng giải trí khiến bạn mất tập trung. Kỹ năng cần cải thiện nhất là:
+A. Quản lý sự tập trung
+B. Chọn màu nền
+C. Tăng âm lượng
+D. Đổi tên máy tính
+Đáp án: A
+CẤP ĐỘ: KHÁ • 4 CÂU
+Câu TN-K01 [Chuyển đổi từ TL-K01]
+Một team có các file: final.pptx, final2.pptx, final_chot.pptx, final_chot_that.pptx, final_chot_that_2.pptx. Team này đang thiếu kỹ năng gì?
+A. Quản lý file và kiểm soát phiên bản tài liệu
+B. Kỹ năng trình bày slide bằng nhiều hiệu ứng
+C. Kỹ năng chọn tên file theo cảm hứng cá nhân
+D. Kỹ năng lưu tài liệu rải rác ở nhiều thư mục
+Đáp án: A
+Câu TN-K02 [Chuyển đổi từ TL-K02]
+Bạn hỏi AI một thông tin. AI trả lời dài, có số liệu, có tên “nghiên cứu Đại học ABC năm 2025” và giọng văn cực kỳ tự tin. Trước khi đưa lên slide, bạn cần:
+A. Kiểm chứng nguồn tin và số liệu trước khi sử dụng
+B. Tin ngay vì câu trả lời có vẻ chi tiết và tự tin
+C. Chỉ đổi font chữ để nội dung trông chuyên nghiệp hơn
+D. Thêm hình minh họa để làm thông tin đáng tin hơn
+Đáp án: A
+Câu TN-K03 [MỚI • TRẮC NGHIỆM NHANH]
+Một nguồn tin có tiêu đề rất sốc nhưng không ghi tác giả, không có dẫn chứng và kêu gọi share gấp. Cách xử lý phù hợp nhất là:
+A. Kiểm tra nguồn, đối chiếu thông tin và không chia sẻ vội
+B. Chia sẻ thử để xem cộng đồng phản hồi đúng hay sai
+C. Chỉ đọc tiêu đề vì phần nội dung thường không quan trọng
+D. Lưu lại làm tư liệu mà không cần kiểm tra độ tin cậy
+Đáp án: A
+Câu TN-K04 [MỚI • AI]
+AI trả lời rất trôi chảy nhưng thông tin có thể sai hoặc bịa. Hiện tượng này nhắc bạn điều gì?
+A. Cần kiểm chứng vì AI có thể tạo thông tin không chính xác
+B. Có thể dùng ngay nếu câu trả lời dài và trình bày mạch lạc
+C. Có thể bỏ qua tài liệu gốc khi AI đã giải thích đủ chi tiết
+D. Chỉ cần yêu cầu AI viết lại nhiều lần để kết quả đáng tin hơn
+Đáp án: A
+CẤP ĐỘ: KHÓ • 3 CÂU
+Câu TN-KH01 [Chuyển đổi từ TL-KH01]
+Bộ nào sau đây nêu đúng 5 giá trị cốt lõi được ghi trong Bộ Quy tắc ứng xử Rikkeisoft 2026?
+A. Ambition - Progress - Creativity - Dedication - Sharing
+B. Ambition - Profit - Creativity - Discipline - Speed
+C. Innovation - Progress - Control - Dedication - Ranking
+D. Sharing - Revenue - Creativity - Stability - Competition
+Đáp án: A
+Ghi chú: Chấp nhận nghĩa tiếng Việt tương đương: Khát vọng - Tiến bộ - Sáng tạo - Tận tâm - Chia sẻ. Nguồn biên soạn câu chuyển đổi: Rikkeisoft Code of Conduct 2026.
+Câu TN-KH02 [MỚI • RIKKEISOFT / QTKD]
+Một dự án dài hạn cần đội ngũ chuyên trách, mở rộng linh hoạt và phạm vi có thể thay đổi. Mô hình làm việc phù hợp hơn là:
+A. ODC với đội ngũ chuyên trách và khả năng mở rộng linh hoạt
+B. Project ngắn hạn có phạm vi cố định và ít thay đổi yêu cầu
+C. Một nhóm tạm thời xử lý từng việc nhỏ khi phát sinh
+D. Mô hình không phân vai rõ để giảm thời gian quản lý
+Đáp án: A
+Câu TN-KH03 [MỚI • CNTT]
+CI/CD kết hợp kiểm thử tự động giúp team phần mềm chủ yếu ở điểm nào?
+A. Phát hiện lỗi sớm hơn và giảm rủi ro khi triển khai
+B. Loại bỏ hoàn toàn mọi lỗi trong mọi phiên bản phần mềm
+C. Tự động viết toàn bộ code thay cho nhóm phát triển
+D. Thay thế hoàn toàn tài liệu và quy trình review dự án
+Đáp án: A
+ 
+TOPIC 4 • TÂN SINH VIÊN ĐẠI HỌC
+Chủ đề mới dành cho học sinh vừa tốt nghiệp THPT bước vào đại học: tín chỉ, GPA, LMS, học vụ, teamwork, đạo văn, AI và định hướng học tập.
+CẤP ĐỘ: DỄ • 8 CÂU
+Câu TSV-D01 [MỚI • TÂN SINH VIÊN]
+Trong đại học, “tín chỉ” thường dùng để chỉ:
+A. Đơn vị đo khối lượng học tập của học phần
+B. Mã Wi-Fi của trường
+C. Số ghế trong lớp
+D. Tên câu lạc bộ
+Đáp án: A
+Câu TSV-D02 [MỚI • TÂN SINH VIÊN]
+GPA thường được hiểu là:
+A. Điểm trung bình học tập
+B. Mật khẩu cổng trường
+C. Tên phòng máy
+D. Mã giảm giá sinh viên
+Đáp án: A
+Câu TSV-D03 [MỚI • TÂN SINH VIÊN]
+Email sinh viên do trường cấp thường nên dùng để:
+A. Nhận thông báo chính thức, tài liệu học tập và trao đổi học vụ
+B. Đăng ký game online là chính
+C. Gửi spam quảng cáo
+D. Lưu mật khẩu công khai
+Đáp án: A
+Câu TSV-D04 [MỚI • TÂN SINH VIÊN]
+Đề cương học phần thường cho biết thông tin nào?
+A. Mục tiêu, nội dung, cách đánh giá và tài liệu của môn học
+B. Danh sách quán ăn quanh trường
+C. Màu áo của lớp
+D. Tên Wi-Fi quán cà phê
+Đáp án: A
+Câu TSV-D05 [MỚI • TÂN SINH VIÊN]
+Cố vấn học tập thường hỗ trợ sinh viên về:
+A. Kế hoạch học tập, quy định và định hướng trong trường
+B. Sửa điện thoại
+C. Thiết kế logo cá nhân
+D. Bán vé xem phim
+Đáp án: A
+Câu TSV-D06 [MỚI • TÂN SINH VIÊN]
+Thư viện số của trường hữu ích nhất khi sinh viên cần:
+A. Tra cứu tài liệu học tập và nghiên cứu
+B. Tăng pin laptop
+C. Đổi điểm GPA
+D. Đặt đồ ăn nhanh
+Đáp án: A
+Câu TSV-D07 [MỚI • TÂN SINH VIÊN]
+Tuần sinh hoạt công dân đầu khóa thường nhằm mục đích:
+A. Giới thiệu quy định, môi trường học tập và thông tin cần biết
+B. Cho sinh viên nghỉ học dài hạn
+C. Bốc thăm điểm thi
+D. Đổi ngành tự động
+Đáp án: A
+Câu TSV-D08 [MỚI • TÂN SINH VIÊN]
+LMS trong học tập thường là:
+A. Hệ thống quản lý học tập trực tuyến
+B. Loại cáp sạc
+C. Tên phòng bảo vệ
+D. Cách gọi món ăn
+Đáp án: A
+CẤP ĐỘ: TRUNG BÌNH • 8 CÂU
+Câu TSV-TB01 [MỚI • TÂN SINH VIÊN]
+Nếu đăng ký hai học phần bị trùng lịch, sinh viên nên:
+A. Kiểm tra lại kế hoạch và điều chỉnh trong thời hạn đăng ký theo quy định
+B. Cứ học cả hai cùng lúc
+C. Bỏ qua vì hệ thống tự hiểu
+D. Nhờ bạn điểm danh hộ mọi buổi
+Đáp án: A
+Câu TSV-TB02 [MỚI • TÂN SINH VIÊN]
+Khi làm bài tập nhóm ở đại học, cách làm việc hiệu quả hơn là:
+A. Phân công rõ nhiệm vụ, deadline và kênh trao đổi
+B. Để một người làm hết
+C. Chờ sát hạn rồi họp
+D. Ai rảnh thì tự hiểu
+Đáp án: A
+Câu TSV-TB03 [MỚI • TÂN SINH VIÊN]
+Nếu sinh viên bỏ lỡ hạn nộp học phí, hậu quả có thể là:
+A. Bị hạn chế đăng ký học phần hoặc phải xử lý theo quy định của trường
+B. Tự động được cộng điểm
+C. Được miễn thi
+D. Không ảnh hưởng gì trong mọi trường hợp
+Đáp án: A
+Câu TSV-TB04 [MỚI • TÂN SINH VIÊN]
+Khi không hiểu bài đại cương, hướng xử lý phù hợp là:
+A. Hỏi giảng viên/trợ giảng, học lại phần nền tảng và luyện thêm bài
+B. Bỏ môn ngay lập tức
+C. Đợi đến cuối kỳ mới mở sách
+D. Chỉ đổi ảnh đại diện học tập
+Đáp án: A
+Câu TSV-TB05 [MỚI • TÂN SINH VIÊN]
+Sinh viên năm nhất muốn đi thực tập sớm nên chuẩn bị trước điều gì?
+A. Kiến thức nền, kỹ năng cơ bản và sản phẩm/dự án nhỏ để chứng minh năng lực
+B. Chỉ cần có balo đẹp
+C. Không cần học môn nền tảng
+D. Chỉ cần hỏi lương trước
+Đáp án: A
+Câu TSV-TB06 [MỚI • TÂN SINH VIÊN]
+Lịch học, lịch deadline và lịch thi phân tán nhiều nơi. Công cụ/kỹ năng nào hữu ích nhất?
+A. Calendar/to-do list và thói quen kiểm tra định kỳ
+B. Đổi hình nền liên tục
+C. Tắt hết thông báo của trường
+D. Chỉ nhớ bằng cảm giác
+Đáp án: A
+Câu TSV-TB07 [MỚI • TÂN SINH VIÊN]
+Khi dùng tài liệu trên mạng cho bài tập, sinh viên nên:
+A. Kiểm tra độ tin cậy và trích dẫn nguồn khi sử dụng
+B. Copy nguyên văn vì có sẵn
+C. Chỉ đổi font chữ
+D. Xóa tên tác giả là xong
+Đáp án: A
+Câu TSV-TB08 [MỚI • TÂN SINH VIÊN]
+Điểm chuyên cần thường liên quan nhiều nhất đến:
+A. Việc tham gia lớp học và hoạt động theo quy định môn học
+B. Tốc độ gõ phím
+C. Số sticker trong laptop
+D. Màu áo ngày thi
+Đáp án: A
+CẤP ĐỘ: KHÁ • 5 CÂU
+Câu TSV-K01 [MỚI • TÂN SINH VIÊN]
+Copy nguyên văn bài viết trên mạng rồi nộp làm báo cáo cá nhân có thể bị xem là:
+A. Đạo văn vì sử dụng nguyên văn mà không trích dẫn phù hợp
+B. Sáng tạo học thuật nếu nội dung được trình bày sạch đẹp
+C. Quản lý thời gian tốt vì hoàn thành báo cáo nhanh hơn
+D. Kỹ năng tổng hợp nếu đã đổi tiêu đề bài viết gốc
+Đáp án: A
+Câu TSV-K02 [MỚI • TÂN SINH VIÊN]
+Trong bài tập nhóm, một thành viên liên tục không làm phần được giao. Cách xử lý phù hợp hơn là:
+A. Trao đổi rõ, ghi nhận tiến độ, phân lại việc nếu cần và báo giảng viên khi ảnh hưởng nghiêm trọng
+B. Im lặng làm thay toàn bộ phần việc để tránh mâu thuẫn trong nhóm
+C. Đăng bài bóng gió trên mạng để thành viên tự nhận ra vấn đề
+D. Loại bạn khỏi nhóm ngay mà không cần trao đổi hoặc ghi nhận tiến độ
+Đáp án: A
+Câu TSV-K03 [MỚI • TÂN SINH VIÊN]
+Sinh viên năm nhất muốn tham gia nhiều câu lạc bộ. Cách chọn hợp lý là:
+A. Chọn theo mục tiêu, thời gian và mức độ phù hợp để tránh quá tải
+B. Tham gia nhiều nhất có thể để chắc chắn không bỏ lỡ cơ hội
+C. Chọn câu lạc bộ có hình ảnh nổi bật dù không phù hợp mục tiêu
+D. Không tham gia hoạt động nào để dành toàn bộ thời gian học
+Đáp án: A
+Câu TSV-K04 [MỚI • TÂN SINH VIÊN]
+Khi lập kế hoạch 4 năm đại học, yếu tố nên được cân bằng là:
+A. Kiến thức nền, kỹ năng, dự án, trải nghiệm và định hướng nghề nghiệp
+B. Chỉ chọn các môn dễ đạt điểm cao để giữ GPA trong mọi kỳ
+C. Ưu tiên đi làm thêm thật sớm và giảm tối đa hoạt động học tập
+D. Chờ đến năm cuối mới bắt đầu chuẩn bị hồ sơ và kỹ năng
+Đáp án: A
+Câu TSV-K05 [MỚI • TÂN SINH VIÊN / AI]
+Dùng ChatGPT trong học tập theo cách phù hợp nhất là:
+A. Hỏi để hiểu bài, gợi ý hướng làm, tự kiểm chứng và tự viết lại bằng hiểu biết của mình
+B. Nộp nguyên văn mọi câu trả lời vì công cụ đã trình bày rất mạch lạc
+C. Dùng để làm thay bài kiểm tra mà không cần học kiến thức nền
+D. Bỏ qua tài liệu môn học nếu AI đã giải thích nhanh và dễ hiểu
+Đáp án: A
+CẤP ĐỘ: KHÓ • 1 CÂU
+Câu TSV-KH01 [MỚI • TÂN SINH VIÊN]
+Khi chọn định hướng học tập/nghề nghiệp trong năm nhất, cách tiếp cận chắc chắn hơn là:
+A. Kết hợp năng lực cá nhân, sở thích, trải nghiệm thực tế, tư vấn và nhu cầu thị trường
+B. Chọn ngành đang viral trên mạng vì cơ hội thường chắc chắn hơn
+C. Nghe theo một lời khuyên duy nhất để tránh mất thời gian phân tích
+D. Chờ đến khi ra trường rồi mới tìm hiểu yêu cầu nghề nghiệp thực tế
+Đáp án: A
